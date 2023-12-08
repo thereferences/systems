@@ -4,7 +4,7 @@ Systems: An Exploration
 
 <br>
 
-### Notes
+## Notes
 
 Foremost, set-up the development environment scripts:
 
