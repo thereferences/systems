@@ -46,7 +46,7 @@ Connect to the Docker [daemon](https://www.jetbrains.com/help/idea/docker.html#c
 
 ### VS Code
 
-For Visual Studio Code container attachment instructions study [Attach Container](https://code.visualstudio.com/docs/devcontainers/attach-container.
+For Visual Studio Code container attachment instructions study [Attach Container](https://code.visualstudio.com/docs/devcontainers/attach-container).
 
 
 <br>
