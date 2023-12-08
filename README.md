@@ -6,7 +6,7 @@ Systems: An Exploration
 
 ## Notes
 
-Foremost, set-up the development environment scripts:
+Foremost, set-up the development environment scriits:
 
 * Dockerfile
 * requirements.txt
