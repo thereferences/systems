@@ -51,6 +51,24 @@ Connect to the Docker [daemon](https://www.jetbrains.com/help/idea/docker.html#c
 For Visual Studio Code container attachment instructions study [Attach Container](https://code.visualstudio.com/docs/devcontainers/attach-container).
 
 
+
+<br>
+<br>
+
+## SPHINX
+
+Initialize `sphinx` documentation settings
+
+```shell
+mkdir docs && cd docs && sphinx-quickstart && cd ..
+```
+
+Hence
+
+```shell
+sphinx-build -b html docs/source docs/build/html
+```
+
 <br>
 <br>
 
