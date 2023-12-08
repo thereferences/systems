@@ -9,7 +9,7 @@ RUN pip install --upgrade pip
 WORKDIR /app
 
 COPY requirements.txt /app
-RUN pip install --requirement /app/requirements.txt
+RUN pip install --requirement /app/requirements.txt --no-cache-dir
 
 # Port
 EXPOSE 8050
