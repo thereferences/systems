@@ -14,5 +14,5 @@ RUN pip install --requirement /app/requirements.txt --no-cache-dir
 # Port
 EXPOSE 8050
 
-# Restarting ...
-SHELL [ "/bin/bash", "-c"]
+# ENTRYPOINT
+ENTRYPOINT ["bash"]
