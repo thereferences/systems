@@ -10,8 +10,7 @@ Project information
 https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 """
 
-import sphinx_book_theme
-import sphinx_theme
+import sphinx_rtd_theme
 
 
 '''
@@ -69,7 +68,6 @@ html_js_files = ['https://code.jquery.com/jquery-3.7.0.min.js',
 ]
 
 html_theme_options = {
-    'color_scheme': '',
     'canonical_url': 'https://membranes.github.io/systems',
     'analytics_id': '',
     'style_external_links': False,
@@ -77,9 +75,7 @@ html_theme_options = {
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
-    'titles_only': False,
-    'github_url': 'https://www.github.com/membranes/systems',
-    'logo_mobile': '_static/logo.svg'
+    'titles_only': False
 }
 
 html_logo = '_static/logo.svg'
