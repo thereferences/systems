@@ -4,7 +4,7 @@
 Introduction
 ============
 
-A summary of the ... project.  It documents the single page executive summary, the design document, ...
+An outline of the project document.
 
 .. raw:: html
 
@@ -13,10 +13,13 @@ A summary of the ... project.  It documents the single page executive summary, t
   <br>
   <br>
 
-Executive Summary
------------------
 
-What is the problem, **why** does this problem need to be addressed, and why is it being addressed now?  **What** is the solution proposal?  **How** will the solution be developed and deployed?
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   introduction/*
+
 
 .. raw:: html
 
