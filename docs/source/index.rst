@@ -23,21 +23,11 @@ Systems
 
 .. toctree::
    :maxdepth: 3
-   :caption: Introduction:
+   :caption: System:
    :hidden:
 
-   introduction/introduction
-
-
-.. toctree::
-   :maxdepth: 3
-   :caption: The Design Document:
-   :hidden:
-
-   project/problem
-   project/scope
-   project/outcomes
-   project/requirements
+   introduction
+   project
 
 
 .. raw:: html
