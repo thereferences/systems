@@ -34,8 +34,10 @@ Systems
    :caption: Project:
    :hidden:
 
-   project/executive
-   project/design
+   project/problem
+   project/scope
+   project/outcomes
+   project/requirements
 
 
 .. raw:: html
