@@ -31,7 +31,7 @@ Systems
 
 .. toctree::
    :maxdepth: 3
-   :caption: Project:
+   :caption: The Design Document:
    :hidden:
 
    project/problem
