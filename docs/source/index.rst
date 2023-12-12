@@ -4,9 +4,6 @@
    <table of contents tree> directive.
 
 
-.. image:: _static/logo.svg
-
-
 Systems
 =======
 
