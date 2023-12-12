@@ -4,7 +4,7 @@
 Introduction
 ============
 
-An outline of the project document.
+.. note:: An outline of the project document.
 
 .. raw:: html
 
