@@ -1,19 +1,20 @@
 Requirements
 ============
 
-The focus herein is
+.. note:: The functional requirements and their constraints.  The non-functional requirements and constraints, e.g., (a) latency, timeliness/throughput, (b) cost, (c) data privacy, (d) security, (e) etc. 
 
-* Functional Requirements & Constraints
-* Non-functional Requirements & Constraints: For example (a) latency, timeliness/throughput, (b) cost, (c) data privacy, (d) security, (e) etc. 
+.. raw:: html
 
+  <br>
+  <br>
+  <br>
+  <br>
 
 .. toctree::
-  :maxdepth: 3
-  :caption: Design
-  :hidden:
+  :maxdepth: 2
+  :glob:
 
-  requirements/functional
-  requirements/nonfunctional
+  requirements/*
   
 
 .. raw:: html
