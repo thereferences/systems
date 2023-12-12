@@ -3,6 +3,7 @@
 Non-functional Requirements
 ===========================
 
+.. note:: Security, Capacity, Compatibility, Reliability & Availability, Scalability, and Maintainability, Manageability, Recoverability, Serviceability
 
 .. raw:: html
   <br>
