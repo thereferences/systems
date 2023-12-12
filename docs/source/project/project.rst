@@ -1,18 +1,17 @@
-.. _design:
+.. _project:
 
-Design
-======
-
-The design document
+The Design Document
+===================
 
 .. toctree::
   :maxdepth: 3
   :caption: Design
   :hidden:
 
-  design/problem
-  design/scope
-  design/outcomes
+  problem
+  scope
+  outcomes
+  
 
 .. raw:: html
 
