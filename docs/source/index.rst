@@ -3,6 +3,7 @@
    This page should, at least, contain the root
    <table of contents tree> directive.
 
+.. Landing page logo → .. image:: _static/logo.svg
 
 Systems
 =======
