@@ -1,9 +1,7 @@
-Project
-=======
-
 .. _project:
 
 Why
+===
 
 .. raw:: html
 
@@ -13,6 +11,7 @@ Why
   <br>
 
 What
+====
 
 .. raw:: html
 
@@ -22,6 +21,7 @@ What
   <br>
 
 How
+===
 
 .. raw:: html
 
