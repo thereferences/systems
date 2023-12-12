@@ -23,7 +23,7 @@ Systems
 
 .. toctree::
    :maxdepth: 3
-   :caption: System:
+   :caption: System
    :hidden:
 
    introduction
