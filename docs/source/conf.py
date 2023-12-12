@@ -46,6 +46,8 @@ exclude_patterns = []
 Options for HTML output
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+Index Logo / Left Panel Logo
+html_logo = '_static/logo.svg'
 '''
 
 html_theme = 'sphinx_rtd_theme'
@@ -78,8 +80,6 @@ html_theme_options = {
     'titles_only': False
 }
 
-html_logo = '_static/logo.svg'
-
 html_context = {
     'landing_page': {
         'menu': [
@@ -92,4 +92,3 @@ html_context = {
         ]
     }
 }
-
