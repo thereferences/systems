@@ -69,6 +69,10 @@ Hence
 sphinx-build -b html docs/source docs/build/html
 ```
 
+Themes
+
+* https://github.com/revitron/revitron-sphinx-theme
+
 <br>
 <br>
 
