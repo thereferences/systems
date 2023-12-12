@@ -22,7 +22,7 @@ Systems
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Introduction:
    :hidden:
 
@@ -30,11 +30,12 @@ Systems
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Project:
    :hidden:
 
-   project/project
+   project/executive
+   project/design
 
 
 .. raw:: html
