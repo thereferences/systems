@@ -73,6 +73,15 @@ Themes
 
 * https://github.com/revitron/revitron-sphinx-theme
 
+
+<br>
+<br>
+
+## References
+
+* https://www.tabulator.info/docs/5.5/data#import
+* https://www.tabulator.info/docs/5.5/install
+
 <br>
 <br>
 
