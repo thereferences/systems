@@ -1,4 +1,4 @@
-.. _system:
+.. _system_data:
 
 System Properties
 =================
