@@ -1,7 +1,7 @@
 Requirements
 ============
 
-.. note:: The functional requirements and their constraints.  The non-functional requirements and constraints, e.g., (a) latency, timeliness/throughput, (b) cost, (c) data privacy, (d) security, (e) etc. 
+.. note:: Remember the aims, objectives, and high-level constraints
 
 .. raw:: html
 
