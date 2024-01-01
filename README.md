@@ -66,7 +66,7 @@ mkdir docs && cd docs && sphinx-quickstart && cd ..
 Hence
 
 ```shell
-sphinx-build -b html docs/source docs/build/html
+sphinx-build -E -b html docs/source docs/build/html
 ```
 
 Themes
