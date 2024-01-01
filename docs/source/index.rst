@@ -14,11 +14,23 @@ Systems
    About a system ...
 
 
-.. container:: .buttons
+.. button-link:: introduction/introduction.html
+   :tooltip: An introduction
+   :color: primary
+   :shadow:
 
-   `Introduction <introduction/introduction.html>`_
-   `Project <project/project.html>`_
-   :ref:`genindex`
+   Introduction
+
+.. button-link:: project/project.html
+   :tooltip: The Project
+   :color: primary
+   :shadow:
+
+   Project
+
+.. button-ref:: genindex
+   :color: primary
+   :shadow:
 
 
 .. toctree::
