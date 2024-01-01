@@ -1,4 +1,4 @@
-.. _non_functional_requirements:
+.. _non_functional_requirements_data:
 
 Non-functional Requirements
 ===========================
