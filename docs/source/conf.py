@@ -10,7 +10,8 @@ Project information
 https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 """
 
-import revitron_sphinx_theme
+import sphinx_rtd_theme
+import sphinx_design
 
 
 '''
@@ -30,7 +31,8 @@ Sphinx extension modules. Extensions are either Sphinx extensions, named 'sphinx
 '''
 extensions = [
     'sphinx.ext.duration',
-    'sphinx.ext.githubpages'
+    'sphinx.ext.githubpages',
+    'sphinx_design'
 ]
 
 
@@ -41,14 +43,13 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
-
 '''
 Options for HTML output
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 '''
 
-html_theme = 'revitron_sphinx_theme'
+html_theme = 'sphinx_rtd_theme'
 
 html_static_path: list[str] = ['_static']
 
@@ -58,19 +59,18 @@ html_css_files: list[str] = [
 ]
 
 html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
-                 'https://code.highcharts.com/stock/highstock.js',
-                 'https://code.highcharts.com/stock/modules/data.js',
-                 'https://code.highcharts.com/stock/modules/exporting.js',
-                 'https://code.highcharts.com/stock/modules/export-data.js',
-                 'https://code.highcharts.com/stock/modules/accessibility.js',
-                 'https://code.highcharts.com/highcharts.js',
-                 'https://code.highcharts.com/modules/networkgraph.js',
-                 'js/latex.js',
-                 'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
-]
+                            'https://code.highcharts.com/stock/highstock.js',
+                            'https://code.highcharts.com/stock/modules/data.js',
+                            'https://code.highcharts.com/stock/modules/exporting.js',
+                            'https://code.highcharts.com/stock/modules/export-data.js',
+                            'https://code.highcharts.com/stock/modules/accessibility.js',
+                            'https://code.highcharts.com/highcharts.js',
+                            'https://code.highcharts.com/modules/networkgraph.js',
+                            'js/latex.js',
+                            'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
+                            ]
 
 html_theme_options = {
-    'color_scheme': '',
     'canonical_url': 'https://membranes.github.io/systems',
     'analytics_id': '',
     'style_external_links': False,
@@ -78,12 +78,10 @@ html_theme_options = {
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
-    'titles_only': False,
-    'github_url': 'https://www.github.com/membranes/systems',
-    'logo_mobile': '_static/logo.svg'
+    'titles_only': False
 }
 
-html_logo = '_static/logo.svg'
+html_logo = ''
 
 html_context = {
     'landing_page': {
