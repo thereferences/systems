@@ -28,7 +28,8 @@ Systems
    :hidden:
 
    introduction
-   project
+   problem
+   requirements
 
 .. raw:: html
   <br>
