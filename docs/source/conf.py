@@ -93,7 +93,7 @@ html_theme_options = {
     'canonical_url': 'https://membranes.github.io/systems',
     'analytics_id': '',
     'style_external_links': False,
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
