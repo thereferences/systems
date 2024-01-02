@@ -18,24 +18,9 @@ Systems
    <br>
    <br>
 
-.. button-link:: introduction/introduction.html
-   :tooltip: An introduction
-   :color: black
-   :shadow:
-
-   Introduction
-
-.. button-link:: project/project.html
-   :tooltip: The Project
-   :color: black
-   :shadow:
-
-   Project
-
 .. button-ref:: genindex
    :color: black
    :shadow:
-
 
 .. toctree::
    :maxdepth: 3
@@ -44,7 +29,6 @@ Systems
 
    introduction
    project
-
 
 .. raw:: html
   <br>
