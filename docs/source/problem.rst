@@ -1,7 +1,7 @@
 Problem
 =======
 
-.. tip:: Briefly describe the problem in focus, why addressing it is important, and the import of addressing it now.
+.. note:: Briefly describe the problem in focus, why addressing it is important, and the import of addressing it now.
 
 
 .. toctree::
