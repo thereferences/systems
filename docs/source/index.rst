@@ -11,25 +11,29 @@ Systems
 
 .. container:: .large
 
-   About a system ...
+   A template repository for the pre-project stages of a data science, i.e., artificial intelligence project.
 
+.. raw:: html
+
+   <br>
+   <br>
 
 .. button-link:: introduction/introduction.html
    :tooltip: An introduction
-   :color: primary
+   :color: black
    :shadow:
 
    Introduction
 
 .. button-link:: project/project.html
    :tooltip: The Project
-   :color: primary
+   :color: black
    :shadow:
 
    Project
 
 .. button-ref:: genindex
-   :color: primary
+   :color: black
    :shadow:
 
 
