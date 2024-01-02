@@ -28,13 +28,30 @@ release = '0.1'
 General configuration
 https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-Sphinx extension modules. Extensions are either Sphinx extensions, named 'sphinx.ext.*', or custom ones.
+Sphinx extension modules. Extensions are either Sphinx extensions, named 'sphinx.ext.*', 
+or custom ones.  Note, myst_enable_extensions excludes 'linkify'
 '''
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.githubpages',
     'sphinx_design',
     'myst_parser'
+]
+
+myst_enable_extensions = [
+    'amsmath',
+    'attrs_inline',
+    'colon_fence',
+    'deflist',
+    'dollarmath',
+    'fieldlist',
+    'html_admonition',
+    'html_image',
+    'replacements',
+    'smartquotes',
+    'strikethrough',
+    'substitution',
+    'tasklist',
 ]
 
 
