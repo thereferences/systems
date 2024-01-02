@@ -1,7 +1,7 @@
 Product
 ============
 
-.. tip:: The functional, non-functional, and system properties.
+.. note:: The functional, non-functional, and system properties.
 
 .. raw:: html
 
