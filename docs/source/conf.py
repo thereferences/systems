@@ -12,6 +12,7 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 import sphinx_rtd_theme
 import sphinx_design
+import furo
 
 
 '''
@@ -32,7 +33,8 @@ Sphinx extension modules. Extensions are either Sphinx extensions, named 'sphinx
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.githubpages',
-    'sphinx_design'
+    'sphinx_design',
+    'myst_parser'
 ]
 
 
