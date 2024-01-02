@@ -81,6 +81,11 @@ Themes
 
 * https://www.tabulator.info/docs/5.5/data#import
 * https://www.tabulator.info/docs/5.5/install
+* https://www.sphinx-doc.org/en/master/
+* https://sphinx-themes.readthedocs.io/en/latest/sample-sites/sphinx-rtd-theme/
+* https://sphinx-design.readthedocs.io/en/latest/index.html
+* https://myst-parser.readthedocs.io/en/latest/index.html
+* https://pradyunsg.me/furo/
 
 <br>
 <br>
