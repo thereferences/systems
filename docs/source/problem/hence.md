@@ -5,7 +5,7 @@ Aims & Objectives
 
 **Aim**
 
-:::{important}
+:::{note}
 A succinct statement of the project's aim.
 :::
 
@@ -14,7 +14,7 @@ A succinct statement of the project's aim.
 
 **Objectives**
 
-:::{important}
+:::{note}
 Succinct statements of the objectives that will achieve the stated aim.  Each statement must have a quantitative success metric.
 :::
 
