@@ -6,14 +6,14 @@ requirements.txt file to create an environment.
 comment
 
 # The environment in focus
-prefix=/opt/miniconda3/envs/systems
+prefix=/opt/miniconda3/envs/transcribe
 
 : << 'delete'
-  Delete the existing <systems> environment
+  Delete the existing <transcribe> environment
 delete
 conda remove -y --prefix $prefix --all
 
 : << 'rebuild'
-  Rebuild environment <systems> via a requirements.txt file
+  Rebuild environment <transcribe> via a requirements.txt file
 rebuild
 conda env create -f environment.yml -p $prefix
