@@ -12,7 +12,6 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 import sphinx_rtd_theme
 import sphinx_design
-import furo
 
 
 '''
@@ -92,7 +91,12 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
 html_theme_options = {
     'canonical_url': 'https://membranes.github.io/systems',
     'analytics_id': '',
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
     'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
