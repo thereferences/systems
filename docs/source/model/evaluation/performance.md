@@ -13,19 +13,21 @@ In progress
 Criteria
 
 <details><summary>Acronyms</summary>
-N: # of negative cases.
-P: # of positive cases.
-TN: True Negative
-FP: False Positive
-FN: False Negative
-TP: True Positive
-TNR: TN/N, True Negative Rate (specificity)
-FPR: FP/N, False Positive Rate (fall out)
-FNR: FN/P, False Negative Rate (miss rate)
+<br>
+N: # of negative cases.<br>
+P: # of positive cases.<br>
+TN: True Negative<br>
+FP: False Positive<br>
+FN: False Negative<br>
+TP: True Positive<br>
+TNR: TN/N, True Negative Rate (specificity)<br>
+FPR: FP/N, False Positive Rate (fall out)<br>
+FNR: FN/P, False Negative Rate (miss rate)<br>
 TPR: TP/P, True Positive Rate (hit rate, sensitivity, recall)
+<br>
 </details>
 
-
+<br>
 
 Based on the
 * Error Matrix Measures, i.e., TP, FN, FP, TN
