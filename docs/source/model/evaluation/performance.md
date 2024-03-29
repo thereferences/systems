@@ -10,7 +10,7 @@ In progress
 :::
 
 
-Criteria
+## Criteria
 
 <details><summary>Acronyms</summary>
 <br>
@@ -33,7 +33,7 @@ Based on the
 * Error Matrix Measures, i.e., TP, FN, FP, TN
 * A threshold defined as the intersection of precision & sensitivity.
 
-Overarching Criteria
+**Overarching Criteria**
 
 * Precision > 0.9
 * Sensitivity (TPR) > 0.9
@@ -46,7 +46,9 @@ and
 
 at the threshold.
 
-Disaggregated Criteria
+<br>
+
+**Disaggregated Criteria**
 
 For each class, and by the same overarching threshold value, ensure that
 
