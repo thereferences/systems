@@ -32,11 +32,11 @@ The Open Group Architecture Framework (TOGAF) hosts a detailed discussion of [st
 <br>
 
 <details><summary><b>References</b></summary>
-<ul>
+<ol>
     <li><a href="https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap21.html" target="_blank">Stakeholder Management</a>, 
 Chapter 21, The Open Group Architecture Framework (TOGAF) Standard, Version 9.2</li>
     <li>Got stake? by Forman, J. B. & Discenza, R., 2012</li>
-</ul>
+</ol>
 </details>
 
 <br>
