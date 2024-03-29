@@ -24,11 +24,27 @@ Systems
 
 .. toctree::
    :maxdepth: 3
-   :caption: System
+   :caption: Introduction
    :hidden:
 
    introduction
    problem
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Project
+   :hidden:
+
+   project/project
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Model
+   :glob:
+   :hidden:
+
+   model
+   model/evaluation/*
 
 .. raw:: html
   <br>
@@ -40,8 +56,6 @@ Systems
   <br>
   <br>
   <br>
-
-
 
 ..
    Comment
