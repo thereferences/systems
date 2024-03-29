@@ -37,6 +37,8 @@ Based on the
 
 **Overarching Criteria**
 
+At the threshold
+
 * Precision > 0.9
 * Sensitivity (TPR) > 0.9
 * Specificity (TNR) > 0.9
@@ -46,13 +48,11 @@ and
 
 * False Positive Rate < 0.1
 
-at the threshold.
-
 <br>
 
 **Disaggregated Criteria**
 
-For each class, and by the same overarching threshold value, ensure that
+For each class, and by the same overarching threshold value, ensure that:
 
 * Each criterion metric value is within its defined range; as oulined above.
 
