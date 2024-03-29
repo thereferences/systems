@@ -43,7 +43,3 @@ What are the [scalability](https://www.gartner.com/en/information-technology/glo
 
 <br>
 <br>
-
-
-
-
