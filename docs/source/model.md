@@ -24,6 +24,12 @@ Note, the model's objective matches the deployed product's model output expectat
 <br>
 <br>
 
+```{toctree}
+:caption: Model
+:glob:
+
+```
+
 <br>
 <br>
 
