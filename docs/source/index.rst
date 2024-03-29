@@ -43,7 +43,7 @@ Systems
    :glob:
    :hidden:
 
-   model
+   model/model
    model/evaluation/*
 
 .. raw:: html
