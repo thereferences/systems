@@ -33,6 +33,8 @@ Based on the
 * Error Matrix Measures, i.e., TP, FN, FP, TN
 * A threshold defined as the intersection of precision & sensitivity.
 
+<br>
+
 **Overarching Criteria**
 
 * Precision > 0.9
@@ -53,3 +55,15 @@ at the threshold.
 For each class, and by the same overarching threshold value, ensure that
 
 * Each criterion metric value is within its defined range; as oulined above.
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
