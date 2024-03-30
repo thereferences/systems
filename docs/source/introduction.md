@@ -1,29 +1,30 @@
-Introduction
-============
+# Introduction
+
 
 :::{note}
-A brief introduction to the purpose of this project repository.
+:class: margin
+In progress.
 :::
 
-This template repository is for the pre-project steps of a data science, i.e., artificial intelligence, project.   The
- business analysts, data scientists, and machine learning engineers solicit critical information from a variety of
- stakeholders, and from colleagues or partners responsible for underlying infrastructure and assets, e.g., DataOps/DevOps
- engineers.
+<br>
 
-The accompanying logs template is ...  it is a GitHub Project template for tracking the pre-project questions/details 
-that must be addressed prior to 
+> "… aiming to do the right thing, rather than doing things right."
 
-* A project feasibility decision meeting.
-* Starting the project, if feasible.
 
 <br>
 
-> ... aiming to do the right thing, rather than doing things right
+The aim of these pages is to ensure that every team carefully considers the commitment (time & collaboration), cost, 
+range of expertise, etc., that is required for a business machine learning project.  To ensure that it is possible to 
+conduct a well-informed technical feasbility & economic viability assessment before proceeding.  To beware that the data 
+science aspect of the project is only a part of the project.
 
-<br>
-<br>
-<br>
-<br>
+* Business machine learning projects & failure
+  * Underestimating planning requirements.
+  * Underestimating, or ignoring, cost.
+  * Project Misunderstanding: It is not a data project, it is not a technology project, it is a business project.
+  * Ignoring the critical importance of intensive collaboration between business, data science, operations, etc., teams.
+* United Kingdom & Data Scientist Turnover
+
 
 ```{toctree}
 :maxdepth: 2
