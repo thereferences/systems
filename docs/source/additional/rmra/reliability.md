@@ -1,4 +1,13 @@
+<br>
 
+# Reliability
+
+<br>
+
+:::{note}
+:class: margin
+In Progress
+:::
 
 In the systems engineering body of knowledge the [basic definition of reliability](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Reliability) is
 
