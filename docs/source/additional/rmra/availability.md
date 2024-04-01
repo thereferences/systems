@@ -17,7 +17,7 @@ The [systems engineering body of knowledge defines availability](https://sebokwi
 **Herein, define the system's availability expectations**.  Availability is a function of reliability and maintainability, i.e.,
 
 $$
-availability = (mean time between failure) / [(mean time between failure) + (mean time to repair)]
+availability = \frac{MTBF}{MTBF + MTTR}
 $$
 
 whereby 
