@@ -1,24 +1,28 @@
 """
-conf.py
+Module conf.py
+
+Notes
+------
 
 Configuration file for the Sphinx documentation builder.
 
 For the full list of built-in configuration values, see the documentation:
 https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-Project information
+Project information:
 https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+
 """
 
-import sphinx_rtd_theme
-import sphinx_design
+# import sphinx_rtd_theme
+# import sphinx_design
 
 
 '''
 Basic
 '''
 project = 'Mathematical Systems'
-copyright = '2023, greyhypotheses'
+project_copyright = '2023, greyhypotheses'
 author = 'greyhypotheses'
 release = '0.1'
 
@@ -72,7 +76,8 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path: list[str] = ['_static']
 
 html_css_files: list[str] = [
-    'css/style.css',
+    'css/generic.css',
+    'css/figures.css',
     'https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css'
 ]
 
