@@ -13,17 +13,27 @@ In progress.
 <br>
 
 
-```{image} ../../../assets/lifecycle-initially.png
-:alt: Initially
 
+
+```{mermaid}
+%%{ init: { 'flowchart': { 'curve': 'monotoneX' } } }%%
+flowchart LR    
+    id0([start]) --> id1{budget} -- yes --> id2{plausible<br> budget &<br> time-box}
+    id1 -- no --> id3([terminate])
+    id2 -- no --> id4([terminate])
+    id2 -- yes --> id5(<span title="The project details">design <br> document</span>)
+    id5 --> id6{feasible}
+    id6 -- no --> id7([terminate])
+    id6 -- yes --> id8(next <br> steps)
+    
+    classDef default fill:#000000,stroke:#000000,stroke-width:0px,color:#ffffff,font-size:11pt;
+    
 ```
 
 <br>
-<br>
 
 <figure>
-<figcaption>The data science team is neither a research team, a data team, nor a technology team.  It is a business 
-solutions development team; it develops machine learning dependent solutions.
+<figcaption><b>FIGURE</b>.  The data science team is neither a research team, a data team, nor a technology team.  It is a business solutions development team; rather, it is a key collaborator in the development & deployment of machine learning dependent solutions.
 </figcaption>
 </figure>
 
