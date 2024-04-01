@@ -58,6 +58,7 @@ Systems
    :glob:
    :hidden:
 
+   functional/functional
    additional/additional
 
 .. toctree::
