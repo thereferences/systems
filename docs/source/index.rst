@@ -37,8 +37,8 @@ Systems
    project/project
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Model Aim & Metrics
+   :maxdepth: 1
+   :caption: Model
    :glob:
    :hidden:
 
