@@ -28,7 +28,6 @@ Systems
    :hidden:
 
    introduction
-   problem
 
 .. toctree::
    :maxdepth: 3
@@ -39,12 +38,35 @@ Systems
 
 .. toctree::
    :maxdepth: 3
-   :caption: Model
+   :caption: Model Aim & Metrics
    :glob:
    :hidden:
 
-   model/model
-   model/evaluation/*
+   model/*
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Stakeholders
+   :glob:
+   :hidden:
+
+   stakeholders/*
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Requirements
+   :glob:
+   :hidden:
+
+   additional/additional
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Constraints
+   :glob:
+   :hidden:
+
+   constraints/*
 
 .. raw:: html
   <br>
