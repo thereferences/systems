@@ -56,6 +56,16 @@ For each class, and by the same overarching threshold value, ensure that:
 
 * Each criterion metric value is within its defined range; as oulined above.
 
+
+
+```{toctree}
+:caption: Model Card
+:glob:
+
+card
+```
+
+
 <br>
 <br>
 
