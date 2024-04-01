@@ -14,9 +14,6 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 """
 
-# import sphinx_rtd_theme
-# import sphinx_design
-
 
 '''
 Basic
@@ -37,7 +34,10 @@ or custom ones.  Note, myst_enable_extensions excludes 'linkify'
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.githubpages',
+    'sphinx.ext.mathjax',
     'sphinx_design',
+    'sphinxcontrib.mermaid',
+    'sphinx_rtd_theme',
     'myst_parser'
 ]
 
@@ -54,8 +54,14 @@ myst_enable_extensions = [
     'smartquotes',
     'strikethrough',
     'substitution',
-    'tasklist',
+    'tasklist'
 ]
+
+'''
+Mathematics
+'''
+mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+myst_dmath_double_inline = True
 
 
 '''
@@ -89,12 +95,10 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
                             'https://code.highcharts.com/stock/modules/accessibility.js',
                             'https://code.highcharts.com/highcharts.js',
                             'https://code.highcharts.com/modules/networkgraph.js',
-                            'js/latex.js',
                             'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
                             ]
 
 html_theme_options = {
-    'canonical_url': 'https://membranes.github.io/systems',
     'analytics_id': '',
     'logo_only': False,
     'display_version': True,
