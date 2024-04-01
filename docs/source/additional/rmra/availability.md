@@ -1,3 +1,13 @@
+<br>
+
+# Availability
+
+<br>
+
+:::{note}
+:class: margin
+In Progress
+:::
 
 
 The [systems engineering body of knowledge defines availability](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Availability) as the
