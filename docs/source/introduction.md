@@ -26,13 +26,6 @@ science aspect of the project is only a part of the project.
 * United Kingdom & Data Scientist Turnover
 
 
-```{toctree}
-:maxdepth: 2
-:glob:
-
-introduction/*
-```
-
 <br>
 <br>
 <br>
