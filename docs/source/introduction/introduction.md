@@ -1,13 +1,5 @@
 # Introduction
 
-
-:::{note}
-:class: margin
-In progress.
-:::
-
-
-
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX' } } }%%
 flowchart LR    
@@ -20,13 +12,14 @@ flowchart LR
     id6 -- yes --> id8(next <br> steps)
     
     classDef default fill:#000000,stroke:#000000,stroke-width:0px,color:#ffffff,font-size:11pt;
-    
 ```
 
 <br>
 
 <figure>
-<figcaption><b>FIGURE</b>.  The data science team is neither a research team, a data team, nor a technology team.  It is a business solutions development team; rather, it is a key collaborator in the development & deployment of machine learning dependent solutions.
+<figcaption><b>FIGURE</b>.  The data science team is neither a research team, a data team, nor a technology team.  It is 
+a key collaborator in the development & deployment of machine learning dependent solutions; it is a business solutions 
+consulting/development team.
 </figcaption>
 </figure>
 
