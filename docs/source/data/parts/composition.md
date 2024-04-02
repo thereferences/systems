@@ -48,7 +48,52 @@ How many instances does the data set have?
 
 
 <br>
+
+## Lineage
+
+
+Summarise the data set's lineage, including linkage options. [^lineage]<sup>, </sup>[^extra]
+
 <br>
+
+## Licences & Fees
+
+If applicable, summarise the data's costs.
+
+<br>
+
+## Profiles of Instances
+
+Herein, a summary of the instances of a data set, e.g., for a tabular data set
+
+By Field
+
+The field name
+
+Description: What does the element of an instance denote/represent?
+
+Data Type
+
+Dictionary of a categorical data type
+
+Unit of Measure
+
+Is this a raw data field or a feature?
+
+Is this a target field?
+
+Does the field identify a sub-population?
+
+Column Profile: Note column profiling “ … provides statistical information regarding the distribution of data values and associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis“  [1]  If a field/column has missing elements, explain why?
+
+and
+
+A graph of the field’s data distribution
+
+Across Fields
+
+Cross-Column Profiles: Relationships between columns.
+
 
 <br>
 <br>
@@ -58,3 +103,9 @@ How many instances does the data set have?
 
 <br>
 <br>
+
+<br>
+<br>
+
+[^lineage]: QLIK: [What is data lineage](https://www.qlik.com/us/data-management/data-lineage)
+[^extra]: IBM: [What is data lineage?](https://www.ibm.com/topics/data-lineage)
