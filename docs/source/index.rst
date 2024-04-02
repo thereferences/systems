@@ -45,6 +45,14 @@ Systems
    model/*
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Data & Datasheets
+   :glob:
+   :hidden:
+
+   Introduction <data/data>
+
+.. toctree::
    :maxdepth: 3
    :caption: Stakeholders
    :glob:
