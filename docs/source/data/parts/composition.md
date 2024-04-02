@@ -52,8 +52,14 @@ How many instances does the data set have?
 ## Lineage
 
 
-Summarise the data set's lineage, including linkage options. [^lineage]<sup>, </sup>[^extra]
+Summarise the data set's lineage, including linkage options. [1, 2]
 
+<details><summary><b>References</b></summary> 
+<ol><li><a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a></li>
+<li><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li></ol>
+</details>
+
+<br>
 <br>
 
 ## Licences & Fees
@@ -64,36 +70,40 @@ If applicable, summarise the data's costs.
 
 ## Profiles of Instances
 
-Herein, a summary of the instances of a data set, e.g., for a tabular data set
+Herein, the focus is a summary of the instances of a data set, e.g., for a tabular data set:
 
-By Field
+**By Field**
 
-The field name
-
-Description: What does the element of an instance denote/represent?
-
-Data Type
-
-Dictionary of a categorical data type
-
-Unit of Measure
-
-Is this a raw data field or a feature?
-
-Is this a target field?
-
-Does the field identify a sub-population?
-
-Column Profile: Note column profiling “ … provides statistical information regarding the distribution of data values and associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis“  [1]  If a field/column has missing elements, explain why?
+* The field name
+* Description: What does the element of an instance denote/represent?
+* Data Type
+* Dictionary of a categorical data type
+* Unit of Measure
+* Is this a raw data field or a feature?
+* Is this a target field?
+* Does the field identify a sub-population?
+* Column Profile: Note column profiling "… provides statistical information regarding the distribution of data values and 
+  associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern 
+  evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis".[1]  If a field/column has missing elements, explain why.
 
 and
 
-A graph of the field’s data distribution
+* A graph of the field's data distribution
 
-Across Fields
+<br>
 
-Cross-Column Profiles: Relationships between columns.
+**Across Fields**
 
+* Cross-Column Profiles: Relationships between columns.
+
+<details><summary><b>References</b></summary>
+<ol><li>5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 
+2008</li></ol>
+</details>
+
+
+<br>
+<br>
 
 <br>
 <br>
@@ -104,8 +114,4 @@ Cross-Column Profiles: Relationships between columns.
 <br>
 <br>
 
-<br>
-<br>
 
-[^lineage]: QLIK: [What is data lineage](https://www.qlik.com/us/data-management/data-lineage)
-[^extra]: IBM: [What is data lineage?](https://www.ibm.com/topics/data-lineage)
