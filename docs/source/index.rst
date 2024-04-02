@@ -5,13 +5,15 @@
 
 .. Landing page logo → .. image:: _static/logo.svg
 
-Systems
-=======
+Business Machine Learning Pojects
+=================================
 
+A Requirements Elicitation Guide
+--------------------------------
 
-.. container:: .large
-
-   A template repository for the pre-project stages of a data science, i.e., artificial intelligence project.
+This hub complements an upcoming online project details hub.  Its focus is business machine learning
+projects, and its aim is the simplification of requirements elicitation.  An external partner is developing the
+online project details hub, and the online hub will be a component of the Scottish Artificial Intelligence Register platform.
 
 .. raw:: html
 
