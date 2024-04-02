@@ -3,7 +3,8 @@
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX' } } }%%
 flowchart LR    
-    id0([start]) --> id1{budget} -- yes --> id2{plausible<br> budget &<br> time-box}
+    id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} -- yes --> id2{plausible<br> 
+    budget &<br> time-box}
     id1 -- no --> id3([terminate])
     id2 -- no --> id4([terminate])
     id2 -- yes --> id5(<span title="The project scope/design details">design <br> document</span>)
