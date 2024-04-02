@@ -6,13 +6,6 @@
 In progress.
 :::
 
-<br>
-
-> "… aiming to do the right thing, rather than doing things right."
-
-<br>
-
-
 
 
 ```{mermaid}
@@ -49,14 +42,24 @@ only a part of the project, ignoring this leads to [project failures](https://ww
 
 > Business machine learning projects failures, a few examples of causes:
 > * Under-planning.
-> * Project Misunderstandings & Opaqueness: It is not a data project, it is not a technology project, it is a business project.  The business' deployment goal, and the underlying model's business performance metrics, must be unambiguously detailed.
+> * Project Misunderstandings & Opaqueness: It is not a data project, it is not a technology project, it is not a 
+    > research project, it is a business project.  The business' deployment goal, and the underlying model's business performance metrics, must be unambiguously detailed.
+> * The pilot is neither informed by nor tests the deployment goal.
 > * Underestimating, or ignoring, cost.
 > * Ignoring the critical importance of intensive collaboration between the business, data science, operations, etc., teams.
 
 <br>
 
-Finally, understanding what data science is, and is not, understanding the demands of a business machine learning project,
-etc., is a step towards avoiding [data scientists turnover](https://www.consortia.com/insights/why-do-data-scientists-leave-their-jobs/bp120/) problems, and more.
+## The Deployment Goal Focus
+
+Colleagues may question the reverse approach of these pages.  Here are a few references that capture our experience of 
+why business data science projects fail, and the advantages of starting with ``the end in mind'' [^deployment]
+
+* [Why Data Science Projects Fail](https://pubsonline.informs.org/do/10.1287/LYTX.2023.02.04/full/): Practical Principles for Data Science Success, by Douglas A. Gray.
+  * This is the first article of the excellent [series](https://pubsonline.informs.org/action/doSearch?&target=digital-object-search&content=digitalObjects&Keywords=Principles%20for%20Successful%20Analytics%20Projects)
+
+* [The AI Play Book: Mastering the Rare Art of Machine Learning Deployment](https://mitpress.mit.edu/9780262048903/the-ai-playbook/), by Eric Siegel.
+
 
 <br>
 <br>
@@ -67,3 +70,5 @@ etc., is a step towards avoiding [data scientists turnover](https://www.consorti
 <br>
 <br>
 <br>
+
+[^deployment]: An upcoming update will include more notes.
