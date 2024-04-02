@@ -7,8 +7,7 @@
 
 In general, the questions herein should be studied before data collection.  The datasheets paper [1] notes that most of the questions:
 
-> "… are intended to provide dataset consumers with the information they need to make informed decisions about using 
-> the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's > General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
+> "… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
 
  
 <details><summary><b>References</b></summary>
@@ -105,8 +104,79 @@ and
 <br>
 <br>
 
-<br>
-<br>
+## Errors
+
+Please detail any errors, sources of noise, or redundancies.
+
+
+## Recommended Data Splits for Machine Learning
+
+Are there recommended data splits?
+
+
+## Confidentiality
+
+Does the data set contain data that might be considered confidential?
+
+For example,
+
+* Is the data protected by legal privilege or by doctor–patient confidentiality?
+* Does the data include the content of private/non-public communications of individuals.
+
+
+## Identification of Individuals
+
+Is it possible to identify individuals directly or indirectly?
+
+## Data Sensitivity
+
+Describe sensitive data elements within the data set
+
+Examples of sensitive data elements are elements that reveal
+
+race or ethnic origin
+
+sexual orientations
+
+religious beliefs
+
+political opinions
+
+trade union memberships
+
+locations
+
+financial details
+
+health details
+
+biometric profiles
+
+genetic profiles
+
+government identification codes
+
+criminal history
+
+institutionally and/or commercially sensivitve data
+
+and more.
+
+
+
+## Distressing Data Elements
+
+Does
+
+> … the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? [1, 2]
+
+<details><summary><b>References</b></summary>
+<ol>
+<li><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the 
+ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
+<li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
+</ol>
+</details>
 
 <br>
 <br>
@@ -114,4 +184,8 @@ and
 <br>
 <br>
 
+<br>
+<br>
 
+<br>
+<br>
