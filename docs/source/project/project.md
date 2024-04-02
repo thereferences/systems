@@ -4,12 +4,6 @@
 
 <br>
 
-:::{note}
-:class: margin
-In progress
-:::
-
-
 ## Problem Statement
 
 What is the problem, and why is it important to solve this problem?
@@ -43,20 +37,17 @@ What is the aim, expected output, of the product's model?
 
 <br>
 
-What will the deployed product present to the optician?  
-
-:::{note}
-:class: margin
-This is not machine learning.  This is about integrating a machine learning model's output into a business 
-product, and hence business operations.
-:::
+What will the deployed product present to the optician?  Or rather, how will the model's output be used?  
+Considering the example above, the client's opticians might expect: [^deployment]
 
 **Example:**
-> * The classification probability per class.
-> * The definition of each class.
-> * The classification; vis-à-vis the highest classification probability.
-> * The preliminary treatment pathway of the classification, according to the rules of the optician's institution.
-> * The retinal image.
+* The classification probability per class.
+* The definition of each class.
+* The classification; vis-à-vis the highest classification probability.
+* The preliminary treatment pathway of the classification, according to the rules of the optician's institution.
+* The retinal image.
+
+Note, only the first 
 
 <br>
 <br>
@@ -69,3 +60,9 @@ product, and hence business operations.
 
 <br>
 <br>
+
+
+
+[^deployment]: This is not machine learning.  This is about integrating a machine learning model's output into a business
+product, and hence business operations.
+
