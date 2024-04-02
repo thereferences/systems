@@ -12,7 +12,6 @@ In general, the questions herein should be studied before data collection.  The 
 <details><summary><b>References</b></summary>
 <ol>
 <li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
-<li><a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">Data Profiling</a></li>
 </ol>
 </details>
 
@@ -22,13 +21,8 @@ In general, the questions herein should be studied before data collection.  The 
 ## What does each data set instance represent?
 
 Describe what each instance, i.e., row, of the data set represents.  Although peculiar, if the data set is 
-multi-representational, e.g., an instance in a merchant's data base table might represent one of:
-
-* an online reading event
-* an online product purchasing event
-* an online download event
-
-Each representation must be described.
+multi-representational, e.g., an instance in a merchant's data base table might represent one of: (a) an online reading 
+event, (b) an online product purchasing event, or \(c\) an online download event.  Each representation must be described.
 
 <br>
 <br>
@@ -44,8 +38,8 @@ How many instances does the data set have?
 
 **If yes:**
 
-* If the data set **is representative** of the larger data set: How was representativeness verified/validated? OR
-* If the data set **is not representative** of the larger data set, e.g., is a geographically focused subset, explain why.
+* **If the data set is representative** of the larger data set: How was representativeness verified/validated?
+* **If the data set is not representative** of the larger data set, e.g., is a geographically focused subset, explain why.
 
 
 <br>
@@ -92,20 +86,20 @@ Herein, the focus is a summary of the instances of a data set, e.g., for a tabul
 * Column Profile: Note column profiling "… provides statistical information regarding the distribution of data values and 
   associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern 
   evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis".[1]  If a field/column has missing elements, explain why.
-
-and
-
 * A graph of the field's data distribution
 
-<br>
 
 **Across Fields**
 
 * Cross-Column Profiles: Relationships between columns.
 
+<br>
+
 <details><summary><b>References</b></summary>
 <ol><li>5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 
-2008</li></ol>
+2008</li>
+<li><a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">Data Profiling</a></li>
+</ol>
 </details>
 
 
@@ -133,10 +127,7 @@ Are there recommended data splits?
 
 ## Confidentiality
 
-Does the data set contain data that might be considered confidential?
-
-For example,
-
+Does the data set contain data that might be considered confidential?  For example,
 * Is the data protected by legal privilege or by doctor–patient confidentiality?
 * Does the data include the content of private/non-public communications of individuals.
 
@@ -154,9 +145,8 @@ Is it possible to identify individuals directly or indirectly?
 
 ## Data Sensitivity
 
-Describe sensitive data elements within the data set.  Examples of sensitive data elements are elements that 
-directly/indirectly reveal:
-
+Does the data set include sensitive data elements?  Describe.  Examples of sensitive data elements are 
+elements that directly/indirectly reveal:
 * Locations.
 * Financial details.
 * Health details.
@@ -177,9 +167,7 @@ directly/indirectly reveal:
 
 ## Distressing Data Elements
 
-Does
-
-> … the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? [1, 2]
+Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'' [1, 2]
 
 <details><summary><b>References</b></summary>
 <ol>
