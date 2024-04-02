@@ -8,7 +8,6 @@
 In general, the questions herein should be studied before data collection.  The datasheets paper [1] notes that most of the questions:
 
 > "… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
-
  
 <details><summary><b>References</b></summary>
 <ol>
@@ -17,6 +16,7 @@ In general, the questions herein should be studied before data collection.  The 
 </ol>
 </details>
 
+<br>
 <br>
 
 ## What does each data set instance represent?
@@ -31,25 +31,28 @@ multi-representational, e.g., an instance in a merchant's data base table might 
 Each representation must be described.
 
 <br>
+<br>
 
 ## The # of Instances
 
 How many instances does the data set have?
 
 <br>
+<br>
 
 ## Is the data set a sample of a larger data set?
 
-**IF YES:**
+**If yes:**
 
 * If the data set **is representative** of the larger data set: How was representativeness verified/validated? OR
 * If the data set **is not representative** of the larger data set, e.g., is a geographically focused subset, explain why.
 
 
 <br>
+<br>
+
 
 ## Lineage
-
 
 Summarise the data set's lineage, including linkage options. [1, 2]
 
@@ -58,14 +61,19 @@ Summarise the data set's lineage, including linkage options. [1, 2]
 <li><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li></ol>
 </details>
 
+
 <br>
 <br>
+
 
 ## Licences & Fees
 
 If applicable, summarise the data's costs.
 
+
 <br>
+<br>
+
 
 ## Profiles of Instances
 
@@ -104,14 +112,23 @@ and
 <br>
 <br>
 
+
 ## Errors
 
 Please detail any errors, sources of noise, or redundancies.
 
 
+<br>
+<br>
+
+
 ## Recommended Data Splits for Machine Learning
 
 Are there recommended data splits?
+
+
+<br>
+<br>
 
 
 ## Confidentiality
@@ -124,45 +141,39 @@ For example,
 * Does the data include the content of private/non-public communications of individuals.
 
 
+<br>
+<br>
+
+
 ## Identification of Individuals
 
 Is it possible to identify individuals directly or indirectly?
 
+<br>
+<br>
+
 ## Data Sensitivity
 
-Describe sensitive data elements within the data set
+Describe sensitive data elements within the data set.  Examples of sensitive data elements are elements that 
+directly/indirectly reveal:
 
-Examples of sensitive data elements are elements that reveal
+* Locations.
+* Financial details.
+* Health details.
+* Biometric profiles.
+* Genetic profiles.
+* Government identification codes of individuals.
+* Criminal history.
+* Institutionally and/or commercially sensitive data.
+* Race or ethnic origin.
+* Sexual orientations.
+* Religious beliefs.
+* Political opinions.
+* Trade union memberships.
+* And more.
 
-race or ethnic origin
-
-sexual orientations
-
-religious beliefs
-
-political opinions
-
-trade union memberships
-
-locations
-
-financial details
-
-health details
-
-biometric profiles
-
-genetic profiles
-
-government identification codes
-
-criminal history
-
-institutionally and/or commercially sensivitve data
-
-and more.
-
-
+<br>
+<br>
 
 ## Distressing Data Elements
 
