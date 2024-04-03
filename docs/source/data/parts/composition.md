@@ -34,6 +34,17 @@ How many instances does the data set have?
 <br>
 <br>
 
+## Pre-processed?
+
+Are any aspects of the data set pre-processed?  If yes:
+
+* Document the pre-processing steps.
+* State whether the underlying raw data is available, and provide a link to the data.
+* If available, provide a link to the pre-processing programs.
+
+<br>
+<br>
+
 ## Is the data set a sample of a larger data set?
 
 **If yes:**
