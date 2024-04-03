@@ -1,7 +1,7 @@
 # Introduction
 
 ```{mermaid}
-%%{ init: { 'flowchart': { 'curve': 'monotoneX' } } }%%
+%%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
 flowchart LR    
     id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} -- yes --> id2{plausible<br> budget &<br> time-box}
     id1 -- no --> id3([terminate])
@@ -45,9 +45,7 @@ only a part of the project, ignoring this leads to [project failures](https://ww
 Colleagues may question the reverse approach of these pages.  Here are a few references that capture our experience of 
 why business data science projects fail, and the advantages of starting with ``the end in mind'' [^deployment]
 
-* [Why Data Science Projects Fail](https://pubsonline.informs.org/do/10.1287/LYTX.2023.02.04/full/): Practical Principles 
-  for Data Science Success, by Douglas A. Gray.  This is the first article of the excellent [series](https://pubsonline.
-  informs.org/action/doSearch?&target=digital-object-search&content=digitalObjects&Keywords=Principles%20for%20Successful%20Analytics%20Projects).
+* [Why Data Science Projects Fail](https://pubsonline.informs.org/do/10.1287/LYTX.2023.02.04/full/): Practical Principles for Data Science Success, by Douglas A. Gray.  This is the first article of the excellent [series](https://pubsonline.informs.org/action/doSearch?&target=digital-object-search&content=digitalObjects&Keywords=Principles%20for%20Successful%20Analytics%20Projects).
 
 * [The AI Play Book: Mastering the Rare Art of Machine Learning Deployment](https://mitpress.mit.edu/9780262048903/the-ai-playbook/), by Eric Siegel.
 
