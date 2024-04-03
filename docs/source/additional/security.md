@@ -10,7 +10,7 @@ System security addresses
 * Confidentiality: The system's data is accessible to authorised users only.
 * Integrity: The system prevents unauthorised access or modification of the model and/or the entire system; by (a) 
   adhering to best security practices, (b) keeping abreast of vulnerabilities, (c) being <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/742064/RIPA_Part_III_Code_of_Practice.pdf" target="_blank" title="Section 2.4">non-repudiation proof</a>.
-* Accountability: All system actions are tracked and stored, hence breaches are investigable.
+* Accountability: All system actions are tracked and stored, hence breaches can be investigated.
 
 <br>
 
