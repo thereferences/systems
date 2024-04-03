@@ -20,7 +20,7 @@ The stakeholder register is a
 
 <br>
 
-The details per registree, stakeholder, should include:
+The details per registree, i.e., stakeholder, should include:
 
 * Name
 * Role in employing organisation.
