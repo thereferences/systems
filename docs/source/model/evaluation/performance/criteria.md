@@ -1,18 +1,14 @@
 <br>
 
-# Criteria
+# Model Performance Metrics
 
-<br>
-
-:::{note}
-:class: margin
-In progress
-:::
+These are the standard technical metrics.  Considering the retinal images classification example, we may define 
+performance metrics criteria w.r.t. a set of metrics; example below.
 
 
-<h2>Criteria</h2>
+<h2>Example: Metrics & Criteria</h2>
 
-<details><summary>Acronyms</summary>
+<details><summary><b>Acronyms</b></summary>
 <br>
 N: # of negative cases.<br>
 P: # of positive cases.<br>
@@ -29,9 +25,8 @@ TPR: TP/P, True Positive Rate (hit rate, sensitivity, recall)
 
 <br>
 
-Based on the
-* Error Matrix Measures, i.e., TP, FN, FP, TN
-* A threshold defined as the intersection of precision & sensitivity.
+Based on the (a) error matrix measures, i.e., TP, FN, FP, TN, and (b) a threshold defined as the intersection of 
+precision & sensitivity.
 
 <br>
 
@@ -52,10 +47,8 @@ and
 
 **Disaggregated Criteria**
 
-For each class, and by the same overarching threshold value, ensure that:
-
-* Each criterion metric value is within its defined range; as oulined above.
-
+For each class, and by the same overarching threshold value, ensure that each criterion metric value is within its 
+defined range; as outlined above.
 
 <br>
 <br>
