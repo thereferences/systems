@@ -39,6 +39,8 @@ The list of details of interest reflect the _proposed data statements_ of <a hre
 <br>
 
 [^pertinent]: Record pertinent details that the statements do not request.
+[^text]: The text <a href="https://www.cambridge.org/core/books/abs/dimensions-of-register-variation/introduction/61C4A891E99FE22223268914361D2F76" 
+target="_blank">Dimensions of Register Variation: A Cross-Linguistic Comparison</a> might be helpful.
 
 <br>
 
