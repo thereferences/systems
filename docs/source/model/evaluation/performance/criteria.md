@@ -5,7 +5,6 @@
 These are the standard technical metrics.  Considering the retinal images classification example, we may define 
 performance metrics criteria w.r.t. a set of metrics; example below.
 
-
 <h2>Example: Metrics & Criteria</h2>
 
 <details><summary><b>Acronyms</b></summary>
@@ -25,8 +24,7 @@ TPR: TP/P, True Positive Rate (hit rate, sensitivity, recall)
 
 <br>
 
-Based on the (a) error matrix measures, i.e., TP, FN, FP, TN, and (b) a threshold defined as the intersection of 
-precision & sensitivity.
+Based on the **(a)** error matrix measures, i.e., TP, FN, FP, TN, and **(b)** a threshold defined as the intersection of precision & sensitivity.
 
 <br>
 
