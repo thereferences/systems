@@ -25,7 +25,7 @@ online project details hub, and the online hub will be a component of the Scotti
    :shadow:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: Introduction
    :hidden:
 
