@@ -42,3 +42,6 @@ and the costs thereof.  The tasks herein will require the aid of a reliability e
 
 <br>
 <br>
+
+
+[^utility]: [A definition of utility](https://www.oed.com/search/dictionary/?scope=Entries&q=utility)
