@@ -4,7 +4,7 @@
 
 <br>
 
-The datasheet of a dataset outlines the data set's provenance, lineage, and a bit more.  Each dataset must have its own datasheet.  Gebru & colleagues <a href="https://arxiv.org/pdf/1803.09010v1.pdf" target="_blank">first proposed Datasheets for Datasets</a>, for machine learning products or projects, during the years 2018/2019.  Following feedback from a variety of institutions, industries, agencies, etc., a baseline Datasheets for Datasets outline was released.[^acm]<sup>, </sup>[^arXiv]  Each datasheet consists of a set of questions, and the datasheet's primary objective vis-à-vis data set creator is to:[^acm]<sup>, </sup>[^arXiv]
+The datasheet of a dataset outlines the data set's provenance, lineage, and a bit more.  Each dataset must have its own datasheet.  Gebru & colleagues <a href="https://arxiv.org/pdf/1803.09010v1.pdf" target="_blank">first proposed Datasheets for Datasets</a>, for machine learning products or projects, during the years 2018/2019.  Following feedback from a variety of institutions, industries, agencies, etc., a baseline Datasheets for Datasets outline was released.[^acm]<sup>, </sup>[^arXiv]  Each datasheet consists of a set of questions, and the datasheet's primary objective vis-à-vis data set creator is to:
 
 > … encourage data set creators to reflect carefully upon (a) the "process of creating, distributing, and maintaining a dataset", and (b) "any underlying assumptions, potential risks or harms, and implications of use“
 
@@ -17,14 +17,12 @@ This chapter consists of a set of sections.  The sections, except the Natural La
 <br>
 <br>
 
-
 ```{toctree}
 :caption: Content
 :glob:
 
 parts/*
 ```
-
 
 <br>
 <br>
