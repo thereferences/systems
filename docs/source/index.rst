@@ -48,11 +48,11 @@ online project details hub, and the online hub will be a component of the Scotti
 
 .. toctree::
    :maxdepth: 1
-   :caption: Data & Datasheets
+   :caption: Data
    :glob:
    :hidden:
 
-   Introduction <data/data>
+   data/data
 
 .. toctree::
    :maxdepth: 3
