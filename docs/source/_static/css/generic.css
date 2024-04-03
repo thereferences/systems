@@ -24,6 +24,14 @@ ul.special {
     max-width: 160em;
 }
 
+table {
+border-spacing: 20px;
+}
+
+th, td {
+padding-bottom: 25px;
+}
+
 
 /* Font */
 
