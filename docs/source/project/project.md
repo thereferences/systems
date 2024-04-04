@@ -54,8 +54,6 @@ The underlying aim might be, e.g.,
 <br>
 <br>
 
+[^deployment]: This is not machine learning.  This is about integrating a machine learning model's output into a business product, and hence business operations.
 
-
-[^deployment]: This is not machine learning.  This is about integrating a machine learning model's output into a business
-product, and hence business operations.
-
+<br>
