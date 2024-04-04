@@ -39,7 +39,7 @@ The body of knowledge outlines the objectives of a system's resilience plan. Stu
 
 **In the context of machine learning**, the foci herein are
 
-* **The model drift and data drift strategy**.  The blog [Model Drift: Best Practices to Improve Machine Learning Model Performance](https://encord.com/blog/model-drift-best-practices/) includes an excellent discussion about how to monitor machine learning systems.  Drift details must be outlined vis-à-vis model drift and data drift.  Model drift monitoring is via the evaluation metrics detailed in the [functional requirements](https://artificial-intelligence-unit.atlassian.net/browse/PRE-16).  Whereas data drift is generally via statistical tests or custom models, depending on the data types in question.
+* **The model drift and data drift strategy**.  The blog [Model Drift: Best Practices to Improve Machine Learning Model Performance](https://encord.com/blog/model-drift-best-practices/) includes an excellent discussion about how to monitor machine learning systems.  Drift details must be outlined vis-à-vis model drift and data drift.  Model drift monitoring is via the evaluation metrics detailed in the <a href="../../../model/evaluation/performance/criteria.html">model performance metrics</a> section.  Whereas data drift is generally via statistical tests or custom models, depending on the data types in question.
 
 * **Continuous performance improvement strategy**.  For continuous model improvement purposes, the system architecture should include a re-training component.  If it does not, the monitoring system should have an automatic end-of-life alert, triggered by one or more evaluation metrics falling-out of their constraints.
 
