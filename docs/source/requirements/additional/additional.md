@@ -4,15 +4,7 @@
 
 <br>
 
-:::{note}
-:class: margin
-In progress
-:::
-
-
-
 ```{toctree}
-:caption: The non-functional requirements
 :glob:
 
 *
