@@ -52,13 +52,6 @@ successful deployments of machine learning dependent solutions within
 
    project/project
    model/model
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Data
-   :glob:
-   :hidden:
-
    data/data
 
 .. toctree::
