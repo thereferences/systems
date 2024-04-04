@@ -4,12 +4,6 @@
 
 <br>
 
-:::{note}
-:class: margin
-In Progress
-:::
-
-
 The [systems engineering body of knowledge defines availability](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Availability) as the
 
 > "… probability that a repairable system or system element is operational at a given point-in-time under a given set of environmental conditions"
@@ -26,7 +20,7 @@ whereby
 * The _mean time to repair_ is a maintainability metric.
 
 
-```{image} ../../../../assets/availability-metrics.png
+```{image} ../../../../../assets/availability-metrics.png
 :alt: Availability Metrics
 :width: 80%
 
