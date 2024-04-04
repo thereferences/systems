@@ -2,8 +2,6 @@
 
 <br>
 
-An illustration of considerations vis-à-vis a potential business machine learning project.  The project details informs the feasibility assessment.
-
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
 flowchart LR    
@@ -13,11 +11,13 @@ flowchart LR
     id2 -- no --> id3
     id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
     id5 --> id6{<span title="Is the potential project addressable via machine learning, technically feasible, and economically viable?">feasible?</span>}
-    id6 -- no --> id7([terminate])
+    id6 -- no --> id3
     id6 -- yes --> id8(next <br> steps)
     
     classDef default fill:#7f7c67,stroke:#7f7c67,stroke-width:0px,color:#ffffff,font-size:11pt;
 ```
+
+> An illustration of considerations vis-à-vis a potential business machine learning project.  The project details inform the feasibility assessment.
 
 <br>
 <br>
