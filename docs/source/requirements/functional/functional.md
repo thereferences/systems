@@ -4,11 +4,6 @@
 
 <br>
 
-:::{note}
-:class: margin
-In Progress
-:::
-
 A **functional requirement** specifies what a deployed product/system must do.
 
 **Note, (a)** a system may have more than one requirement, and **(b)** each requirement must have at least one criterion.  The [Volere Specification](https://homepages.laas.fr/kader/Robertson.pdf) defines a criterion, i.e., fit criterion, as an objective measure
