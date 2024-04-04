@@ -1,9 +1,6 @@
-# Project Constraints
+<br>
 
-:::{note}
-:class: margin
-In progress.
-:::
+# Project Constraints
 
 <br>
 
