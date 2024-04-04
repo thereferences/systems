@@ -1,6 +1,15 @@
 <br>
 
-Guide Notes
+# Model
+
+<br>
+
+```{toctree}
+:glob:
+
+*
+```
+
 
 <br>
 <br>

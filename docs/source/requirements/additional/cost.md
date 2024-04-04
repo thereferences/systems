@@ -1,6 +1,11 @@
 <br>
 
-Guide Notes
+# Cost
+
+:::{note}
+:class: margin
+In progress
+:::
 
 <br>
 <br>
@@ -13,3 +18,4 @@ Guide Notes
 
 <br>
 <br>
+
