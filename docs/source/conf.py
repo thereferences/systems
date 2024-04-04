@@ -54,7 +54,9 @@ myst_enable_extensions = [
     'smartquotes',
     'strikethrough',
     'substitution',
-    'tasklist'
+    'tasklist',
+    'attrs_block',
+    'attrs_inline'
 ]
 
 '''
