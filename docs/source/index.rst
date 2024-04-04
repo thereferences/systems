@@ -9,11 +9,9 @@
 .. raw:: html
 
    <br>
-   <br>
 
-
-Business Machine Learning Projects
-==================================
+Background
+==========
 
 
 **These pages** complement an in-development online *project details capture hub*.  The hub's focus is business machine learning projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine learning dependent projects.  An external partner is developing the online hub, which will be a component of the Scottish Artificial Intelligence Register platform.
