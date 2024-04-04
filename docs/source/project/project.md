@@ -1,6 +1,6 @@
 <br>
 
-# Project
+# The Beginning
 
 <br>
 
@@ -28,7 +28,6 @@ Hence, what is the underlying aim, e.g.,
 <br>
 
 ## Deployment Goal
-
 
 What is the aim, expected output, of the product's model?
 
