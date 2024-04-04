@@ -4,11 +4,6 @@
 
 <br>
 
-:::{note}
-:class: margin
-In Progress
-:::
-
 In the systems engineering body of knowledge the [basic definition of reliability](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Reliability) is
 
 > “ … the probability of a product performing its intended function under stated conditions without failure for a given period of time.”
