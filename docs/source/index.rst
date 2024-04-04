@@ -55,14 +55,8 @@ successful deployments of machine learning dependent solutions within
    data/data
    stakeholders/stakeholders
    requirements/requirements
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Constraints
-   :glob:
-   :hidden:
-
-   constraints/*
+   constraints/constraints
+   risks/risks
 
 .. raw:: html
   <br>
