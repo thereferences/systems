@@ -19,7 +19,7 @@ What are the potential product's/system's outcome expectations, e.g.,
 
 <br>
 
-Hence, what is the underlying aim, e.g.,
+The underlying aim might be, e.g.,
 
 > To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per running 183 
 > days, within 9 months of product launch.
@@ -29,24 +29,18 @@ Hence, what is the underlying aim, e.g.,
 
 ## Deployment Goal
 
-What is the aim, expected output, of the product's model?
-
-**Example:**
+**What is the aim, expected output, of the product's model?**  Example:
 > A retinal image's diabetic retinopathy classification probability per class.
 
 <br>
 
-What will the deployed product present to the optician?  Or rather, how will the model's output be used?  
-Considering the example above, the client's opticians might expect: [^deployment]
+**What will the deployed product present to the optician?**  **Or** rather, **how will the model's output be used?**  Considering the example above, the client's opticians might expect: [^deployment]
 
-**Example:**
 * The classification probability per class.
 * The definition of each class.
 * The classification; vis-à-vis the highest classification probability.
 * The preliminary treatment pathway of the classification, according to the rules of the optician's institution.
 * The retinal image.
-
-Note, only the first 
 
 <br>
 <br>
