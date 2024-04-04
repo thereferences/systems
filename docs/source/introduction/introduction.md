@@ -10,7 +10,7 @@ flowchart LR
     id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} 
     id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget,<br>time</span>}
     id1 -- no --> id3([terminate])
-    id2 -- no --> id4([terminate])
+    id2 -- no --> id3
     id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
     id5 --> id6{<span title="Is the potential project addressable via machine learning, technically feasible, and economically viable?">feasible?</span>}
     id6 -- no --> id7([terminate])
