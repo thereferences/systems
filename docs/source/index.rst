@@ -5,15 +5,21 @@
 
 .. Landing page logo → .. image:: _static/logo.svg
 
-Business Machine Learning Pojects
-=================================
+Business Machine Learning Projects
+==================================
 
-A Requirements Elicitation Guide
---------------------------------
 
-This hub complements an upcoming online project details hub.  Its focus is business machine learning
-projects, and its aim is the simplification of requirements elicitation.  An external partner is developing the
-online project details hub, and the online hub will be a component of the Scottish Artificial Intelligence Register platform.
+These pages complement an upcoming online *project details capture hub*.  The hub's focus is business machine learning
+projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine
+learning dependent projects.  An external partner is developing the online *project details capture hub*, which will be a component of the Scottish Artificial Intelligence Register platform.
+
+The word *business* indicates that the focus is not research.  We hope that the upcoming online hub will aid [successful] deployments of machine learning dependent solutions within
+
+* Public serving applications
+* Back-end operations or internal applications
+* Policy teams, in terms of providing evidence/insights based on the automatic and continuous executions of simple and complex models.
+
+These pages are not as comprehensive as the hub.  The objective - share a few help notes with colleagues whilst we await the hub's first release.  However, because these pages might be a helpful reference point, we will continuously update its content; include illustrative examples or case studies.
 
 .. raw:: html
 
