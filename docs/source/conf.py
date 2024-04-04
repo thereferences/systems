@@ -18,10 +18,10 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 '''
 Basic
 '''
-project = 'Mathematical Systems'
+project = 'Questions and notes for potential business machine learning projects<br><br>'
 project_copyright = '2023, greyhypotheses'
-author = 'greyhypotheses'
-release = '0.1'
+author = 'The Artificial Intelligence Unit'
+release = 'v0.1.2'
 
 
 '''
@@ -37,7 +37,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx_design',
     'sphinxcontrib.mermaid',
-    'sphinx_rtd_theme',
     'myst_parser'
 ]
 
@@ -79,7 +78,7 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-o
 
 '''
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 
 html_static_path: list[str] = ['_static']
 
@@ -101,18 +100,13 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
                             ]
 
 html_theme_options = {
-    'analytics_id': '',
-    'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'vcs_pageview_mode': '',
-    'style_nav_header_background': 'white',
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+    "repository_url": "https://github.com/thereferences/systems",
+    "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_issues_button": True,
+    "repository_branch": "master",
+    "path_to_docs": "docs",
+    "home_page_in_toc": False
 }
 
 html_logo = ''
@@ -122,8 +116,6 @@ html_context = {
         'menu': [
             {'title': 'Introduction',
              'url': 'introduction/introduction.html'},
-            {'title': 'Project',
-             'url': 'project/project.html'},
             {'title': 'Search',
              'url': 'search.html'}
         ]
