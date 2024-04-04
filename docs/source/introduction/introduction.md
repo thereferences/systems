@@ -14,7 +14,7 @@ flowchart LR
     id6 -- no --> id3
     id6 -- yes --> id8(next <br> steps)
     
-    classDef default fill:#7f7c67,stroke:#7f7c67,stroke-width:0px,color:#ffffff,font-size:11pt;
+    classDef default fill:#333333,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
 ```
 
 > An illustration of considerations vis-à-vis a potential business machine learning project.  The project details inform the feasibility assessment.
@@ -22,10 +22,9 @@ flowchart LR
 <br>
 <br>
 
-
-## About
-
 The aim of these pages is to ensure that each prospective client/collaborator carefully considers the time commitment, collaboration commitment, cost, range of expertise, project details, etc., that are required for a business machine learning project. 
+
+<br>
 
 A project's details are especially critical to conducting a well-informed technical feasibility & economic 
 viability assessment before proceeding.  It is also important to beware that the data science aspect of the project is only a part of the project, ignoring this leads to [project failures](https://www.kdnuggets.com/survey-machine-learning-projects-still-routinely-fail-to-deploy) due to, e.g.,
@@ -37,11 +36,10 @@ viability assessment before proceeding.  It is also important to beware that the
 * Ignoring the critical importance of intensive collaboration between the business, data science, operations, etc., teams.
 
 <br>
+<br>
 
-## The Deployment Goal Focus
-
-Colleagues may question the reverse approach of these pages.  Here are a few references that capture our experience of 
-why business data science projects fail, and the advantages of starting with ``the end in mind'' [^deployment]
+One of the first sections of these pages is **Deployment Goal**.  Colleagues may question why.  Here are a few references that 
+capture our experience of why business data science projects fail, and the advantages of starting with ``the end in mind'' [^deployment]
 
 * [Why Data Science Projects Fail](https://pubsonline.informs.org/do/10.1287/LYTX.2023.02.04/full/): Practical Principles for Data Science Success, by Douglas A. Gray.  This is the first article of the excellent [series](https://pubsonline.informs.org/action/doSearch?&target=digital-object-search&content=digitalObjects&Keywords=Principles%20for%20Successful%20Analytics%20Projects).
 
