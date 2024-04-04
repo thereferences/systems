@@ -53,14 +53,7 @@ successful deployments of machine learning dependent solutions within
    project/project
    model/model
    data/data
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Stakeholders
-   :glob:
-   :hidden:
-
-   stakeholders/*
+   stakeholders/stakeholders
 
 .. toctree::
    :maxdepth: 3
