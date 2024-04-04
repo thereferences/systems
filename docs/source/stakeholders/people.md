@@ -2,11 +2,6 @@
 
 # People
 
-:::{note}
-:class: margin
-In progress
-:::
-
 <br>
 
 **Aim**
@@ -19,7 +14,9 @@ Identify and record all the project's stakeholders.
 
 The stakeholders are the people who
 
-… can affect the outcome/success of _a_ project and/or _are_ affected by its outcome/success.  ([Volere](https://homepages.laas.fr/kader/Robertson.pdf))
+> … can affect the outcome/success of _a_ project and/or _are_ affected by its outcome/success.  ([Volere](https://homepages.laas.fr/kader/Robertson.pdf))
+
+<br>
 
 Examples include:
 
