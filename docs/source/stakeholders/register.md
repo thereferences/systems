@@ -2,33 +2,32 @@
 
 # Stakeholders Register
 
-:::{note}
-:class: margin
-In progress
-:::
-
 <br>
-
 
 **Aim**
 
 Create a stakeholder register.
 
+<br>
+
+**Notes**
+
+
 The stakeholder register is a
 
-> … project document that includes information about project stakeholders including an assessment and classification of project stakeholders. (1)
+> … project document that includes information about project stakeholders including an assessment and classification of project stakeholders. [1]
 
 <br>
 
-The details per registree, i.e., stakeholder, should include:
+The details per registree, i.e., stakeholder, should include: [2]
 
 * Name
 * Role in employing organisation.
 * The stakeholder's employing organisation department.
 * Role in project.
-* ETC.: Items that would aid stakeholder interactions.
+* etc.: Items that would aid stakeholder interactions.
 
-For a helpful guide, study reference (2).
+<br>
 
 <details><summary><b>References</b></summary>
 <ol>
