@@ -20,3 +20,15 @@ and
 Measures for continuous reliability assessment
 
 This aids (a) the design of possible in-built solutions that mitigate factors that affect reliability, and (b) system monitoring strategy, and the operations thereof.  Study the [reliability, maintainability, and availability page](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability) of the systems engineering body of knowledge for the expectations herein.
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
