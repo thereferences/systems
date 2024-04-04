@@ -4,11 +4,6 @@
 
 <br>
 
-:::{note}
-:class: margin
-In progress
-:::
-
 The focus herein are the requirements/constraints vis-à-vis
 
 * Interface: The constraints herein depend on (a) the audience, e.g., children, young adults, executives, (b) the organisation's presentation or branding norms, (c) and more. [Volere](https://homepages.laas.fr/kader/Robertson.pdf)
