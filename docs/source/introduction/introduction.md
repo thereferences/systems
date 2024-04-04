@@ -8,7 +8,7 @@ An illustration of considerations vis-à-vis a potential business machine learni
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
 flowchart LR    
     id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} 
-    id1 -- yes --> id2{budget, timebox,<br>commitment}
+    id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget,<br>time</span>}
     id1 -- no --> id3([terminate])
     id2 -- no --> id4([terminate])
     id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
@@ -16,7 +16,7 @@ flowchart LR
     id6 -- no --> id7([terminate])
     id6 -- yes --> id8(next <br> steps)
     
-    classDef default fill:#000000,stroke:#000000,stroke-width:0px,color:#ffffff,font-size:11pt;
+    classDef default fill:#7f7c67,stroke:#7f7c67,stroke-width:0px,color:#ffffff,font-size:11pt;
 ```
 
 <br>
