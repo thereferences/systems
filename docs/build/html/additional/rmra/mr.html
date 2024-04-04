@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maintainability &amp; Resilience &mdash; Mathematical Systems 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/generic.css?v=a8bd3adc" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/figures.css?v=7971134c" />
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=2709fde1"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../_static/design-tabs.js?v=36754332"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+        <script src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Availability" href="availability.html" />
+    <link rel="prev" title="Reliability" href="reliability.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Mathematical Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../introduction/introduction.html#about">About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../introduction/introduction.html#the-deployment-goal-focus">The Deployment Goal Focus</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Project Details</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../project/project.html">The Beginning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#problem-statement">Problem Statement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#outcome-expectations">Outcome Expectations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#deployment-goal">Deployment Goal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../model/model.html">Model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../model/aim.html">Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../model/evaluation.html">Model Evaluation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../model/evaluation/business.html">Business Metrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../model/evaluation/performance.html">Performance Metrics</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../model/evaluation/performance/criteria.html">Model Performance Metrics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../model/evaluation/performance/card.html">Model Card</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../data/data.html">Data &amp; Datasheets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/motivation.html">Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/composition.html">Composition</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#what-does-each-data-set-instance-represent">What does each data set instance represent?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#the-of-instances">The # of Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#pre-processed">Pre-processed?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#is-the-data-set-a-sample-of-a-larger-data-set">Is the data set a sample of a larger data set?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#lineage">Lineage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#licences-fees">Licences &amp; Fees</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#profiles-of-instances">Profiles of Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#errors">Errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#recommended-data-splits-for-machine-learning">Recommended Data Splits for Machine Learning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#confidentiality">Confidentiality</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#identification-of-individuals">Identification of Individuals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#data-sensitivity">Data Sensitivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../data/parts/composition.html#distressing-data-elements">Distressing Data Elements</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/collection.html">Data Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/controls.html">Controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/maintenance.html">Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/parts/nlp.html">Natural Language Processing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../stakeholders/stakeholders.html">Stakeholders</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../stakeholders/people.html">People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../stakeholders/register.html">Stakeholders Register</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Requirements</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../functional/functional.html">Functional Requirements</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../additional.html">Non Functional Requirements</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../ca.html">Context &amp; Architecture</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../ca.html#system-context-diagram">System Context Diagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ca.html#data-flow-diagram">Data Flow Diagram</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ca.html#system-product-architecture">System/Product Architecture</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../cost.html">Cost</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ps.html">Performance &amp; Scalability</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../ps.html#performance">Performance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../ps.html#scalability">Scalability</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../rmra.html">Reliability, Maintainability, Resilience, Availability</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="reliability.html">Reliability</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Maintainability &amp; Resilience</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#definitions">Definitions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#outlining-specifications-for-machine-learning-systems">Outlining Specifications for Machine Learning Systems</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="availability.html">Availability</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../security.html">System Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ua.html">Usability &amp; Accessibility</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Constraints</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../constraints/constraints.html">Project Constraints</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: white" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Mathematical Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../additional.html">Non Functional Requirements</a></li>
+          <li class="breadcrumb-item"><a href="../rmra.html">Reliability, Maintainability, Resilience, Availability</a></li>
+      <li class="breadcrumb-item active">Maintainability &amp; Resilience</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/additional/rmra/mr.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <br>
+<section class="tex2jax_ignore mathjax_ignore" id="maintainability-resilience">
+<h1>Maintainability &amp; Resilience<a class="headerlink" href="#maintainability-resilience" title="Link to this heading"></a></h1>
+<br>
+<div class="margin admonition note">
+<p class="admonition-title">Note</p>
+<p>In Progress</p>
+</div>
+<section id="definitions">
+<h2>Definitions<a class="headerlink" href="#definitions" title="Link to this heading"></a></h2>
+<section id="maintainability">
+<h3>Maintainability<a class="headerlink" href="#maintainability" title="Link to this heading"></a></h3>
+<p>In the systems engineering body of knowledge the <a class="reference external" href="https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Maintainability">basic definition of maintainability</a> is the</p>
+<blockquote>
+<div><p>“ … probability that a given maintenance action for an item under given usage conditions can be performed within a stated time interval when the maintenance is performed under stated conditions using stated procedures and resources.”</p>
+</div></blockquote>
+<p>Note that <strong>maintainability comprises</strong> serviceability &amp; repairability, i.e.,</p>
+<blockquote>
+<div><p>“… the ease of conducting scheduled inspections and servicing”</p>
+</div></blockquote>
+<p><strong>and</strong></p>
+<blockquote>
+<div><p>“… the ease of restoring service after a failure”</p>
+</div></blockquote>
+<br>
+</section>
+<section id="resilience">
+<h3>Resilience<a class="headerlink" href="#resilience" title="Link to this heading"></a></h3>
+<p>The resilience of a system can be defined as “… the ability to maintain <a class="reference external" href="https://sebokwiki.org/wiki/Capability_(glossary)">capability</a> in the face of a <a class="reference external" href="https://sebokwiki.org/wiki/Disruption_(glossary)">disruption</a>” [<a class="reference external" href="https://sebokwiki.org/wiki/System_Resilience#Definition">The Systems Engineering Body of Knowledge.</a>]</p>
+<p>The body of knowledge outlines the objectives of a system’s resilience plan. Study the Achieving Resilience details, therein the fundamental objectives are:</p>
+<ul class="simple">
+<li><p>Avoid: eliminate or reduce exposure to <a class="reference external" href="https://sebokwiki.org/wiki/Stress_(glossary)">stress</a></p></li>
+<li><p>Withstand: resist capability degradation when stressed</p></li>
+<li><p>Recover: replenish lost capability after degradation</p></li>
+</ul>
+<br>
+<br>
+</section>
+</section>
+<section id="outlining-specifications-for-machine-learning-systems">
+<h2>Outlining Specifications for Machine Learning Systems<a class="headerlink" href="#outlining-specifications-for-machine-learning-systems" title="Link to this heading"></a></h2>
+<p><strong>In the context of machine learning</strong>, the foci herein are</p>
+<ul class="simple">
+<li><p><strong>The model drift and data drift strategy</strong>.  The blog <a class="reference external" href="https://encord.com/blog/model-drift-best-practices/">Model Drift: Best Practices to Improve Machine Learning Model Performance</a> includes an excellent discussion about how to monitor machine learning systems.  Drift details must be outlined vis-à-vis model drift and data drift.  Model drift monitoring is via the evaluation metrics detailed in the <a class="reference external" href="https://artificial-intelligence-unit.atlassian.net/browse/PRE-16">functional requirements</a>.  Whereas data drift is generally via statistical tests or custom models, depending on the data types in question.</p></li>
+<li><p><strong>Continuous performance improvement strategy</strong>.  For continuous model improvement purposes, the system architecture should include a re-training component.  If it does not, the monitoring system should have an automatic end-of-life alert, triggered by one or more evaluation metrics falling-out of their constraints.</p></li>
+<li><p><strong>Maintenance services/agreements</strong>.  For general maintainability concepts, study the <a class="reference external" href="https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability">reliability, maintainability, and availability page</a> of the systems engineering body of knowledge for the expectations herein; <strong>and the maintenance and resilience metrics thereof</strong>.</p></li>
+</ul>
+<p>Define maintenance and resilience metrics vis-a-vis</p>
+<ul class="simple">
+<li><p>The System/Product</p></li>
+<li><p>Model Drift &amp; Data Drift</p></li>
+</ul>
+<p>The references link to metrics definitions examples.</p>
+<br>
+<details><summary><b>References</b></summary>
+<ol>
+    <li><a href="https://www.maintworld.com/Applications/5-Important-Maintenance-Metrics-and-How-To-Use-Them" target="_blank">Maintenance Metrics</a></li>
+    <li><a href="https://sebokwiki.org/wiki/System_Resilience#Metrics" target="_blank">Resilience Metrics</a></li>
+</ol>
+</details>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="reliability.html" class="btn btn-neutral float-left" title="Reliability" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="availability.html" class="btn btn-neutral float-right" title="Availability" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, greyhypotheses.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
