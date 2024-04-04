@@ -30,8 +30,7 @@ whereby
 <br>
 
 <figure>
-<figcaption><a href="https://docs.aws.amazon.
-com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Availability metrics illustration by Amazon.</a>  Note: MTBF (Mean Time Between Failure) is a reliability metric, MTTR (Mean Time To Repair) is a maintainability metric, MTBF/(MTBF + MTTR) is a definition of availability, MTTD (Mean Time To Detection)
+<figcaption><a href="https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Availability metrics illustration by Amazon.</a>  Note: MTBF (Mean Time Between Failure) is a reliability metric, MTTR (Mean Time To Repair) is a maintainability metric, MTBF/(MTBF + MTTR) is a definition of availability, MTTD (Mean Time To Detection)
 </figcaption>
 </figure>
 
