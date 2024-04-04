@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Composition &mdash; Mathematical Systems 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/generic.css?v=a8bd3adc" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/figures.css?v=7971134c" />
+      <link rel="stylesheet" type="text/css" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=2709fde1"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../_static/design-tabs.js?v=36754332"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+        <script src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Data Collection" href="collection.html" />
+    <link rel="prev" title="Motivation" href="motivation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Mathematical Systems
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/introduction.html">Introduction</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Project Details</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../project/project.html">The Beginning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#problem-statement">Problem Statement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#outcome-expectations">Outcome Expectations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../project/project.html#deployment-goal">Deployment Goal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../model/model.html">Model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../model/aim.html">Aim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../model/evaluation.html">Model Evaluation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../model/evaluation/business.html">Business Metrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../model/evaluation/performance.html">Performance Metrics</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../model/evaluation/performance/criteria.html">Model Performance Metrics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../model/evaluation/performance/card.html">Model Card</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../data.html">Data &amp; Datasheets</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Composition</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-does-each-data-set-instance-represent">What does each data set instance represent?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-of-instances">The # of Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-processed">Pre-processed?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#is-the-data-set-a-sample-of-a-larger-data-set">Is the data set a sample of a larger data set?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lineage">Lineage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#licences-fees">Licences &amp; Fees</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#profiles-of-instances">Profiles of Instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#errors">Errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recommended-data-splits-for-machine-learning">Recommended Data Splits for Machine Learning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#confidentiality">Confidentiality</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#identification-of-individuals">Identification of Individuals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#data-sensitivity">Data Sensitivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#distressing-data-elements">Distressing Data Elements</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="collection.html">Data Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="controls.html">Controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maintenance.html">Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp.html">Natural Language Processing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../stakeholders/stakeholders.html">Stakeholders</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../stakeholders/people.html">People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../stakeholders/register.html">Stakeholders Register</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../requirements/requirements.html">Requirements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../requirements/functional/functional.html">Functional Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../requirements/additional/additional.html">Non Functional Requirements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/ca.html">Context &amp; Architecture</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/ca.html#system-context-diagram">System Context Diagram</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/ca.html#architecture">Architecture</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/cost.html">Cost</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/ps.html">Performance &amp; Scalability</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/ps.html#performance">Performance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/ps.html#scalability">Scalability</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/rmra.html">Reliability, Maintainability, Resilience, Availability</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/rmra/reliability.html">Reliability</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/rmra/mr.html">Maintainability &amp; Resilience</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../requirements/additional/rmra/availability.html">Availability</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/security.html">System Security</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../requirements/additional/ua.html">Usability &amp; Accessibility</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../constraints/constraints.html">Project Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../risks/risks.html">Risks</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: white" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Mathematical Systems</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../data.html">Data &amp; Datasheets</a></li>
+      <li class="breadcrumb-item active">Composition</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/data/parts/composition.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <br>
+<section class="tex2jax_ignore mathjax_ignore" id="composition">
+<h1>Composition<a class="headerlink" href="#composition" title="Link to this heading"></a></h1>
+<br>
+<p>In general, the questions herein should be studied before data collection.  The datasheets paper [1] notes that most of the questions:</p>
+<blockquote>
+<div><p>“… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU’s General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions.”</p>
+</div></blockquote>
+<details><summary><b>References</b></summary>
+<ol>
+<li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
+</ol>
+</details>
+<br>
+<br>
+<section id="what-does-each-data-set-instance-represent">
+<h2>What does each data set instance represent?<a class="headerlink" href="#what-does-each-data-set-instance-represent" title="Link to this heading"></a></h2>
+<p>Describe what each instance, i.e., row, of the data set represents.  Although peculiar, if the data set is
+multi-representational, e.g., an instance in a merchant’s data base table might represent one of: (a) an online reading
+event, (b) an online product purchasing event, or (c) an online download event.  Each representation must be described.</p>
+<br>
+<br>
+</section>
+<section id="the-of-instances">
+<h2>The # of Instances<a class="headerlink" href="#the-of-instances" title="Link to this heading"></a></h2>
+<p>How many instances does the data set have?</p>
+<br>
+<br>
+</section>
+<section id="pre-processed">
+<h2>Pre-processed?<a class="headerlink" href="#pre-processed" title="Link to this heading"></a></h2>
+<p>Are any aspects of the data set pre-processed?  If yes:</p>
+<ul class="simple">
+<li><p>Document the pre-processing steps.</p></li>
+<li><p>State whether the underlying raw data is available, and provide a link to the data.</p></li>
+<li><p>If available, provide a link to the pre-processing programs.</p></li>
+</ul>
+<br>
+<br>
+</section>
+<section id="is-the-data-set-a-sample-of-a-larger-data-set">
+<h2>Is the data set a sample of a larger data set?<a class="headerlink" href="#is-the-data-set-a-sample-of-a-larger-data-set" title="Link to this heading"></a></h2>
+<p><strong>If yes:</strong></p>
+<ul class="simple">
+<li><p><strong>If the data set is representative</strong> of the larger data set: How was representativeness verified/validated?</p></li>
+<li><p><strong>If the data set is not representative</strong> of the larger data set, e.g., is a geographically focused subset, explain why.</p></li>
+</ul>
+<br>
+<br>
+</section>
+<section id="lineage">
+<h2>Lineage<a class="headerlink" href="#lineage" title="Link to this heading"></a></h2>
+<p>Summarise the data set’s lineage, including linkage options. [1, 2]</p>
+<details><summary><b>References</b></summary> 
+<ol><li><a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a></li>
+<li><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li></ol>
+</details>
+<br>
+<br>
+</section>
+<section id="licences-fees">
+<h2>Licences &amp; Fees<a class="headerlink" href="#licences-fees" title="Link to this heading"></a></h2>
+<p>If applicable, summarise the data’s costs.</p>
+<br>
+<br>
+</section>
+<section id="profiles-of-instances">
+<h2>Profiles of Instances<a class="headerlink" href="#profiles-of-instances" title="Link to this heading"></a></h2>
+<p>Herein, the focus is a summary of the instances of a data set, e.g., for a tabular data set:</p>
+<p><strong>By Field</strong></p>
+<ul class="simple">
+<li><p>The field name</p></li>
+<li><p>Description: What does the element of an instance denote/represent?</p></li>
+<li><p>Data Type</p></li>
+<li><p>Dictionary of a categorical data type</p></li>
+<li><p>Unit of Measure</p></li>
+<li><p>Is this a raw data field or a feature?</p></li>
+<li><p>Is this a target field?</p></li>
+<li><p>Does the field identify a sub-population?</p></li>
+<li><p>Column Profile: Note column profiling “… provides statistical information regarding the distribution of data values and
+associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern
+evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis”.[1]  If a field/column has missing elements, explain why.</p></li>
+<li><p>A graph of the field’s data distribution</p></li>
+</ul>
+<p><strong>Across Fields</strong></p>
+<ul class="simple">
+<li><p>Cross-Column Profiles: Relationships between columns.</p></li>
+</ul>
+<br>
+<details><summary><b>References</b></summary>
+<ol><li>5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 
+2008</li>
+<li><a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">Data Profiling</a></li>
+</ol>
+</details>
+<br>
+<br>
+</section>
+<section id="errors">
+<h2>Errors<a class="headerlink" href="#errors" title="Link to this heading"></a></h2>
+<p>Please detail any errors, sources of noise, or redundancies.</p>
+<br>
+<br>
+</section>
+<section id="recommended-data-splits-for-machine-learning">
+<h2>Recommended Data Splits for Machine Learning<a class="headerlink" href="#recommended-data-splits-for-machine-learning" title="Link to this heading"></a></h2>
+<p>Are there recommended data splits?</p>
+<br>
+<br>
+</section>
+<section id="confidentiality">
+<h2>Confidentiality<a class="headerlink" href="#confidentiality" title="Link to this heading"></a></h2>
+<p>Does the data set contain data that might be considered confidential?  For example,</p>
+<ul class="simple">
+<li><p>Is the data protected by legal privilege or by doctor–patient confidentiality?</p></li>
+<li><p>Does the data include the content of private/non-public communications of individuals.</p></li>
+</ul>
+<br>
+<br>
+</section>
+<section id="identification-of-individuals">
+<h2>Identification of Individuals<a class="headerlink" href="#identification-of-individuals" title="Link to this heading"></a></h2>
+<p>Is it possible to identify individuals directly or indirectly?</p>
+<br>
+<br>
+</section>
+<section id="data-sensitivity">
+<h2>Data Sensitivity<a class="headerlink" href="#data-sensitivity" title="Link to this heading"></a></h2>
+<p>Does the data set include sensitive data elements?  Describe.  Examples of sensitive data elements are
+elements that directly/indirectly reveal:</p>
+<ul class="simple">
+<li><p>Locations.</p></li>
+<li><p>Financial details.</p></li>
+<li><p>Health details.</p></li>
+<li><p>Biometric profiles.</p></li>
+<li><p>Genetic profiles.</p></li>
+<li><p>Government identification codes of individuals.</p></li>
+<li><p>Criminal history.</p></li>
+<li><p>Institutionally and/or commercially sensitive data.</p></li>
+<li><p>Race or ethnic origin.</p></li>
+<li><p>Sexual orientations.</p></li>
+<li><p>Religious beliefs.</p></li>
+<li><p>Political opinions.</p></li>
+<li><p>Trade union memberships.</p></li>
+<li><p>And more.</p></li>
+</ul>
+<br>
+<br>
+</section>
+<section id="distressing-data-elements">
+<h2>Distressing Data Elements<a class="headerlink" href="#distressing-data-elements" title="Link to this heading"></a></h2>
+<p>Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?‘’ [1, 2]</p>
+<details><summary><b>References</b></summary>
+<ol>
+<li><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the 
+ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
+<li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
+</ol>
+</details>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="motivation.html" class="btn btn-neutral float-left" title="Motivation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="collection.html" class="btn btn-neutral float-right" title="Data Collection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, greyhypotheses.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
