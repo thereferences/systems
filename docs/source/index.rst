@@ -19,9 +19,9 @@ Background
 The word *business* indicates that the focus is not research.
 
 In future, we hope the *project details capture hub* will reduce the likelihood that a project will fail; will aid
-successful deployments of machine learning dependent solutions within
+successful deployments of machine learning solutions within
 
-* Public serving applications.
+* Applications that directly or indirectly serve the public.
 * Back-end operations or internal applications.
 * Policy teams, in terms of providing evidence/insights based on the automatic and continuous executions of simple and complex models.
 
