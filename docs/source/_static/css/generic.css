@@ -1,5 +1,4 @@
-/* Lists
-   https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
+/* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
 
 li {
     margin-top:1px;
@@ -20,10 +19,18 @@ ul.special {
     margin-left: 15px;
 }
 
+
+/* Body */
 .bd-main .bd-content .bd-article-container .wy-nav-content {
     max-width: 160em;
 }
 
+.bd-article-container {
+    font-family: Vollkorn;
+}
+
+
+/* Table */
 table {
 border-spacing: 20px;
 }
@@ -34,7 +41,6 @@ padding-bottom: 25px;
 
 
 /* Font */
-
 h1 {
   display: block;
   font-size: 1.5em;
@@ -87,6 +93,8 @@ h5 {
   font-weight: bold;
 }
 
+
+/* Image */
 img {
   margin-left: 65px
 }
