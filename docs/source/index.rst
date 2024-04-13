@@ -13,10 +13,14 @@
 Background
 ==========
 
+.. note::
+   :class: margin
+
+   The word _business_ indicates that the focus is not research.
+
+
 
 **These pages** complement an in-development online *project details capture hub*.  The hub's focus is business machine learning projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine learning dependent projects.  An external partner is developing the online hub, which will be a component of the Scottish Artificial Intelligence Register platform.
-
-The word *business* indicates that the focus is not research.
 
 In future, we hope the *project details capture hub* will reduce the likelihood that a project will fail; will aid
 successful deployments of machine learning solutions within
