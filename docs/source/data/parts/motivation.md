@@ -10,8 +10,7 @@ for model development.  For example, the outcome of a deliberation might have be
 * Focus on, collect, and store, the data of a particular strata of a population.
 * Retain aggregated records only.
 
-The former will limit the applicability of any models that depend on the data set, using the latter is ill-advised due to 
-lost information and ecological fallacy risks.  Additionally, it is important to beware of funding/sponsorship bias.
+The former will limit the applicability of any models that depend on the data set, using the latter is ill-advised due to lost information and ecological fallacy risks.  Additionally, it is important to beware of funding/sponsorship bias.
 
 Hence
 
@@ -25,8 +24,6 @@ Hence
     </li>
     <li>Who funded the creation of the dataset?</li>
 </ol>
-
-
 
 <details><summary><b>References</b></summary>
 <ol>
