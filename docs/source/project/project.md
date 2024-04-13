@@ -12,18 +12,17 @@ What is the problem, and why is it important to solve this problem?
 
 ## Outcome Expectations
 
-What are the potential product's/system's outcome expectations, e.g.,
+What are the potential product's outcome expectations, e.g.,
 
-> An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a 
-> greater percentage of diabetic patients.
+<blockquote>
+An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a greater percentage of diabetic patients.
+</blockquote>
 
 <br>
 
 The underlying aim might be, e.g.,
 
-> To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per running 183 
-> days, within 9 months of product launch.
-
+> To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per quarter.
 
 <br>
 
