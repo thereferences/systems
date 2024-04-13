@@ -30,6 +30,12 @@ ul.special {
 }
 
 
+/* Side Bar */
+.bd-sidebar-primary {
+    font-family: Vollkorn;
+}
+
+
 /* Table */
 table {
 border-spacing: 20px;
