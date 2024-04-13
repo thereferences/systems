@@ -45,9 +45,17 @@ th, td {
 padding-bottom: 25px;
 }
 
+
 /* Quotes */
 blockquote {
-    border-left: 0em
+    border-left: 0em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+p {
+    margin-bottom: 0.90rem
 }
 
 
