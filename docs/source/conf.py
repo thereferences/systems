@@ -85,6 +85,8 @@ html_static_path: list[str] = ['_static']
 html_css_files: list[str] = [
     'css/generic.css',
     'css/figures.css',
+    'https://fonts.googleapis.com/css?family=Vollkorn',
+    'https://fonts.googleapis.com/css?family=Tangerine',
     'https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css'
 ]
 
