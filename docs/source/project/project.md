@@ -15,21 +15,26 @@ What is the problem, and why is it important to solve this problem?
 What are the potential product's outcome expectations, e.g.,
 
 <blockquote>
-An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a greater percentage of diabetic patients.
+    An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a greater percentage of diabetic patients.
 </blockquote>
 
 <br>
 
 The underlying aim might be, e.g.,
 
-> To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per quarter.
+<blockquote>
+    To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per quarter.
+</blockquote>
 
 <br>
 
 ## Deployment Goal
 
 **What is the aim, expected output, of the product's model?**  Example:
-> A retinal image's diabetic retinopathy classification probability per class.
+
+<blockquote>
+    A retinal image's diabetic retinopathy classification probability per class.
+</blockquote>
 
 <br>
 
