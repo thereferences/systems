@@ -21,7 +21,7 @@ Basic
 project = 'Questions and notes for potential business machine learning projects<br><br>'
 project_copyright = '2023, greyhypotheses'
 author = 'The Artificial Intelligence Unit'
-release = 'v0.1.2'
+release = 'v0.1.3'
 
 
 '''
