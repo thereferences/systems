@@ -31,8 +31,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-    <link rel="stylesheet" type="text/css" href="../_static/css/generic.css?v=a8bd3adc" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/generic.css?v=92cbdcb8" />
     <link rel="stylesheet" type="text/css" href="../_static/css/figures.css?v=7971134c" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -45,6 +47,8 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'model/model';</script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://code.highcharts.com/stock/highstock.js"></script>
@@ -57,8 +61,8 @@
     <script src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Aim" href="aim.html" />
-    <link rel="prev" title="The Beginning" href="../project/project.html" />
+    <link rel="next" title="Business Metrics" href="evaluation/business.html" />
+    <link rel="prev" title="Critical Preliminaries" href="../project/project.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -159,27 +163,19 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project Details</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PROJECT DETAILS</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../project/project.html">The Beginning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/project.html">Critical Preliminaries</a></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Model</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="aim.html">Aim</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="evaluation.html">Model Evaluation</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="evaluation/business.html">Business Metrics</a></li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="evaluation/performance.html">Performance Metrics</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l4"><a class="reference internal" href="evaluation/performance/criteria.html">Model Performance Metrics</a></li>
-<li class="toctree-l4"><a class="reference internal" href="evaluation/performance/card.html">Model Card</a></li>
+<li class="toctree-l2"><a class="reference internal" href="evaluation/business.html">Business Metrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="evaluation/performance.html">Performance Metrics</a></li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../data/data.html">Data &amp; Datasheets</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../data/data.html">Data &amp; Datasheets</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../data/parts/motivation.html">Motivation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/parts/composition.html">Composition</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/parts/collection.html">Data Collection</a></li>
@@ -188,18 +184,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../data/parts/nlp.html">Natural Language Processing</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../stakeholders/stakeholders.html">Stakeholders</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../stakeholders/stakeholders.html">Stakeholders</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../stakeholders/people.html">People</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../stakeholders/register.html">Stakeholders Register</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../requirements/requirements.html">Requirements</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../requirements/requirements.html">Requirements</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../requirements/functional/functional.html">Functional Requirements</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../requirements/additional/additional.html">Non Functional Requirements</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../requirements/additional/additional.html">Non Functional Requirements</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../requirements/additional/ca.html">Context &amp; Architecture</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../requirements/additional/cost.html">Cost</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../requirements/additional/ps.html">Performance &amp; Scalability</a></li>
-<li class="toctree-l3 has-children"><a class="reference internal" href="../requirements/additional/rmra.html">Reliability, Maintainability, Resilience, Availability</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../requirements/additional/rmra.html">Reliability, Maintainability, Resilience, Availability</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../requirements/additional/rmra/reliability.html">Reliability</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../requirements/additional/rmra/mr.html">Maintainability &amp; Resilience</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../requirements/additional/rmra/availability.html">Availability</a></li>
@@ -402,7 +398,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -418,6 +416,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aim">Aim</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -430,17 +436,27 @@ document.write(`
   <br>
 <section class="tex2jax_ignore mathjax_ignore" id="model">
 <h1>Model<a class="headerlink" href="#model" title="Link to this heading">#</a></h1>
+<section id="aim">
+<h2>Aim<a class="headerlink" href="#aim" title="Link to this heading">#</a></h2>
+<br>
+<p>What is the machine learning model’s aim?  For example:</p>
+<blockquote>
+<div><p>To determine the probability that a retinal image is a member of a diabetic retinopathy class; the classes are <em>no</em>
+(diabetic retinopathy), <em>mild</em>, <em>moderate</em>, <em>severe</em>, <em>proliferative</em>.<br>
+<span class="math notranslate nohighlight">\(\sum\limits_{l \: \in \: L} p(\mathcal{C}_{l}) = 1\)</span>,  <span class="math notranslate nohighlight">\(\quad L =\)</span> {no, mild, moderate, severe, proliferative}</p>
+</div></blockquote>
+<br>
+<p><strong>Note</strong>, the model’s aim matches the deployed product’s <a href="../project/project.html#deployment-goal">model output
+expectations</a>.</p>
+<br>
 <br>
 <div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Content</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="aim.html">Aim</a></li>
-<li class="toctree-l1"><a class="reference internal" href="evaluation.html">Model Evaluation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="evaluation/business.html">Business Metrics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="evaluation/performance.html">Performance Metrics</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="evaluation/performance/criteria.html">Model Performance Metrics</a></li>
-<li class="toctree-l3"><a class="reference internal" href="evaluation/performance/card.html">Model Card</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation/business.html">Business Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation/performance.html">Performance Metrics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="evaluation/performance.html#model-performance-metrics">Model Performance Metrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="evaluation/performance.html#model-card">Model Card</a></li>
 </ul>
 </li>
 </ul>
@@ -453,6 +469,7 @@ document.write(`
 <br>
 <br>
 <br>
+</section>
 </section>
 
 
@@ -472,15 +489,15 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">The Beginning</p>
+        <p class="prev-next-title">Critical Preliminaries</p>
       </div>
     </a>
     <a class="right-next"
-       href="aim.html"
+       href="evaluation/business.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Aim</p>
+        <p class="prev-next-title">Business Metrics</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -491,7 +508,20 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aim">Aim</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

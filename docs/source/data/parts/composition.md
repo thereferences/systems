@@ -7,8 +7,11 @@
 
 In general, the questions herein should be studied before data collection.  The datasheets paper [1] notes that most of the questions:
 
-> "… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
- 
+<blockquote>
+  "… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
+</blockquote>
+
+
 <details><summary><b>References</b></summary>
 <ol>
 <li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
@@ -20,9 +23,7 @@ In general, the questions herein should be studied before data collection.  The 
 
 ## What does each data set instance represent?
 
-Describe what each instance, i.e., row, of the data set represents.  Although peculiar, if the data set is 
-multi-representational, e.g., an instance in a merchant's data base table might represent one of: (a) an online reading 
-event, (b) an online product purchasing event, or \(c\) an online download event.  Each representation must be described.
+Describe what each instance, i.e., row, of the data set represents.  Although peculiar, if the data set is multi-representational, e.g., an instance in a merchant's data base table might represent one of: (a) an online reading event, (b) an online product purchasing event, or \(c\) an online download event.  Each representation must be described.
 
 <br>
 <br>
@@ -94,10 +95,8 @@ Herein, the focus is a summary of the instances of a data set, e.g., for a tabul
 * Is this a raw data field or a feature?
 * Is this a target field?
 * Does the field identify a sub-population?
-* Column Profile: Note column profiling "… provides statistical information regarding the distribution of data values and 
-  associated patterns that are assigned to each data attribute, including range analysis, sparseness, format and pattern 
-  evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis".[1]  If a field/column has missing elements, explain why.
-* A graph of the field's data distribution
+* Column Profile: Note column profiling "… provides statistical information regarding the distribution of data values and associated patterns that are assigned to each data attribute, …".  Including "… range analysis, sparseness, format and pattern evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis".[1]  If a field/column has missing elements, explain why.
+* A graph of the field's data distribution.
 
 
 **Across Fields**
@@ -182,8 +181,7 @@ Does ``… the dataset contain data that, if viewed directly, might be offensive
 
 <details><summary><b>References</b></summary>
 <ol>
-<li><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the 
-ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
+<li><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
 <li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
 </ol>
 </details>

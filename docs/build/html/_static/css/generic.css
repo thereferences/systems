@@ -1,5 +1,4 @@
-/* Lists
-   https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
+/* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
 
 li {
     margin-top:1px;
@@ -20,10 +19,24 @@ ul.special {
     margin-left: 15px;
 }
 
+
+/* Body */
 .bd-main .bd-content .bd-article-container .wy-nav-content {
     max-width: 160em;
 }
 
+.bd-article-container {
+    font-family: Vollkorn;
+}
+
+
+/* Side Bar */
+.bd-sidebar-primary {
+    font-family: Vollkorn;
+}
+
+
+/* Table */
 table {
 border-spacing: 20px;
 }
@@ -33,11 +46,24 @@ padding-bottom: 25px;
 }
 
 
-/* Font */
+/* Quotes */
+blockquote {
+    border-left: 0em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
 
+
+p {
+    margin-bottom: 0.90rem
+}
+
+
+/* Font */
 h1 {
   display: block;
   font-size: 1.5em;
+  font-variant: small-caps;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -48,7 +74,7 @@ h1 {
 h2 {
   display: block;
   font-size: 1.17em;
-  color: #201f19;
+  font-family: 'Segoe UI', Vollkorn;
   text-transform: uppercase;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -87,6 +113,8 @@ h5 {
   font-weight: bold;
 }
 
+
+/* Image */
 img {
   margin-left: 65px
 }

@@ -13,15 +13,18 @@
 Background
 ==========
 
+.. note::
+   :class: margin
 
-**These pages** complement an in-development online *project details capture hub*.  The hub's focus is business machine learning projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine learning dependent projects.  An external partner is developing the online hub, which will be a component of the Scottish Artificial Intelligence Register platform.
+   The word _business_ indicates that the focus is not research.
 
-The word *business* indicates that the focus is not research.
 
-In future, we hope the *project details capture hub* will reduce the likelihood that a project will fail; will aid
-successful deployments of machine learning dependent solutions within
+**These pages** complement an in-development online *project details hub*.  The hub's focus is business machine learning projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine learning dependent projects.  An external partner is developing the online hub, which will be a component of the Scottish Artificial Intelligence Register platform.
 
-* Public serving applications.
+In future, we hope the *project details hub* will reduce the likelihood that a project will fail; will aid
+successful deployments of machine learning solutions within
+
+* Applications that directly or indirectly serve the public.
 * Back-end operations or internal applications.
 * Policy teams, in terms of providing evidence/insights based on the automatic and continuous executions of simple and complex models.
 
@@ -31,22 +34,25 @@ successful deployments of machine learning dependent solutions within
 
    <br>
    <br>
+   <br>
+   <br>
 
-.. button-ref:: genindex
-   :color: black
-   :shadow:
+Content
+=======
 
 .. toctree::
    :maxdepth: 1
-   :caption: Introduction
-   :hidden:
+   :caption: INTRODUCTION
 
    introduction/introduction
 
+.. raw:: html
+
+   <br>
+
 .. toctree::
-   :maxdepth: 3
-   :caption: Project Details
-   :hidden:
+   :maxdepth: 2
+   :caption: PROJECT DETAILS
 
    project/project
    model/model
@@ -66,6 +72,11 @@ successful deployments of machine learning dependent solutions within
   <br>
   <br>
   <br>
+
+
+.. button-ref:: genindex
+   :color: black
+   :shadow:
 
 ..
    Comment
