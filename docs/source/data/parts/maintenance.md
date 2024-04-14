@@ -2,6 +2,8 @@
 
 # Maintenance
 
+<br>
+
 The focus herein is the maintenance details of the data set.  Please, study Section 3.7 for more details.  A few examples: 
 
 * Who is the data set owner, curator, or manager?
