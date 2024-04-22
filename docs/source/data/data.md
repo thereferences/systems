@@ -21,12 +21,12 @@ This chapter consists of a set of sections.  The sections, except the Natural La
 :caption: Content
 :glob:
 
-parts/motivation
-parts/composition
-parts/collection
-parts/controls
-parts/maintenance
-parts/nlp
+motivation
+composition
+collection
+controls
+maintenance
+nlp
 ```
 
 <br>
