@@ -1,7 +1,5 @@
 # Context & Architecture
 
-<br>
-
 Additionally, include data flow diagrams.
 
 <br>
@@ -18,7 +16,7 @@ The system context diagram illustrates how the service node of the system intera
 The architecture, which outlines integrations with other systems, modelling stages, data flows, monitoring node, 
 re-training node, etc.
 
-```{image} ../../../../assets/ml-lifecycle.png
+```{image} ../../../assets/ml-lifecycle.png
 :alt: Machine Learning Dependent Business Project
 :width: 80%
 
@@ -28,8 +26,7 @@ re-training node, etc.
 <br>
 
 <figure>
-<figcaption><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture
--diagram.html" target="_blank">A platform agnostic example courtesy of Amazon Web Services; scroll down.</a>
+<figcaption><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture-diagram.html" target="_blank">A platform agnostic example courtesy of Amazon Web Services; scroll down.</a>
 </figcaption>
 </figure>
 
