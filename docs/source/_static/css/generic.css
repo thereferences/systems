@@ -47,3 +47,9 @@ p {
     margin-bottom: 12.5px;
     margin-top: 12.5px;
 }
+
+/* img */
+img.small {
+    margin-left:65px;
+    width:80%;
+}

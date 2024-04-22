@@ -17,7 +17,7 @@ Projects & Machine Learning
 .. container:: .buttons
 
    `Introduction <introduction/introduction.html>`_
-   :ref:`genindex`
+   `GitHub <https://github.com/thereferences/systems>`_
 
 
 .. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e

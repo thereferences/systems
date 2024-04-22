@@ -16,17 +16,16 @@ The system context diagram illustrates how the service node of the system intera
 The architecture, which outlines integrations with other systems, modelling stages, data flows, monitoring node, 
 re-training node, etc.
 
-```{image} ../../../assets/ml-lifecycle.png
-:alt: Machine Learning Dependent Business Project
-:width: 80%
+<br>
+<br>
 
-```
+<img class="small" alt="ML" src="../../../assets/ml-lifecycle.png" />
 
 <br>
 <br>
 
 <figure>
-<figcaption><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture-diagram.html" target="_blank">A platform agnostic example courtesy of Amazon Web Services; scroll down.</a>
+<figcaption>A platform agnostic example courtesy of <a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture-diagram.html" target="_blank"><span style="text-decoration: underline dotted;">Amazon Web Services</span></a>; scroll down.
 </figcaption>
 </figure>
 
