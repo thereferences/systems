@@ -14,14 +14,17 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 """
 
+import revitron_sphinx_theme
+
 
 '''
 Basic
 '''
-project = 'Questions and notes for potential business machine learning projects<br><br>'
-project_copyright = '2023, greyhypotheses'
-author = 'The Artificial Intelligence Unit'
-release = 'v0.1.3'
+project = '<img src="../_static/icon.svg" alt="Systems">'
+copyright = '2024, greyhypotheses'
+author = 'greyhypotheses'
+release = '0.1'
+
 
 
 '''
@@ -78,7 +81,7 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-o
 
 '''
 
-html_theme = 'sphinx_book_theme'
+html_theme = 'revitron_sphinx_theme'
 
 html_static_path: list[str] = ['_static']
 
@@ -86,8 +89,7 @@ html_css_files: list[str] = [
     'css/generic.css',
     'css/figures.css',
     'https://fonts.googleapis.com/css?family=Vollkorn',
-    'https://fonts.googleapis.com/css?family=Tangerine',
-    'https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css'
+    'https://fonts.googleapis.com/css?family=Tangerine'
 ]
 
 html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
@@ -97,21 +99,24 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
                             'https://code.highcharts.com/stock/modules/export-data.js',
                             'https://code.highcharts.com/stock/modules/accessibility.js',
                             'https://code.highcharts.com/highcharts.js',
-                            'https://code.highcharts.com/modules/networkgraph.js',
-                            'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
+                            'https://code.highcharts.com/modules/networkgraph.js'
                             ]
 
 html_theme_options = {
-    "repository_url": "https://github.com/thereferences/systems",
-    "use_repository_button": True,
-    "use_edit_page_button": True,
-    "use_issues_button": True,
-    "repository_branch": "master",
-    "path_to_docs": "docs",
-    "home_page_in_toc": False
+    'color_scheme': '',
+    'canonical_url': 'https://premodelling.github.io/systems/',
+    'analytics_id': '',
+    'style_external_links': False,
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False,
+    'github_url': 'https://www.github.com/premodelling/systems',
+    'logo_mobile': '_static/logo.svg'
 }
 
-html_logo = ''
+html_logo = '_static/logo.svg'
 
 html_context = {
     'landing_page': {
@@ -123,3 +128,4 @@ html_context = {
         ]
     }
 }
+
