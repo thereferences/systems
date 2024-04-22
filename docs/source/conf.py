@@ -104,7 +104,7 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
 
 html_theme_options = {
     'color_scheme': '',
-    'canonical_url': 'https://premodelling.github.io/systems/',
+    'canonical_url': 'https://thereferences.github.io/systems/',
     'analytics_id': '',
     'style_external_links': False,
     'collapse_navigation': True,
@@ -112,7 +112,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    'github_url': 'https://www.github.com/premodelling/systems',
+    'github_url': 'https://www.github.com/thereferences/systems',
     'logo_mobile': '_static/logo.svg'
 }
 
