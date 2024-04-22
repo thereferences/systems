@@ -20,7 +20,7 @@ Projects & Machine Learning
    :ref:`genindex`
 
 
-.. image:: https://img.shields.io/github/v/tag/premodelling/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
+.. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
 
 
 .. toctree::
