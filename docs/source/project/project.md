@@ -2,8 +2,6 @@
 
 # Critical Preliminaries
 
-<br>
-
 ## Problem Statement
 
 What is the problem, and why is it important to solve this problem?
@@ -23,7 +21,7 @@ What are the potential product's outcome expectations, e.g.,
 The underlying aim might be, e.g.,
 
 <blockquote>
-    To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per quarter.
+    To reduce the mis-classification rate of retinal images of diabetic patients to ≤ 1.25% per class per quarter.
 </blockquote>
 
 <br>
@@ -40,11 +38,13 @@ The underlying aim might be, e.g.,
 
 **What will the deployed product present to the optician?**  **Or** rather, **how will the model's output be used?**  Considering the example above, the client's opticians might expect: [^deployment]
 
-* The classification probability per class.
-* The definition of each class.
-* The classification; vis-à-vis the highest classification probability.
-* The preliminary treatment pathway of the classification, according to the rules of the optician's institution.
-* The retinal image.
+<ul class="disc">
+    <li class="disc">The classification probability per class.</li>
+    <li class="disc">The definition of each class.</li>
+    <li class="disc">The classification; vis-à-vis the highest classification probability.</li>
+    <li class="disc">The preliminary treatment pathway of the classification, according to the rules of the optician's institution.</li>
+    <li class="disc">The retinal image.</li>
+</ul>
 
 <br>
 <br>
@@ -60,4 +60,5 @@ The underlying aim might be, e.g.,
 
 [^deployment]: This is not machine learning.  This is about integrating a machine learning model's output into a business product, and hence business operations.
 
+<br>
 <br>
