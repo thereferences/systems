@@ -14,17 +14,31 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 """
 
+import os
+import sys
+import datetime
 import revitron_sphinx_theme
+
+
+'''
+Path
+'''
+sys.path.insert(0, os.path.abspath('../..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../revitron'))
+
+
+'''
+Master
+'''
+master_doc = 'index'
 
 
 '''
 Basic
 '''
-project = '<img src="../_static/icon.svg" alt="Systems">'
-copyright = '2024, greyhypotheses'
+project = ''
+copyright = '{}, greyhypotheses'.format(datetime.datetime.now().year)
 author = 'greyhypotheses'
-release = '0.1'
-
 
 
 '''
@@ -35,12 +49,22 @@ Sphinx extension modules. Extensions are either Sphinx extensions, named 'sphinx
 or custom ones.  Note, myst_enable_extensions excludes 'linkify'
 '''
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.githubpages',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'revitron_sphinx_theme',
+    'autodocsumm',
+    'sphinxcontrib.httpdomain',
+    'sphinx.ext.napoleon',
+    'sphinxext.opengraph',
+    'sphinxcontrib.jquery',
+    'myst_parser',
+    'sphinx.ext.duration',
     'sphinx_design',
-    'sphinxcontrib.mermaid',
-    'myst_parser'
+    'sphinxcontrib.mermaid'
 ]
 
 myst_enable_extensions = [
@@ -61,6 +85,21 @@ myst_enable_extensions = [
     'attrs_inline'
 ]
 
+add_module_names = False
+
+napoleon_google_docstring = True
+napoleon_include_init_with_doc = True
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = True
+napoleon_use_admonition_for_references = True
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
+napoleon_preprocess_types = False
+
+
 '''
 Mathematics
 '''
@@ -72,6 +111,11 @@ myst_dmath_double_inline = True
 Templates
 '''
 templates_path = ['_templates']
+
+
+'''
+Patterns
+'''
 exclude_patterns = []
 
 
@@ -116,16 +160,27 @@ html_theme_options = {
     'logo_mobile': '_static/logo.svg'
 }
 
-html_logo = '_static/logo.svg'
-
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': 'Introduction',
-             'url': 'introduction/introduction.html'},
-            {'title': 'Search',
-             'url': 'search.html'}
+            {'title': 'Parent',
+             'url': 'https://github.com/theartificialintelligenceunit'},
+            {'title': 'Referee',
+             'url': 'https://github.com/greyhypotheses'}
         ]
-    }
+    },
+    'display_github': True,
+    'github_repo': 'membranes/systems',
+    'conf_py_path': 'develop/docs/source/'
 }
 
+html_sidebars = {}
+
+
+'''
+Options for intersphinx extension
+https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#configuration
+'''
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
