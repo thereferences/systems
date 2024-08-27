@@ -89,6 +89,8 @@ Themes
 * https://myst-parser.readthedocs.io/en/latest/configuration.html
 * https://www.sphinx-doc.org/en/master/usage/extensions/math.html#module-sphinx.ext.mathjax
 * https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#math-shortcuts
+* https://www.sphinx-doc.org/en/master/usage/extensions/index.html
+  * https://github.com/yoloseem/awesome-sphinxdoc?tab=readme-ov-file
 
 
 <br>
