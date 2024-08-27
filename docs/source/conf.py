@@ -175,7 +175,7 @@ html_context = {
         ]
     },
     'display_github': True,
-    'github_repo': 'membranes/systems',
+    'github_repo': 'thereferences/systems',
     'conf_py_path': 'develop/docs/source/'
 }
 
