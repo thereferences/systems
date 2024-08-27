@@ -1,0 +1,219 @@
+
+	
+
+<!DOCTYPE html>
+<html class="writer-html5 light" lang="en" >
+<head>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Reliability" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="requirements/reliability.html" />
+<meta property="og:description" content="In the systems engineering body of knowledge the basic definition of reliability is “ … the probability of a product performing its intended function under stated conditions without failure for a g..." />
+<meta name="description" content="In the systems engineering body of knowledge the basic definition of reliability is “ … the probability of a product performing its intended function under stated conditions without failure for a g..." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Reliability &mdash; SYSTEMS &amp; MACHINE LEARNING</title>
+		  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8d216cef" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=cf2327ab" />
+		  <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/generic.css?v=c1fe2070" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=5ae659b7" />
+		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine" />
+
+	
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+		<link rel="canonical" href="https://thereferences.github.io/systems/requirements/reliability.html"/>
+			
+				<script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+					<script src="../_static/jquery.js?v=5d32c60e"></script>
+					<script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+					<script src="../_static/documentation_options.js?v=5929fcd5"></script>
+					<script src="../_static/doctools.js?v=9a2dae69"></script>
+					<script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+					<script src="../_static/design-tabs.js?v=f930bc37"></script>
+					<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+					<script src="https://code.highcharts.com/stock/highstock.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/data.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+					<script src="https://code.highcharts.com/highcharts.js"></script>
+					<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+			
+			
+			<script src="../_static/js/theme.js"></script>
+		<link rel="index" title="Index" href="../genindex.html" />
+		<link rel="search" title="Search" href="../search.html" />
+		<link rel="next" title="Maintainability &amp; Resilience" href="mr.html" />
+		<link rel="prev" title="Reliability, Maintainability, Resilience, Availability" href="rmra.html" /> 
+</head>
+<body class="wy-body-for-nav">
+
+
+	 
+	<div class="wy-grid-for-nav">
+		
+		<nav data-toggle="wy-nav-shift" class="wy-nav-side">
+		  <div class="wy-side-scroll">
+			<div class="wy-side-nav-search" >
+
+			  
+			  
+			  <a href="../index.html" class="icon icon-home">
+				
+			  </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+			</div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+				  <p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/plausible.html">Project Plausibility</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">PROJECT DETAILS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../project/project.html">Critical Preliminaries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../model/model.html">Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data/data.html">Data &amp; Datasheets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stakeholders/stakeholders.html">Stakeholders</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="requirements.html">Requirements</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="functional.html">Functional Requirements</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="additional.html">Non Functional Requirements</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ca.html">Context &amp; Architecture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="security.html">System Security</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ua.html">Usability &amp; Accessibility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ps.html">Performance &amp; Scalability</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="rmra.html">Reliability, Maintainability, Resilience, Availability</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Reliability</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mr.html">Maintainability &amp; Resilience</a></li>
+<li class="toctree-l4"><a class="reference internal" href="availability.html">Availability</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cost.html">Cost</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../constraints/constraints.html">Project Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../risks/risks.html">Risks</a></li>
+</ul>
+
+			</div>
+		  </div>
+		</nav>
+
+		<section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+				  <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+				  <a href="../index.html"></a>
+			  </nav>
+
+
+			<div class="wy-nav-content">
+				
+				<div class="rst-content">
+				
+					
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+	<ul class="wy-breadcrumbs">
+		
+			
+			<li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+			
+				<li class="breadcrumb-item"><a href="requirements.html">Requirements</a> ⁄&nbsp;</li>
+			
+				<li class="breadcrumb-item"><a href="additional.html">Non Functional Requirements</a> ⁄&nbsp;</li>
+			
+				<li class="breadcrumb-item"><a href="rmra.html">Reliability, Maintainability, Resilience, Availability</a> ⁄&nbsp;</li>
+			
+			 <li class="breadcrumb-item active">Reliability</li>
+			
+		
+		  <li class="wy-breadcrumbs-aside">
+				  <a href="https://github.com/membranes/systems/blob/develop/docs/source/requirements/reliability.md" class="fa fa-github"></a>
+		  </li>
+	</ul>
+	<hr/>
+
+</div>
+					<div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+					 <div itemprop="articleBody">
+						
+  <br>
+<section class="tex2jax_ignore mathjax_ignore" id="reliability">
+<h1>Reliability<a class="headerlink" href="#reliability" title="Link to this heading">¶</a></h1>
+<p>In the systems engineering body of knowledge the <a class="reference external" href="https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Reliability">basic definition of reliability</a> is</p>
+<blockquote>
+<div><p>“ … the probability of a product performing its intended function under stated conditions without failure for a given time period”.</p>
+</div></blockquote>
+<p>In the context of machine learning systems, the reliability specification of each intended function, i.e., each functional requirement, must detail/specify the</p>
+<ul class="disc">
+    <li class="disc">Function in question, and its operating environment.</li>
+    <li class="disc">Time scales; for evaluating the reliability metrics.</li>
+    <li class="disc">Definition of failure; for evaluating the reliability metrics, and for in-built failure mitigation considerations.</li>
+    <li class="disc"><a href="https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Metrics">Reliability metrics</a></li>
+</ul>
+<br>
+<p>This aids <b>(a)</b> the design of possible in-built solutions that mitigate factors that affect reliability, and <b>(b) </b> system monitoring strategy, and the operations thereof.  Study the <a class="reference external" href="https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability">reliability, maintainability, and availability page</a> of the systems engineering body of knowledge for the expectations herein.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+
+
+					 </div>
+					 
+					</div>
+					<footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="mr.html" class="btn btn-neutral float-right" title="Maintainability &amp; Resilience" accesskey="n" rel="next">Next &nbsp;<b>⟶</b></a>
+      
+      
+        <a href="rmra.html" class="btn btn-neutral float-left" title="Reliability, Maintainability, Resilience, Availability" accesskey="p" rel="prev"><b>⟵</b>&nbsp; Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, greyhypotheses.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+	
+
+	<script type="text/javascript">
+			jQuery(function () {
+					SphinxRtdTheme.Navigation.enable(true);
+			});
+	</script> 
+
+ 
+</body>	
+</html>
