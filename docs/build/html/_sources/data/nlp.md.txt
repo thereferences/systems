@@ -50,7 +50,7 @@ Mainly because "… characteristics of the speech situation can affect linguisti
 
 ### Text Characteristics
 
-Mainly because "… genre and topic influence the vocabulary and structural characteristics of texts".
+Mainly because "… genre and topic influence the vocabulary and structural characteristics of texts".[^text]
 
 <br>
 
