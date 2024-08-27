@@ -14,10 +14,12 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#project-informatio
 
 """
 
-# noinspection PyUnresolvedReferences
+# Libraries
 import os
 import sys
 import datetime
+
+# noinspection PyUnresolvedReferences
 import revitron_sphinx_theme
 
 
