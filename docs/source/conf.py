@@ -170,8 +170,8 @@ html_context = {
         'menu': [
             {'title': 'Parent',
              'url': 'https://github.com/theartificialintelligenceunit'},
-            {'title': 'Referee',
-             'url': 'https://github.com/greyhypotheses'}
+            {'title': 'Introduction',
+             'url': 'https://thereferences.github.io/systems/docs/build/html/introduction/introduction.html'}
         ]
     },
     'display_github': True,

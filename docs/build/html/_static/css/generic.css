@@ -13,6 +13,7 @@
 
 .rst-content hr {
     margin-top: 1.5rem;
+    margin-bottom: 2.0rem;
 }
 
 .wy-breadcrumbs li {
@@ -22,6 +23,10 @@
 
 .wy-side-nav-search {
     padding: 2.45rem 2.5rem 0 2.5rem;
+}
+
+.wy-menu-vertical {
+    padding-top: 1.225rem;
 }
 
 .wy-form {
