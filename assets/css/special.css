@@ -34,14 +34,14 @@
 .foci h1 {
     margin-top: 3.65rem;
     margin-bottom: 1.8rem;
-    font-family: Alliance, Inter, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 3.1rem;
     font-weight: calc(700* var(--font-weight-factor));
     letter-spacing: -.02em;
 }
 
 .large p {
-    font-family: Alliance, Inter, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 160%;
     line-height: 1.5;
     font-weight: calc(450* var(--font-weight-factor));
