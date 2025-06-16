@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --hue: 215;
+    --sat: 6%;
+    --bg: hsl(var(--hue), var(--sat), 100%);
+    --bg-nav: var(--bg);
+    --bg-nav-current: hsl(var(--hue), var(--sat), 22%);
+    --bg-nav-current-list: hsl(var(--hue), var(--sat), 96.5%);
+    --bg-nav-hover: hsl(var(--hue), var(--sat), 94%);
+    --bg-code: hsl(var(--hue), var(--sat), 96.5%);
+    --bg-code-highlight: hsl(var(--hue), var(--sat), 93%);
+    --bg-panel: var(--bg-code);
+    --text: hsl(var(--hue), var(--sat), 22%);
+    --link: inherit;
+    --nav: var(--text);
+    --nav-current: var(--bg);
+    --code: hsl(var(--hue), var(--sat), 26%);
+    --headline: var(--text);
+    --border: hsl(var(--hue), var(--sat), 89%);
+    --muted: hsl(var(--hue), var(--sat), 72%);
+    --info-text: var(--bg);
+    --info-bg: hsl(var(--hue), var(--sat), 22%);
+    --danger-text: #fdf2f1;
+    --danger-bg: #ee5f4f;
+    --warning-text: #504f1b;
+    --warning-bg: #f9f776;
+    --bg-highlight: #fff9a3;
+    --font-weight-factor: 1.12;
+}
+
+.foci h1 {
+    margin-top: 3.65rem;
+    margin-bottom: 1.8rem;
+    font-family: Inter, sans-serif;
+    font-size: 3.1rem;
+    font-weight: calc(700* var(--font-weight-factor));
+    letter-spacing: -.02em;
+}
+
+.large p {
+    font-family: Inter, sans-serif;
+    font-size: 160%;
+    line-height: 1.5;
+    font-weight: calc(450* var(--font-weight-factor));
+}
+
+.buttons a:first-child {
+    color: var(--bg);
+    background-color: var(--text);
+    border-color: var(--text);
+}
+
+.buttons a {
+    display: inline-block;
+    font-size: 1.35rem;
+    line-height: 2.5;
+    margin-right: .5em;
+    padding: 0 1.25em;
+    border: 2px solid var(--border);
+    text-decoration: none;
+    font-weight: calc(620* var(--font-weight-factor));
+    border-radius: 100px;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+
+.buttons a:hover {
+    border-color: var(--text)
+}
+
+.buttons a:first-child:hover {
+    color: var(--text);
+    background-color: var(--bg)
+}
