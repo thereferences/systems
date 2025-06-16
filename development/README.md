@@ -93,6 +93,14 @@ Themes
   * https://github.com/yoloseem/awesome-sphinxdoc?tab=readme-ov-file
 
 
+
+<a href="https://github.com/alan-turing-institute/ai-lifecycle" target="_blank">GitHub - alan-turing-institute/ai-lifecycle: A framework for understanding the policy and regulatory implications of machine learning algorithms and AI systems.</a>
+<a href="https://aiethics.turing.ac.uk/modules/introduction/?modulepage=introduction" target="_blank">AI Ethics | AI Ethics and Governance in Practice</a>
+<a href="https://aiethics.turing.ac.uk/" target="_blank">AI Ethics and Governance In Practice</a>
+<a href="https://alan-turing-institute.github.io/ai-lifecycle/" target="_blank">Introduction - The Project Lifecycle</a>, <a href="https://github.com/alan-turing-institute/ai-lifecycle" target="_blank">GitHub GitHub - alan-turing-institute/ai-lifecycle: A framework for understanding the policy and regulatory implications of machine learning algorithms and AI systems.</a>
+<a href="https://ai.gov.uk/knowledge-hub/" target="_blank">AI Knowledge Hub - AI.GOV.UK</a>
+
+
 <br>
 <br>
 
