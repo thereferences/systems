@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url(https://db.onlinewebfonts.com/c/facde502b8bac57d1aec2ec6f2759d24?family=Alliance);
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /* html */
 html {
-    font-family: Inter, sans-serif;
+    font-family: 'Public Sans',  Inter, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -21,8 +22,6 @@ header,
 main {
     padding: 0 20px;
 }
-
-
 
 /* HTML5 display definitions */
 article,
@@ -71,8 +70,6 @@ template {
     display: none;
 }
 
-
-
 /* background */
 a {
     background-color: transparent;
@@ -100,14 +97,7 @@ a:hover {
     outline: 0;
 }
 
-
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
+/* Text-level semantics */
 abbr[title] {
     border-bottom: 1px dotted;
 }
@@ -127,14 +117,12 @@ dfn {
     font-style: italic;
 }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-/*h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}*/
+/* p */
+p {
+    line-height: 1.6em;
+    font-size: 1rem;
+    margin: 0 0 1.6em
+}
 
 /**
  * Address styling not present in IE 8/9.
