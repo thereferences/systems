@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/facde502b8bac57d1aec2ec6f2759d24?family=Alliance);
+
 
 :root {
     --hue: 215;
@@ -32,14 +34,14 @@
 .foci h1 {
     margin-top: 3.65rem;
     margin-bottom: 1.8rem;
-    font-family: Inter, sans-serif;
+    font-family: Alliance, Inter, sans-serif;
     font-size: 3.1rem;
     font-weight: calc(700* var(--font-weight-factor));
     letter-spacing: -.02em;
 }
 
 .large p {
-    font-family: Inter, sans-serif;
+    font-family: Alliance, Inter, sans-serif;
     font-size: 160%;
     line-height: 1.5;
     font-weight: calc(450* var(--font-weight-factor));
