@@ -46,11 +46,19 @@ Therefore, ``... cross-functional teams capable of translating insight into acti
 
 Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic and unambiguous method.  It depends on
 
-<ul class="disc">
-  <li class="disc">The business value potential: More details further below.  <b>Subsequently, assign business value potential scores</b> $\rightarrow$ highest business value potential $10$, lowest business value potential $1$</li>
-  <li class="disc">Complexity: <i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i>[^Gray2024a]  <b>Assign complexity scores</b> $\rightarrow$ lowest complexity $10$, highest complexity $1$</li>
-  <li class="disc">Project Cost: Labour Cost, Materials & Computing Cost.  <b>Subsequently, assign a project cost score</b> to each project $\rightarrow$ lowest $10$, highest $1$</li>
-</ul>
+<table style="width: 85%;">
+    <colgroup>
+        <col span="1" style="width: 26.5%;">
+        <col span="1" style="width: 63.5%;">
+    </colgroup>
+    <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes & Score</th></tr></thead>
+        <tr><td><br>The business value potential</td><td><br>More details further below.<br><br>Business Value Potential Scoring: highest business value potential $10$, lowest business value potential $1$</td></tr>
+        <tr><td>Complexity</td><td><i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i><a href="https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray" target="_blank">Why Data Science Projects Fail</a><br><br>Complexity Scoring: lowest complexity $10$, highest complexity $1$</td></tr>
+        <tr><td>Project Cost</td><td>Labour Cost, Materials & Computing Cost.<br><br>Project Cost Scoring: lowest cost $10$, highest cost $1$</td></tr>
+</table>
+
+
+
 
 Hence, the <b>priority score</b> is
 
@@ -93,10 +101,10 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 To avoid over or under penalising - lowest $10$, highest $1$ - scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
 
-
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
 $$score = 10 \times \frac{1}{tanh(x)}$$
 
+and
 
 $$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
 $$score = 10 \times \frac{1}{f(x)}$$
