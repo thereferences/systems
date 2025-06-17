@@ -168,10 +168,8 @@ html_favicon = '_static/favicon.ico'
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': 'Parent',
-             'url': 'https://github.com/theartificialintelligenceunit'},
-            {'title': 'Introduction',
-             'url': 'https://thereferences.github.io/systems/docs/build/html/introduction/introduction.html'}
+            {'title': 'ARTIFICIAL INTELLIGENCE UNIT',
+             'url': 'https://github.com/theartificialintelligenceunit'}
         ]
     },
     'display_github': True,
