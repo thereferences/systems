@@ -24,7 +24,7 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
 <img src="../../../assets/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
 
 <figure>
-  <figcaption>Source: <a href="https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions" target="_blank">Publicis Health, via Harvard Business Review</a>
+  <figcaption><br></br>Source: <a href="https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions" target="_blank"><u>Publicis Health, via Harvard Business Review</u></a>
   </figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 <br>
 
 
-### The Business Value Potential
+### Business Value Potential
 
 Organisations use a few metrics, e.g.,
 
