@@ -94,7 +94,7 @@ Organisations use a few metrics, e.g.,
 
 <br>
 
-To avoid over or under penalising - lowest $1$, highest $10$ - scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary business value potential, during a declared time period.  Sigmoid function dependent options include
+To avoid over/under penalising -- lowest $1$, highest $10$ -- scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary business value potential, during a declared time period.  Sigmoid function dependent options include
 
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
 $$score = 10 \times tanh(x)$$
@@ -109,7 +109,7 @@ $$score = 10 \times f(x)$$
 
 ### Project Cost
 
-To avoid over or under penalising - lowest $10$, highest $1$ - scoring via a sigmoid function is also an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
+To avoid over/under penalising -- lowest $10$, highest $1$ -- scoring via a sigmoid function is also an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
 
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
 $$score = 10 \times \frac{1}{tanh(x)}$$
