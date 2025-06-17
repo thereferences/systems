@@ -86,6 +86,12 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 ### Project Cost
 
+To avoid over or under penalising - lowest $10$, highest $1$ - scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary cost.  Sigmoid function options include
+
+
+
+
+
 
 
 <br>
