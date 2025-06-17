@@ -20,6 +20,7 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
 
 <br>
 
+<!--suppress CheckImageSize -->
 <img src="../../../assets/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
 
 <figure>
@@ -43,12 +44,17 @@ Therefore, ``... cross-functional teams capable of translating insight into acti
 
 ## Quantitative Prioritisation
 
-Quantitative prioritisation can eliminate ...
+Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic and unambiguous method.  It depends on
 
 * The business value potential: More details further below.  Subsequently, assign a business value scores $\rightarrow$ highest business value $10$, lowest business value $1$
 * Complexity: <i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i>[^Gray2024a]  Assign complexity scores $\rightarrow$ lowest complexity $10$, highest complexity $1$
 * Project Cost: Labour Cost, Materials & Computing Cost.  Subsequent, assign a project cost score to each project $\rightarrow$ lowest $10$, highest $1$
-* Priority Score
+
+Hence, the <b>priority score</b> is
+
+> business value score $\times$ complexity score $\times$ project cost score
+
+The highest possible score is $1000$.  Amongst a set of projects, a project that manages to achieve a $1000$ score <b>(a)</b> has the highest business value, <b>(b)</b> is the least complex, and <b>(c)</b> is the least costly -- **each potentially & relatively**.
 
 
 ### The Business Value Potential
@@ -56,7 +62,7 @@ Quantitative prioritisation can eliminate ...
 
 NPV
 ROI
-IRR
+IRR: Internal Rate of Return
 
 Cost of Delay
 
@@ -69,7 +75,6 @@ Cost of Delay
 <br>
 
 ## Collaborating
-
 
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
@@ -88,8 +93,7 @@ flowchart LR
 
 <br>
 
-<figcaption>An illustration of considerations vis-à-vis a potential machine learning dependent project.  The project details 
-inform the feasibility assessment.</figcaption>
+<figcaption>An illustration of considerations vis-à-vis a potential machine learning dependent project.  The project details inform the feasibility assessment.</figcaption>
 
 <br>
 <br>
