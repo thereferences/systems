@@ -93,6 +93,11 @@ $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
 $$score = 10 \times \frac{1}{tanh(x)}$$
 
 
+$$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
+$$score = 10 \times \frac{1}{f(x)}$$
+
+
+
 
 
 <br>
