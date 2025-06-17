@@ -51,3 +51,8 @@ th {
 	font-size: 0.85rem !important;
 	line-height: 1.2 !important;
 }
+
+.wy-menu-vertical {
+	width: 16rem;
+}
+
