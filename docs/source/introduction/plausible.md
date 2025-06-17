@@ -52,8 +52,8 @@ Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic 
         <col span="1" style="width: 63.5%;">
     </colgroup>
     <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes & Scoring</th></tr></thead>
-        <tr><td><br>The business value potential</td><td><br>More details further below.<br><br>Business Value Potential Scoring: highest business value potential <b>10</b>, lowest business value potential <b>1</b></td></tr>
-        <tr><td><br>Complexity</td><td><br><i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i> [<a href="https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray" target="_blank">Why Data Science Projects Fail</a>]<br><br>Complexity Scoring: lowest complexity <b>10</b>, highest complexity <b>1</b></td></tr>
+        <tr><td><br>Business Value Potential</td><td><br>More details further below.<br><br>Business Value Potential Scoring: highest business value potential <b>10</b>, lowest business value potential <b>1</b></td></tr>
+        <tr><td><br>Complexity</td><td><br><i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i> [From <a href="https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray" target="_blank"><u>Why Data Science Projects Fail</u></a>]<br><br>Complexity Scoring: lowest complexity <b>10</b>, highest complexity <b>1</b></td></tr>
         <tr><td><br>Project Cost</td><td><br>Labour Cost, Materials & Computing Cost.<br><br>Project Cost Scoring: lowest cost <b>10</b>, highest cost <b>1</b></td></tr>
 </table>
 
@@ -77,7 +77,7 @@ Organisations use a few metrics, e.g.,
 **Best**
 
 <ul class="disc">
-  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br>
+  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br><br>
     <i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i> [From <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>]    
   </li>
 </ul>
