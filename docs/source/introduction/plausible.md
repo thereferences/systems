@@ -7,10 +7,11 @@ A solid basis is key.
 In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's generation of its Key Business Questions form its Business Outcomes Targets.[^Tyranos2018]  In brief, and minimally adapted,
 
 <ol class="numeric">
-  <li class="numeric">Business Outcomes</li>
+  <li class="numeric">Business Outcomes<ul><li>Reduce operational cost due to intensive care unit hypoglycaemic incident care costs.</li><li>Reduce risk costs due to intensive care unit hypoglycaemic incident mortality rates.</li></ul>
+  </li>
   <li class="numeric">An in-depth evaluation of knowledge & data understandings till date.</li>
   <li class="numeric">Outline key business questions, e.g.,
-    <ul><li>Is it possible to continuously predict the probability of a hypoglycaemic attack amongst our intensive care unit patients?</li>
+    <ul><li>Is it possible to continuously predict the probability of a hypoglycaemic incident amongst our intensive care unit patients?</li>
     <li>Is it possible to automatically warn intensive care unit colleagues if a patient is at risk of a hypoglycaemic incident within the next 6 hours?</li></ul>
   </li>
   <li class="numeric">Prioritise</li>
@@ -44,16 +45,31 @@ Therefore, ``... cross-functional teams capable of translating insight into acti
 
 Quantitative prioritisation can eliminate ...
 
+* The business value potential: More details further below.  Subsequently, assign a business value scores $\rightarrow$ highest business value $10$, lowest business value $1$
+* Complexity: <i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i>[^Gray2024a]  Assign complexity scores $\rightarrow$ lowest complexity $10$, highest complexity $1$
+* Project Cost: Labour Cost, Materials & Computing Cost.  Subsequent, assign a project cost score to each project $\rightarrow$ lowest $10$, highest $1$
+* Priority Score
+
+
+### The Business Value Potential
+
+
+NPV
+ROI
+IRR
+
+Cost of Delay
+
+
+
 
 
 
 <br>
-
-
-
-
-
 <br>
+
+## Collaborating
+
 
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
@@ -88,3 +104,5 @@ inform the feasibility assessment.</figcaption>
 [^Tyranos2018]: [How to Make Sure You’re Not Using Data Just to Justify Decisions You’ve Already Made](https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made)
 
 [^Tyranos2020]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
+
+[^Gray2024a]: Chapter 2 of [Why Data Science Projects Fail: the Harsh Realities of Implementing AI and Analytics, without the Hype](https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray)
