@@ -139,7 +139,7 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False,
     'github_url': 'https://www.github.com/thereferences/systems',
-    'logo_mobile': '_static/32x32.svg'
+    'logo_mobile': '_static/logo.svg'
 }
 
 html_static_path: list[str] = ['_static']
