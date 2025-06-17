@@ -1,5 +1,25 @@
 # Project Plausibility
 
+The Key Business Questions
+
+1. Business Outcomes []
+2. An in-depth evaluation of knowledge & data understandings till date.
+3. Outline key business questions, e.g.,
+  * Is it possible to continuously predict the probability of a hypoglycaemic attack amongst our intensive care unit patients?
+  * Is it possible to automatically warn intensive care unit colleagues if a patient is at risk of a hypoglycaemic incident within the next 6 hours?
+4. Prioritise
+
+
+Do the capabilities to achieve them exist?
+
+<blockquote>
+If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [K Tyranos, Publicis Health]
+</blockquote>
+
+Therefore, ``... cross-functional teams capable of translating insight into action'' are critical.
+
+
+
 <br>
 
 ```{mermaid}
