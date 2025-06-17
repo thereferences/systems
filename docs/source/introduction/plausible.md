@@ -74,16 +74,10 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 **Best**
 
-[Cost of Delay](https://blackswanfarming.com/cost-of-delay/)
+[Cost of Delay](https://blackswanfarming.com/cost-of-delay/): <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a>
 
-> _Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time._
-> 
-> _Cost of Delay combines urgency and value – two things that humans are not very good at distinguishing between._
+> _Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time._ it _... combines urgency and value – two things that humans are not very good at distinguishing between._
 
-<ul class="disc">
-  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a></li>
-  <li class="disc"><a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a></li>
-</ul>
 
 <br>
 
