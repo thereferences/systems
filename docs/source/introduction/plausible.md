@@ -67,11 +67,21 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 > 
 > _Cost of Delay combines urgency and value – two things that humans are not very good at distinguishing between._
 
+<ul class="disc">
+  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a></li>
+  <li class="disc"><a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a></li>
+</ul>
 
-**Inline**
+<br>
 
-* NPV: [Net Present Value](https://www.investopedia.com/ask/answers/05/npv-irr.asp); cf. IRR: [Internal Rate of Return](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
-* ROI: [Return on Investment](https://www.investopedia.com/terms/r/returnoninvestment.asp); [NPV & ROI](https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/)
+
+**Close**
+
+
+<ul class="disc">
+  <li class="disc"><a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">Net Present Value (NPV)</a> cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">IRR (Internal Rate of Return)</a></li>
+  <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a> cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
+</ul>
 
 
 <br>
@@ -113,3 +123,7 @@ flowchart LR
 [^Tyranos2020]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
 
 [^Gray2024a]: Chapter 2 of [Why Data Science Projects Fail: the Harsh Realities of Implementing AI and Analytics, without the Hype](https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray)
+
+[^Marginal2024]: [Marginal Benefit & Marginal Cost](https://www.investopedia.com/ask/answers/051815/what-difference-between-marginal-benefit-and-marginal-cost.asp)
+
+[^Marginal2018]: [What is the Marginal Cost of Capital?](https://pressbooks.pub/businessfinanceessentials/chapter/chapter-10-marginal-cost-of-capital-2/)
