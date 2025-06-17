@@ -59,16 +59,20 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 ### The Business Value Potential
 
+**Best**
 
-NPV
-ROI
-IRR: Internal Rate of Return
+[Cost of Delay](https://blackswanfarming.com/cost-of-delay/)
 
-Cost of Delay
-
-
+> _Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time._
+> 
+> _Cost of Delay combines urgency and value – two things that humans are not very good at distinguishing between._
 
 
+**Inline**
+
+* NPV: [Net Present Value](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
+* IRR: [Internal Rate of Return](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
+* ROI: [Return on Investment](https://www.investopedia.com/terms/r/returnoninvestment.asp)
 
 
 <br>
