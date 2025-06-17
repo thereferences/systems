@@ -74,30 +74,37 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 Organisations use a few metrics, e.g.,
 
-**Best**
-
 <ul class="disc">
-  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br><br>
+  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: Supplementary Material &rarr; <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br><br>
     <i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i> [From <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>]    
   </li>
 </ul>
 
-
 <br>
 
-
-**Close**
-
 <ul class="disc">
-  <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a> cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a></li>
-  <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a> cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
+  <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a>: cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a></li>
+  <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a>: cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
 </ul>
 
 <br>
 
+To avoid over or under penalising - lowest $1$, highest $10$ - scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary business value potential, during a declared time period.  Sigmoid function dependent options include
+
+$$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+$$score = 10 \times tanh(x)$$
+
+and
+
+$$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
+$$score = 10 \times f(x)$$
+
+<br>
+<br>
+
 ### Project Cost
 
-To avoid over or under penalising - lowest $10$, highest $1$ - scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
+To avoid over or under penalising - lowest $10$, highest $1$ - scoring via a sigmoid function is also an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
 
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
 $$score = 10 \times \frac{1}{tanh(x)}$$
@@ -106,10 +113,6 @@ and
 
 $$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
 $$score = 10 \times \frac{1}{f(x)}$$
-
-
-
-
 
 <br>
 <br>
