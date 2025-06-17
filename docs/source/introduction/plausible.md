@@ -107,6 +107,7 @@ $$score = 10 \times \frac{1}{f(x)}$$
 
 ### Marginal Benefit & Marginal Cost
 
+For a given time period, does the marginal benefit exceed the marginal cost?[^Marginal2018], [^Marginal2024]
 
 <br>
 
