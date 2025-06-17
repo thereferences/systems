@@ -1,5 +1,3 @@
-.. image:: _static/logo.svg
-
 
 Projects & Machine Learning
 ===========================
@@ -20,7 +18,7 @@ Projects & Machine Learning
    `GitHub <https://github.com/thereferences/systems>`_
 
 
-.. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
+.. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=for-the-badge&labelColor=292b2e&color=292b2e
 
 
 .. toctree::
