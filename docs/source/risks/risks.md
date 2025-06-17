@@ -9,9 +9,9 @@
 
 Machine learning algorithm risks and the risks of the overarching project.
 
-<h2>Impact</h3>[^about], [^types], [^examples]
+## Impact [^about], [^types], [^examples]
 
-<h3>Likelihood</h4>
+### Likelihood
 
 <ol>
   <li>rare<br>It is quite improbable that the risk will occur.</li>
@@ -21,7 +21,7 @@ Machine learning algorithm risks and the risks of the overarching project.
   <li>quite likely<br>Quite probable.</li>
 </ol>
 
-<h3>Severity</h4>
+### Severity
 
 <ol>
   <li>insignificant<br>Negligible consequences</li>
