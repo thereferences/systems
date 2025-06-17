@@ -14,8 +14,8 @@ Projects & Machine Learning
 
 .. container:: .buttons
 
-   `Introduction <introduction/introduction.html>`_
-   `GitHub <https://github.com/thereferences/systems>`_
+   `READ <introduction/introduction.html>`_
+
 
 .. raw:: html
 
