@@ -72,11 +72,16 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 ### The Business Value Potential
 
+Organisations use a few metrics, e.g.,
+
 **Best**
 
-[Cost of Delay](https://blackswanfarming.com/cost-of-delay/): <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a>
-
-> _Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time._ it _... combines urgency and value – two things that humans are not very good at distinguishing between._
+<ul class="disc">
+  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a>
+    <blockquote><i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i>
+    </blockquote>
+  </li>
+</ul>
 
 
 <br>
@@ -85,7 +90,7 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 **Close**
 
 <ul class="disc">
-  <li class="disc"><a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">Net Present Value (NPV)</a> cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">IRR (Internal Rate of Return)</a></li>
+  <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a> cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a></li>
   <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a> cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
 </ul>
 
