@@ -1,23 +1,48 @@
 # Project Plausibility
 
-The Key Business Questions
+A solid basis is key.
 
-1. Business Outcomes []
-2. An in-depth evaluation of knowledge & data understandings till date.
-3. Outline key business questions, e.g.,
-  * Is it possible to continuously predict the probability of a hypoglycaemic attack amongst our intensive care unit patients?
-  * Is it possible to automatically warn intensive care unit colleagues if a patient is at risk of a hypoglycaemic incident within the next 6 hours?
-4. Prioritise
+## A Team's Key Business Questions
+
+<ol class="numeric">
+  <li class="numeric">Business Outcomes</li>
+  <li class="numeric">An in-depth evaluation of knowledge & data understandings till date.</li>
+  <li class="numeric">Outline key business questions, e.g.,
+    <ul><li>Is it possible to continuously predict the probability of a hypoglycaemic attack amongst our intensive care unit patients?</li>
+    <li>Is it possible to automatically warn intensive care unit colleagues if a patient is at risk of a hypoglycaemic incident within the next 6 hours?</li></ul>
+  </li>
+  <li class="numeric">Prioritise</li>
+</ol>
 
 
+<br>
 
-Do the capabilities to achieve them exist?
+<img src="../../../assets/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" style="margin-left: 65px">
+
+<br>
+
+The _pipe dreams_ cell also addresses the question - do the capabilities to achieve an objective exist?
 
 
 > If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [^Tyranos]
 
 
 Therefore, ``... cross-functional teams capable of translating insight into action'' are critical.
+
+<br>
+<br>
+
+
+## Quantitative Prioritisation
+
+Quantitative prioritisation can eliminate ...
+
+
+
+
+<br>
+
+
 
 
 
