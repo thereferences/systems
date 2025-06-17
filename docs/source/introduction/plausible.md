@@ -17,7 +17,7 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
   <li class="numeric">Prioritise</li>
 </ol>
 
-
+<br>
 <br>
 
 <!--suppress CheckImageSize -->
@@ -29,11 +29,11 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
 </figure>
 
 <br>
+<br>
 
-The _pipe dreams_ cell also addresses the question - do the capabilities to achieve an objective exist?
+The <b>pipe dreams</b> cell also addresses the question - do the capabilities to achieve an objective exist?
 
-
-> If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [^Tyranos2020]
+> _If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent._ [^Tyranos2020]
 
 
 Therefore, ``... cross-functional teams capable of translating insight into action'' are critical.
@@ -42,19 +42,24 @@ Therefore, ``... cross-functional teams capable of translating insight into acti
 <br>
 
 
-## Quantitative Prioritisation
+## Prioritisation: The Quantitative Layer
 
 Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic and unambiguous method.  It depends on
 
-* The business value potential: More details further below.  Subsequently, assign a business value scores $\rightarrow$ highest business value $10$, lowest business value $1$
-* Complexity: <i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i>[^Gray2024a]  Assign complexity scores $\rightarrow$ lowest complexity $10$, highest complexity $1$
-* Project Cost: Labour Cost, Materials & Computing Cost.  Subsequent, assign a project cost score to each project $\rightarrow$ lowest $10$, highest $1$
+<ul class="disc">
+  <li class="disc">The business value potential: More details further below.  <b>Subsequently, assign business value potential scores</b> $\rightarrow$ highest business value potential $10$, lowest business value potential $1$</li>
+  <li class="disc">Complexity: <i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i>[^Gray2024a]  <b>Assign complexity scores</b> $\rightarrow$ lowest complexity $10$, highest complexity $1$</li>
+  <li class="disc">Project Cost: Labour Cost, Materials & Computing Cost.  <b>Subsequently, assign a project cost score</b> to each project $\rightarrow$ lowest $10$, highest $1$</li>
+</ul>
 
 Hence, the <b>priority score</b> is
 
-> business value potential score $\times$ complexity score $\times$ project cost score
+> _business value potential score_ $\times$ _complexity score_ $\times$ _project cost score_
 
-The highest possible score is $1000$.  Amongst a set of projects, a project that manages to achieve a $1000$ score <b>(a)</b> has the highest business value, <b>(b)</b> is the least complex, and <b>(c)</b> is the least costly -- **each potentially & relatively**.
+The highest possible score is $1000$.  Amongst a set of projects, a project that manages to achieve a $1000$ score <b>(a)</b> has the highest business value, <b>(b)</b> is the least complex, and <b>(c)</b> is the least costly -- **potentially & relatively**.
+
+
+<br>
 
 
 ### The Business Value Potential
