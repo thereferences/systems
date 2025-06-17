@@ -84,6 +84,11 @@ Organisations use a few metrics, e.g.,
 
 <ul class="disc">
   <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a>: cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a></li>
+</ul>
+
+<br>
+
+<ul class="disc">
   <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a>: cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
 </ul>
 
