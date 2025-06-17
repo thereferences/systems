@@ -52,7 +52,7 @@ Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic 
 
 Hence, the <b>priority score</b> is
 
-> business value score $\times$ complexity score $\times$ project cost score
+> business value potential score $\times$ complexity score $\times$ project cost score
 
 The highest possible score is $1000$.  Amongst a set of projects, a project that manages to achieve a $1000$ score <b>(a)</b> has the highest business value, <b>(b)</b> is the least complex, and <b>(c)</b> is the least costly -- **each potentially & relatively**.
 
@@ -77,17 +77,28 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 **Close**
 
-
 <ul class="disc">
   <li class="disc"><a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">Net Present Value (NPV)</a> cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">IRR (Internal Rate of Return)</a></li>
   <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a> cf. <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a></li>
 </ul>
+
+<br>
+
+### Project Cost
+
 
 
 <br>
 <br>
 
 ## Viability/Feasibility Filters
+
+### Marginal Benefit & Marginal Cost
+
+
+<br>
+
+### Stepping Through
 
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
