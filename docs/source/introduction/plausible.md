@@ -17,7 +17,12 @@ A solid basis is key.
 
 <br>
 
-<img src="../../../assets/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" style="margin-left: 65px">
+<img src="../../../assets/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
+
+<figure>
+  <figcaption>Source: <a href="https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions" target="_blank">Publicis Health, via Harvard Business Review</a>
+  </figcaption>
+</figure>
 
 <br>
 
