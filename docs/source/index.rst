@@ -39,6 +39,7 @@ Projects & Machine Learning
    :caption: PROJECT DETAILS
    :hidden:
 
+   cycle/cycle
    project/project
    model/model
    data/data
