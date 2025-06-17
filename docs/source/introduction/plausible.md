@@ -77,9 +77,8 @@ Organisations use a few metrics, e.g.,
 **Best**
 
 <ul class="disc">
-  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a>
-    <blockquote><i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i>
-    </blockquote>
+  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br>
+    <i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i> [From <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>]    
   </li>
 </ul>
 
