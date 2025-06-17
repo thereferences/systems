@@ -12,9 +12,9 @@ The Key Business Questions
 
 Do the capabilities to achieve them exist?
 
-<blockquote>
-If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [K Tyranos, Publicis Health]
-</blockquote>
+
+> If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [^Tyranos]
+
 
 Therefore, ``... cross-functional teams capable of translating insight into action'' are critical.
 
@@ -51,3 +51,5 @@ inform the feasibility assessment.</figcaption>
 <br>
 <br>
 <br>
+
+[^Tyranos]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
