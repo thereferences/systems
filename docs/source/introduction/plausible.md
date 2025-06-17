@@ -70,15 +70,14 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 **Inline**
 
-* NPV: [Net Present Value](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
-* IRR: [Internal Rate of Return](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
-* ROI: [Return on Investment](https://www.investopedia.com/terms/r/returnoninvestment.asp)
+* NPV: [Net Present Value](https://www.investopedia.com/ask/answers/05/npv-irr.asp); cf. IRR: [Internal Rate of Return](https://www.investopedia.com/ask/answers/05/npv-irr.asp)
+* ROI: [Return on Investment](https://www.investopedia.com/terms/r/returnoninvestment.asp); [NPV & ROI](https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/)
 
 
 <br>
 <br>
 
-## Collaborating
+## Viability/Feasibility Filters
 
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
