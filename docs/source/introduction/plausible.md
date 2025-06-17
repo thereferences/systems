@@ -4,6 +4,8 @@ A solid basis is key.
 
 ## A Team's Key Business Questions
 
+In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's generation of its Key Business Questions form its Business Outcomes Targets.[^Tyranos2018]  In brief, and minimally adapted,
+
 <ol class="numeric">
   <li class="numeric">Business Outcomes</li>
   <li class="numeric">An in-depth evaluation of knowledge & data understandings till date.</li>
@@ -29,7 +31,7 @@ A solid basis is key.
 The _pipe dreams_ cell also addresses the question - do the capabilities to achieve an objective exist?
 
 
-> If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [^Tyranos]
+> If you don’t have the right CRM and tech infrastructure in place, you’ll be unable to put your model into play in the market, and your original question will end up as a pipe dream — its potential business impact is high, but your ability to realize this potential is effectively nonexistent. [^Tyranos2020]
 
 
 Therefore, ``... cross-functional teams capable of translating insight into action'' are critical.
@@ -83,4 +85,6 @@ inform the feasibility assessment.</figcaption>
 <br>
 <br>
 
-[^Tyranos]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
+[^Tyranos2018]: [How to Make Sure You’re Not Using Data Just to Justify Decisions You’ve Already Made](https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made)
+
+[^Tyranos2020]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
