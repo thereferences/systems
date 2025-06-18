@@ -7,10 +7,8 @@ Links to detailed machine learning project lifecycle aids.
 
 <ul class="disc">
   <li class="disc"><a href="https://github.com/alan-turing-institute/ai-lifecycle" target="_blank">Alan Turing Institute/AI Lifecycle: A framework for understanding the policy and regulatory implications of machine learning algorithms and AI systems.</a></li>
-  <li class="disc"><a href="https://github.com/alan-turing-institute/ai-lifecycle" target="_blank">Alan Turing Institute/AI Lifecycle: A framework for understanding the policy and regulatory implications of machine learning algorithms and AI systems.</a></li>
-<li class="disc"><a href="https://alan-turing-institute.github.io/ai-lifecycle/" target="_blank">Introduction - The Project Lifecycle</a></li>
-  <li class="disc"><a href="https://aiethics.turing.ac.uk/" target="_blank">AI Ethics and Governance In Practice</a>: <a href="https://aiethics.turing.ac.uk/modules/introduction/?modulepage=introduction" target="_blank">Introduction</a>
-  </li>
+ <li class="disc"><a href="https://alan-turing-institute.github.io/ai-lifecycle/" target="_blank">Introduction - The Project Lifecycle</a></li>
+ <li class="disc"><a href="https://aiethics.turing.ac.uk/" target="_blank">AI Ethics and Governance In Practice</a>: <a href="https://aiethics.turing.ac.uk/modules/introduction/?modulepage=introduction" target="_blank">Introduction</a>, <a href="https://aiethics.turing.ac.uk/modules/introduction/?modulepage=stages-of-the-ai-ml-project-lifecycle" target="_blank">Lifecycle Stages</a>, etc.</li>
 </ul>
 
 <br>
