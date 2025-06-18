@@ -51,3 +51,13 @@ th {
 	font-size: 0.85rem !important;
 	line-height: 1.2 !important;
 }
+
+.wy-menu-vertical {
+	width: 16rem;
+}
+
+.wy-nav-side {
+	width: 20rem;
+	margin-left: 35px;
+}
+

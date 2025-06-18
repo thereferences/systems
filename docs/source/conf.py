@@ -139,7 +139,7 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False,
     'github_url': 'https://www.github.com/thereferences/systems',
-    'logo_mobile': '_static/32x32.svg'
+    'logo_mobile': '_static/logo.svg'
 }
 
 html_static_path: list[str] = ['_static']
@@ -168,10 +168,8 @@ html_favicon = '_static/favicon.ico'
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': 'Parent',
-             'url': 'https://github.com/theartificialintelligenceunit'},
-            {'title': 'Introduction',
-             'url': 'https://thereferences.github.io/systems/docs/build/html/introduction/introduction.html'}
+            {'title': 'ARTIFICIAL INTELLIGENCE UNIT',
+             'url': 'https://github.com/theartificialintelligenceunit'}
         ]
     },
     'display_github': True,

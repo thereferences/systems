@@ -1,5 +1,3 @@
-.. image:: _static/logo.svg
-
 
 Projects & Machine Learning
 ===========================
@@ -16,11 +14,16 @@ Projects & Machine Learning
 
 .. container:: .buttons
 
-   `Introduction <introduction/introduction.html>`_
-   `GitHub <https://github.com/thereferences/systems>`_
+   `READ <introduction/introduction.html>`_
 
 
-.. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
+.. raw:: html
+
+   <br>
+   <br>
+
+
+.. image:: https://img.shields.io/github/v/tag/thereferences/systems?label=Release&style=for-the-badge&labelColor=292b2e&color=292b2e
 
 
 .. toctree::
@@ -36,6 +39,7 @@ Projects & Machine Learning
    :caption: PROJECT DETAILS
    :hidden:
 
+   cycle/cycle
    project/project
    model/model
    data/data

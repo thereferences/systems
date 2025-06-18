@@ -5,6 +5,8 @@
 :::{admonition} In Progress
 :class: margin
 <br>
+
+<a href="https://sloanreview.mit.edu/article/what-leaders-should-know-about-measuring-ai-project-value/" target="_blank">What Leaders Should Know About Measuring AI Project Value</a>
 :::
 
 <br>
@@ -16,7 +18,7 @@ A later version of this hub will have more details, and an example.  In brief, b
     <li class="disc">The cost of mistakes over time, e.g., misdiagnosis over time.</li>
 </ul>
 
-Considering the retinal images classification example.  The client may use the relationship between diabetic retinopathy severity, and the life-time cost of  sight loss prevention/sight loss delay, to define a set of business metrics for model evaluation.
+Considering the retinal images classification example.  The client may use the relationship between diabetic retinopathy severity, and the life-time cost of sight loss prevention/sight loss delay, to define a set of business metrics for model evaluation.
 
 <br>
 <br>

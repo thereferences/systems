@@ -7,11 +7,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Search &mdash; SYSTEMS &amp; MACHINE LEARNING</title>
-		  <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8d216cef" />
+		  <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=e72c8e07" />
 		  <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=cf2327ab" />
 		  <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
-		  <link rel="stylesheet" type="text/css" href="_static/css/generic.css?v=c1fe2070" />
-		  <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=5ae659b7" />
+		  <link rel="stylesheet" type="text/css" href="_static/css/generic.css?v=b26111f4" />
+		  <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=1ecdba2c" />
 		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
 		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine" />
 
@@ -24,11 +24,17 @@
 					<script src="_static/jquery.js?v=5d32c60e"></script>
 					<script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
 					<script src="_static/documentation_options.js?v=5929fcd5"></script>
-					<script src="_static/doctools.js?v=9a2dae69"></script>
+					<script src="_static/doctools.js?v=9bcbadda"></script>
 					<script src="_static/sphinx_highlight.js?v=dc90522c"></script>
 					<script src="_static/design-tabs.js?v=f930bc37"></script>
-					<script src="https://unpkg.com/mermaid@10.2.0/dist/mermaid.min.js"></script>
-					<script>mermaid.initialize({startOnLoad:true});</script>
+					<script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+					<script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+					<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+					<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+					<script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
 					<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 					<script src="https://code.highcharts.com/stock/highstock.js"></script>
 					<script src="https://code.highcharts.com/stock/modules/data.js"></script>
@@ -75,6 +81,7 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">PROJECT DETAILS</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="cycle/cycle.html">Project Lifecycle</a></li>
 <li class="toctree-l1"><a class="reference internal" href="project/project.html">Critical Preliminaries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="model/model.html">Model</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data/data.html">Data &amp; Datasheets</a></li>
@@ -141,7 +148,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2024, greyhypotheses.</p>
+    <p>&#169; Copyright 2025, greyhypotheses.</p>
   </div>
 	  <br>
       
