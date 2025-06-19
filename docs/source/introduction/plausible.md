@@ -52,9 +52,9 @@ Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic 
         <col span="1" style="width: 63.5%;">
     </colgroup>
     <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes & Scoring</th></tr></thead>
-        <tr><td><br>Business Value Potential</td><td><br>More details further below.<br><br>Business Value Potential Scoring: highest business value potential <b>10</b>, lowest business value potential <b>1</b></td></tr>
+        <tr><td><br>Business Value Potential</td><td><br>More details further below; including a scoring enhancement step.<br><br>Business Value Potential Scoring: highest business value potential <b>10</b>, lowest business value potential <b>1</b></td></tr>
         <tr><td><br>Complexity</td><td><br><i>Complexity, in effect, is an important surrogate measure for risk; i.e., the more complex a project is, the more likely it is that you will run into difficulties that end up manifesting themselves in timeline delays and budget overruns and jeopardize the whole project</i> [From <a href="https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray" target="_blank"><u>Why Data Science Projects Fail</u></a>]<br><br>Complexity Scoring: lowest complexity <b>10</b>, highest complexity <b>1</b></td></tr>
-        <tr><td><br>Project Cost</td><td><br>Labour Cost, Materials & Computing Cost.<br><br>Project Cost Scoring: lowest cost <b>10</b>, highest cost <b>1</b></td></tr>
+        <tr><td><br>Project Cost</td><td><br>Labour Cost, Materials & Computing Cost.<br><br>Project Cost Scoring: lowest cost <b>10</b>, highest cost <b>1</b>.  A scoring enhancement step is outlined below.</td></tr>
 </table>
 
 <br>
