@@ -83,6 +83,15 @@ Organisations use a few metrics, e.g.,
 <br>
 
 <ul class="disc">
+  <li class="disc">Marginal Benefit & Marginal Cost: For a given time period, does the marginal benefit exceed the marginal cost?</li>
+</ul>
+
+> [^Marginal2018]<sup>,</sup> [^Marginal2024]
+
+<br>
+<br>
+
+<ul class="disc">
   <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a>: cf. <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a></li>
 </ul>
 
@@ -123,14 +132,6 @@ $$score = 10 \times \frac{1}{f(x)}$$
 <br>
 
 ## Viability/Feasibility Filters
-
-### Marginal Benefit & Marginal Cost
-
-For a given time period, does the marginal benefit exceed the marginal cost?[^Marginal2018], [^Marginal2024]
-
-<br>
-
-### Stepping Through
 
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
