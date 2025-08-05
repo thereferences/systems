@@ -111,7 +111,7 @@ nav:
       - Lifecycle: project-lifecycle.md
   - Details:
       - Critical<br>Preliminaries:
-          - Critical Preliminaries: details-preliminaries.md
+          - details-preliminaries/index.md
       - Model:
           - details-model/index.md
           - Business Metrics: details-model/metrics-business.md
