@@ -1,8 +1,4 @@
-<br>
-
 # Aim
-
-<br>
 
 What is the machine learning model's aim?  For example:
 
