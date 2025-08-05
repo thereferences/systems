@@ -1,6 +1,3 @@
-
-<br>
-
 # Project Lifecycle
 
 Links to detailed machine learning project lifecycle aids.
