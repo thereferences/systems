@@ -1,11 +1,4 @@
-<br>
-
 # Error Metrics
-
-:::{admonition} In Progress
-:class: margin
-<br>
-:::
 
 ## Model Error Metrics
 
@@ -47,7 +40,6 @@ in-production, model.  A model card example:
 
 
 [^metrics]: **N**: # of negative cases, **P**: # of positive cases. | **TN**: True Negative, **FP**: False Positive, **FN**: False Negative, **TP**: True Positive | **TNR = TN/N**: True Negative Rate (specificity) | **FPR = FP/N**: False Positive Rate (fall out) | **FNR = FN/P**: False Negative Rate (miss rate) | **TPR = TP/P**: True Positive Rate (hit rate, sensitivity, recall)
-
 
 <br>
 <br>
