@@ -1,5 +1,3 @@
-<br>
-
 # Performance & Scalability
 
 ## Performance
@@ -7,7 +5,7 @@
 What are the [performance](https://www.boxuk.com/insight/guide-to-non-functional-requirements-types-and-examples/#:~:text=of%20the%20application-,Performance,-What%20is%20performance) expectations?  Considerations include:[^cost]
 
 <ul class="disc">
-    <li class="disc">Latency: <i>time</i><sub>input</sub> - <i>time</i><sub>output</sub></li>
+    <li class="disc">Latency: <i>time</i><sub>output</sub> - <i>time</i><sub>input</sub></li>
     <li class="disc">Timeliness</li>
     <li class="disc">Throughput/Request Rate</li>
     <li class="disc">The daily data flow expectations</li>
