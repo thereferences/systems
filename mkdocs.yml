@@ -113,9 +113,9 @@ nav:
       - Critical<br>Preliminaries:
           - Critical Preliminaries: details-preliminaries.md
       - Model:
-          - Aim: details-model-aim.md
-          - Business Metrics: details-model-business.md
-          - Error Metrics: details-model-performance.md
+          - details-model/index.md
+          - Business Metrics: details-model/metrics-business.md
+          - Error Metrics: details-model/metrics-error.md
       - Data & Datasheets:
           - details-data/index.md
           - details-data/motivation.md
