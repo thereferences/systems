@@ -1,4 +1,4 @@
-# Introduction
+# Background
 
 The purpose of these continuously updated notes is to outline points critical to the success of machine learning dependent projects.   The expectation is that prospective clients/collaborators will thoughtfully, carefully, consider the time commitment, collaboration commitment, cost, range of expertise, project details, etc., that are required for a machine learning dependent project; and subsequently make well informed decisions about whether to proceed with a project.
 
