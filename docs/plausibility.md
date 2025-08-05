@@ -21,7 +21,7 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
 <br>
 
 <!--suppress CheckImageSize -->
-<img src="../../assets/images/collection/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
+<img src="assets/images/collection/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
 
 <figure>
   <figcaption><br></br>Source: <a href="https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions" target="_blank"><u>Publicis Health, via Harvard Business Review</u></a>
