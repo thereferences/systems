@@ -1,17 +1,10 @@
-<br>
-
 # Risks
 
-```{admonition} In Progress
-:class: margin
-<br>
-```
+Machine learning algorithm risks and the risks of the overarching project.[^about]<sup>,</sup> [^types]<sup>,</sup> [^examples]
 
-Machine learning algorithm risks and the risks of the overarching project.
+> likelihood $\times$ severity
 
-## Impact [^about]<sup>,</sup> [^types]<sup>,</sup> [^examples]
-
-### Likelihood
+## Likelihood
 
 <ol class="numeric">
   <li class="numeric">rare: It is quite improbable that the risk will occur.</li>
@@ -21,7 +14,7 @@ Machine learning algorithm risks and the risks of the overarching project.
   <li class="numeric">quite likely: Quite probable.</li>
 </ol>
 
-### Severity
+## Severity
 
 <ol class="numeric">
   <li class="numeric">insignificant: Negligible consequences</li>
