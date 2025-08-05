@@ -1,5 +1,3 @@
-<br>
-
 # Data & Datasheets
 
 <br>
