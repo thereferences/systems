@@ -1,10 +1,6 @@
-<br>
-
 # Project Constraints
 
 An inexhaustive set of constraints.
-
-<br>
 
 ## Solution Constraints
 
