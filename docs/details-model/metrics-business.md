@@ -1,13 +1,8 @@
-<br>
-
 # Business Metrics
 
-:::{admonition} In Progress
-:class: margin
-<br>
-
-<a href="https://sloanreview.mit.edu/article/what-leaders-should-know-about-measuring-ai-project-value/" target="_blank">What Leaders Should Know About Measuring AI Project Value</a>
-:::
+<details class="example"><summary>Reference</summary>
+  <a href="https://sloanreview.mit.edu/article/what-leaders-should-know-about-measuring-ai-project-value/" target="_blank">What Leaders Should Know About Measuring AI Project Value</a>
+</details>
 
 <br>
 
