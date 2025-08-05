@@ -1,14 +1,12 @@
-<br>
-
 # Critical Preliminaries
 
-## Components
+## COMPONENTS
+
 
 ### Problem Statement
 
 What is the problem, and why is it important to solve this problem?
 
-<br>
 
 ### Outcome Expectations, Underlying Aims
 
@@ -25,8 +23,6 @@ The underlying aim might be, e.g.,
 <blockquote>
     To reduce the mis-classification rate of retinal images of diabetic patients to ≤ 1.25% per class per quarter.
 </blockquote>
-
-<br>
 
 ### Deployment Goal
 
@@ -52,13 +48,13 @@ The underlying aim might be, e.g.,
 <br>
 <br>
 
-## Example
+
+## EXAMPLE
+
 
 ### Problem Statement
 
 An organisation manually classifies trauma incidents for all the major trauma centres of five countries.  Per trauma case, an injury coding expert <b>(a)</b> examines the case's free and structured text, and assigns each piece of text to a category, and <b>(b)</b> assigns the case to a trauma category based on the combination text pieces & categories detected; text pieces of the other/miscellaneous category are excluded from this exercise.  Trauma injury coding is an extremely intensive and time-consuming exercise, and injury coding error rates - per annum - can be quite high.  Hence, and as a first step, we are in search of a solution that automatically classifies text pieces vis-à-vis a set of provided categories.
-
-<br>
 
 ### Outcome Expectations, Underlying Aims
 
@@ -66,8 +62,6 @@ An organisation manually classifies trauma incidents for all the major trauma ce
 * <b>Underlying Aim:</b> The automatic classification of trauma case text pieces; objective &#8594;
   <br>&nbsp; &nbsp; - Per case, automatic classification time < 180 seconds.
   <br>&nbsp; &nbsp; - Model performance per class &rarr; false negative rate &#8804; 0.02, false positive rate &#8804; 0.04
-
-<br>
 
 ### Deployment Goal
 
