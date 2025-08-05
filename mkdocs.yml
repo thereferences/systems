@@ -106,18 +106,20 @@ markdown_extensions:
 nav:
   - Introduction:
       - introduction.md
-  - Project:
+  - Project Plausibility & Lifecycle:
       - project-plausibility.md
       - project-lifecycle.md
   - Details:
-      - Preliminaries:
+      - Critical<br>Preliminaries:
           - Critical Preliminaries: details-preliminaries.md
       - Model:
-          - details-model-aim.md
-          - details-model-business.md
-          - details-model-performance.md
+          - Aim: details-model-aim.md
+          - Business Metrics: details-model-business.md
+          - Error Metrics: details-model-performance.md
       - Stakeholders:
           - People: details-stakeholders-people.md
           - Register: details-stakeholders-register.md
+      - Constraints:
+          - details-constraints.md
       - Risks:
           - Risks: details-risks.md
