@@ -65,7 +65,9 @@ extra_javascript:
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
+  - privacy:
+      links_attr_map:
+        rel: external
 
 # Python Markdown & Python Markdown Extensions
 markdown_extensions:
@@ -131,15 +133,15 @@ nav:
       - Requirements&#8614;<br>Non Functional:
           - details-requirements-nf/index.md
           - details-requirements-nf/ca.md
-          - details-requirements-nf/security.md
-          - details-requirements-nf/ua.md
-          - details-requirements-nf/ps.md
+          - Security: details-requirements-nf/security.md
+          - Usability & Accessibility: details-requirements-nf/ua.md
+          - Performance & Scalability: details-requirements-nf/ps.md
           - Reliability, Maintainability, Resilience, Availability:
               - details-requirements-nf/rmra/index.md
               - details-requirements-nf/rmra/reliability.md
               - details-requirements-nf/rmra/mr.md
               - details-requirements-nf/rmra/availability.md
       - Constraints:
-          - details-constraints.md
+          - details-constraints/index.md
       - Risks:
-          - Risks: details-risks.md
+          - details-risks/index.md
