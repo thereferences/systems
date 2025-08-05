@@ -19,12 +19,6 @@ Subsequently, launch a web server, i.e., `mkdocs server`, via
 mkdocs serve -a 0.0.0.0:8000
 ```
 
-The URL is
-
-```yaml
-http://0.0.0.0:8000/abstracts/
-```
-
 <br>
 
 ## Remote Development
