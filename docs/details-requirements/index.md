@@ -1,16 +1,7 @@
 <br>
 
-# Requirements
+# Non Functional Requirements
 
-<br>
-
-
-```{toctree}
-:glob:
-
-functional
-additional
-```
 
 <br>
 <br>
