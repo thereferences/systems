@@ -21,7 +21,7 @@ In a 2018 article, Kevin Tyranos proposed a few steps that may aid a team's gene
 <br>
 
 <!--suppress CheckImageSize -->
-<img src="assets/images/collection/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
+<img src="../assets/images/collection/W200128_TROYANOS_THEKEY-1200x1580.png" alt="priorities" width="60%" class="x-small">
 
 <figure>
   <figcaption><br></br>Source: <a href="https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions" target="_blank"><u>Publicis Health, via Harvard Business Review</u></a>
@@ -74,40 +74,23 @@ The highest possible score is $1000$.  Amongst a set of projects, a project that
 
 Organisations use a few metrics, e.g.,
 
-<ul class="disc">
-  <li class="disc"><a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: Supplementary Material &rarr; <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a><br><br>
-    <i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i> [From <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>]    
-  </li>
-</ul>
-
-<br>
-
-<ul class="disc">
-  <li class="disc">Marginal Benefit & Marginal Cost: For a given time period, does the marginal benefit exceed the marginal cost?</li>
-</ul>  
-
-> &nbsp; &nbsp; [^Marginal2018]<sup>,</sup> [^Marginal2024]
-
-<ul class="disc">
-  <li class="disc"><a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a>; study <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a>.</li>
-</ul>
-
-<br>
-
-<ul class="disc">
-  <li class="disc"><a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a>; study <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a>.</li>
-</ul>
+* <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>: Supplementary Material &rarr; <a href="https://blackswanfarming.com/cost-of-delay-divided-by-duration/" target="_blank">Cost of Delay Divided by Duration</a>, <a href="https://blackswanfarming.com/four-steps-to-quantifying-cost-of-delay/"  target="_blank">Four steps to Quantifying Cost of Delay</a> &rarr; <i>Cost of Delay is a way of communicating the impact of time on the outcomes we hope to achieve. More formally, it is the partial derivative of the total expected value with respect to time.</i> it <i>... combines urgency and value – two things that humans are not very good at distinguishing between.</i> [From <a href="https://blackswanfarming.com/cost-of-delay/" target="_blank">Cost of Delay</a>]
+* Marginal Benefit & Marginal Cost: For a given time period, does the marginal benefit exceed the marginal cost?[^Marginal2018]<sup>,</sup> [^Marginal2024]
+* <a href="https://www.investopedia.com/terms/n/npv.asp" target="_blank">Net Present Value (NPV)</a>; study <a href="https://www.investopedia.com/ask/answers/05/npv-irr.asp" target="_blank">NPV & IRR (Internal Rate of Return)</a>.
+* <a href="https://www.investopedia.com/terms/r/returnoninvestment.asp"  target="_blank">Return on Investment (ROI)</a>; study <a href="https://accountinginsights.org/npv-vs-roi-key-differences-and-how-to-use-them-in-decision-making/">NPV & ROI</a>
 
 <br>
 
 To avoid over/under penalising -- lowest $1$, highest $10$ -- scoring via a sigmoid function is an option.  Let $x$ represent a project's monetary business value potential, during a declared time period.  Sigmoid function dependent options include
 
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
 $$score = 10 \times tanh(x)$$
 
 and
 
 $$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
+
 $$score = 10 \times f(x)$$
 
 <br>
@@ -118,11 +101,13 @@ $$score = 10 \times f(x)$$
 To avoid over/under penalising -- lowest $10$, highest $1$ -- scoring via a sigmoid function is also an option.  Let $x$ represent a project's monetary cost.  Sigmoid function dependent options include
 
 $$tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$$
+
 $$score = 10 \times \frac{1}{tanh(x)}$$
 
 and
 
 $$f(x) = \frac{x}{\bigl( 1 + x^{2} \bigr)^{0.5}}$$
+
 $$score = 10 \times \frac{1}{f(x)}$$
 
 <br>
@@ -130,8 +115,8 @@ $$score = 10 \times \frac{1}{f(x)}$$
 
 ## Viability/Feasibility Filters
 
-```{mermaid}
-%%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
+<pre class="mermaid">
+%%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%  
 flowchart LR    
     id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} 
     id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget,<br>time</span>}
@@ -140,10 +125,9 @@ flowchart LR
     id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
     id5 --> id6{<span title="Is the potential project addressable via machine learning, technically feasible, and economically viable?">feasible?</span>}
     id6 -- no --> id3
-    id6 -- yes --> id8(next <br> steps)
-    
-    classDef default fill:#333333,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
-```
+    id6 -- yes --> id8(next <br> steps)      
+    classDef default fill:#000000,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
+</pre>
 
 <br>
 
@@ -160,11 +144,7 @@ flowchart LR
 <br>
 
 [^Tyranos2018]: [How to Make Sure You’re Not Using Data Just to Justify Decisions You’ve Already Made](https://hbr.org/2018/10/how-to-make-sure-youre-not-using-data-just-to-justify-decisions-youve-already-made)
-
 [^Tyranos2020]: [Use Data to Answer Your Key Business Questions](https://hbr.org/2020/02/use-data-to-answer-your-key-business-questions)
-
 [^Gray2024a]: Chapter 2 of [Why Data Science Projects Fail: the Harsh Realities of Implementing AI and Analytics, without the Hype](https://www.taylorfrancis.com/books/mono/10.1201/9781032661360/data-science-projects-fail-evan-shellshear-douglas-gray)
-
 [^Marginal2024]: [Marginal Benefit & Marginal Cost](https://www.investopedia.com/ask/answers/051815/what-difference-between-marginal-benefit-and-marginal-cost.asp)
-
 [^Marginal2018]: [What is the Marginal Cost of Capital?](https://pressbooks.pub/businessfinanceessentials/chapter/chapter-10-marginal-cost-of-capital-2/)
