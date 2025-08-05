@@ -19,7 +19,7 @@ re-training node, etc.
 <br>
 <br>
 
-<img class="small" alt="ML" src="../../../assets/ml-lifecycle.png" />
+<img class="small" alt="ML" src="../../assets/images/collection/ml-lifecycle.png" />
 
 <br>
 <br>
