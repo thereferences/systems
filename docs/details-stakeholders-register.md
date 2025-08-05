@@ -1,6 +1,6 @@
 <br>
 
-# Stakeholders Register
+# Register
 
 ## Aim
 
