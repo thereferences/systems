@@ -123,12 +123,23 @@ nav:
           - details-data/collection.md
           - details-data/controls.md
           - details-data/maintenance.md
-          - Natural Language Processing: details-data/nlp.md
+          - Natural Language<br>Processing: details-data/nlp.md
       - Stakeholders:
           - People: details-stakeholders-people.md
           - Register: details-stakeholders-register.md
       - Requirements&#8614;<br>Functional:
           - details-requirements-functional/index.md
+      - Requirements&#8614;<br>Non Functional:
+          - details-requirements-nf/index.md
+          - details-requirements-nf/ca.md
+          - details-requirements-nf/security.md
+          - details-requirements-nf/ua.md
+          - details-requirements-nf/ps.md
+          - Reliability, Maintainability, Resilience, Availability:
+              - details-requirements-nf/rmra/index.md
+              - details-requirements-nf/rmra/reliability.md
+              - details-requirements-nf/rmra/mr.md
+              - details-requirements-nf/rmra/availability.md
       - Constraints:
           - details-constraints.md
       - Risks:
