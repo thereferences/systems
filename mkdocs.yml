@@ -52,12 +52,12 @@ watch:
 
 # CSS
 extra_css:
-  - assets/stylesheets/extra.css
+  - ../assets/stylesheets/extra.css
 
 
 # JavaScript
 extra_javascript:
-  - assets/javascripts/extra.css
+  - ../assets/javascripts/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.9.0/mermaid.min.js
