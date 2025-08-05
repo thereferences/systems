@@ -22,3 +22,19 @@ div.mxTooltip {
     padding: 4px;
     color: black;
 }
+
+
+@media screen and (min-width: 76.25em) {
+    .md-nav--lifted > .md-nav__list > .md-nav__item > [for] {
+        color: #000;
+        font-variant: small-caps;
+    }
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-nav__item--section > .md-nav__link[for] {
+        color: #0000008a;
+        font-variant: small-caps;
+        opacity: 0.80;
+    }
+}
