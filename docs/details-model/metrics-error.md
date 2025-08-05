@@ -1,15 +1,15 @@
 <br>
 
-# Performance Metrics
+# Error Metrics
 
 :::{admonition} In Progress
 :class: margin
 <br>
 :::
 
-## Model Performance Metrics
+## Model Error Metrics
 
-These are the standard technical metrics.  **Referring back to the retinal images classification example**, we may define the performance metrics criteria as follows: [^metrics]
+These are the standard model development metrics.  **Referring back to the retinal images classification example**, we may define the performance metrics criteria as follows: [^metrics]
 
 <br>
 
