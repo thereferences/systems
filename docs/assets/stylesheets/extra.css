@@ -1,0 +1,8 @@
+div.mxTooltip {
+    background: #ffffff;
+    border: 0;
+    position: absolute;
+    cursor: default;
+    padding: 4px;
+    color: black;
+}
