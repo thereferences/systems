@@ -125,8 +125,7 @@ nav:
           - details-data/maintenance.md
           - Natural Language<br>Processing: details-data/nlp.md
       - Stakeholders:
-          - People: details-stakeholders-people.md
-          - Register: details-stakeholders-register.md
+          - details-stakeholders/index.md
       - Requirements&#8614;<br>Functional:
           - details-requirements-functional/index.md
       - Requirements&#8614;<br>Non Functional:
