@@ -2,8 +2,6 @@
 
 Additionally, include data flow diagrams.
 
-<br>
-
 ## System Context Diagram
 
 The system context diagram illustrates how the service node of the system interacts with the world it is serving; a 
@@ -19,7 +17,7 @@ re-training node, etc.
 <br>
 <br>
 
-<img class="small" alt="ML" src="../assets/images/collection/ml-lifecycle.png" />
+<img class="small" alt="ML" src="../../assets/images/collection/ml-lifecycle.png" />
 
 <br>
 <br>
