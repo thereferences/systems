@@ -1,0 +1,123 @@
+# Preliminaries
+site_name: Machine Learning Dependent Systems
+site_url: https://thereferences.github.io/systems
+site_author: Artificial Intelligence Unit
+site_description: Questions and notes for potential machine learning dependent business projects.
+
+
+# Repository
+repo_name: github.com/thereferences/systems
+repo_url: https://github.com/thereferences/systems
+
+
+# Copyright
+copyright: Copyright &copy; Artificial Intelligence Unit
+
+
+# Theme
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    primary: orange
+    accent: amber
+  icon:
+    admonition:
+      example: material/gate-alert
+  font:
+    text: Quantico
+    code: Iceland
+
+
+# Watch
+watch:
+  - includes
+
+
+# CSS
+extra_css:
+  - assets/stylesheets/extra.css
+
+
+# JavaScript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+
+# Python Markdown & Python Markdown Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+
+# Page tree
+nav:
+  - Introduction:
+      - introduction.md
+  - Project:
+      - project-plausibility.md
+      - project-lifecycle.md
+  - Details:
+      - Preliminaries:
+          - Critical Preliminaries: details-preliminaries.md
+      - Model:
+          - details-model-aim.md
+          - details-model-business.md
+          - details-model-performance.md
+      - Stakeholders:
+          - People: details-stakeholders-people.md
+          - Register: details-stakeholders-register.md
+      - Risks:
+          - Risks: details-risks.md
