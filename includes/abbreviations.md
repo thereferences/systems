@@ -5,7 +5,7 @@
 *[tp]: True Positive &#10236; A model's inference is <i>true positive</i> if it correctly indicates the <b>presence of</b, e.g., a disease.
 *[tn]: True Negative &#10236; A model's inference is <i>true negative</i> if it correctly indicates the <b>absence of</b>, e.g., a disease.
 *[GDPR]: General Data Protection Regulation
-*[HIPAA]: Health Insurance Portability and Accountability Act
+*[HIPAA]: <a href="https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html" target="_blank">Health Insurance Portability and Accountability Act</a>
 *[WCAG]: Web Content Accessibility Guidelines
 *[MTBF]: Mean Time Between Failure
 *[MTTR]: Mean Time To Repair
