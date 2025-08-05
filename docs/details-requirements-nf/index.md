@@ -1,5 +1,3 @@
-<br>
-
 # Non Functional Requirements
 
 Including
@@ -9,7 +7,7 @@ Including
 * Usability & Accessibility
 * Performance & Scalability
 * Reliability, Maintainability & Resilience, Availability
-* Cost: Track project cost and ongoing costs, and more.
+* Costs: Project & Ongoing Costs
 
 <br>
 <br>
