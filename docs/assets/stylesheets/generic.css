@@ -1,12 +1,4 @@
 
-.icon-home:before {
-    content: url('../images/collection/plug-connect.png');
-}
-
-.fa-home:before {
-    content: url('../images/16x16.svg');
-}
-
 .rst-content h1 {
     margin-top: 0.25rem;
 }
@@ -32,12 +24,6 @@
 .wy-form {
     margin-top: 25px;
 }
-
-/*
-.wy-breadcrumbs::before {
-	content: url('../16x16.svg');
-}
-*/
 
 li.disc {
     margin-top: 2px;
