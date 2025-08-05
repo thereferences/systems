@@ -1,5 +1,3 @@
-<br>
-
 # Functional Requirements
 
 A **functional requirement** specifies what a deployed product/system must do.
