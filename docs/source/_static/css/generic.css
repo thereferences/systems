@@ -1,10 +1,10 @@
 
 .icon-home:before {
-    content: url('../plug-connect.png');
+    content: url('../../../assets/images/collection/plug-connect.png');
 }
 
 .fa-home:before {
-    content: url('../16x16.svg');
+    content: url('../../../assets/images/16x16.svg');
 }
 
 .rst-content h1 {
