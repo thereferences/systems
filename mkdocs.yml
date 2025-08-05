@@ -107,8 +107,8 @@ nav:
   - Introduction:
       - introduction.md
   - Project Plausibility & Lifecycle:
-      - project-plausibility.md
-      - project-lifecycle.md
+      - Plausibility: project-plausibility.md
+      - Lifecycle: project-lifecycle.md
   - Details:
       - Critical<br>Preliminaries:
           - Critical Preliminaries: details-preliminaries.md
@@ -116,6 +116,14 @@ nav:
           - Aim: details-model-aim.md
           - Business Metrics: details-model-business.md
           - Error Metrics: details-model-performance.md
+      - Data & Datasheets:
+          - details-data/index.md
+          - details-data/motivation.md
+          - details-data/composition.md
+          - details-data/collection.md
+          - details-data/controls.md
+          - details-data/maintenance.md
+          - Natural Language Processing: details-data/nlp.md
       - Stakeholders:
           - People: details-stakeholders-people.md
           - Register: details-stakeholders-register.md
