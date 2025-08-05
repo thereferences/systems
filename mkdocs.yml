@@ -17,7 +17,7 @@ copyright: Copyright &copy; Artificial Intelligence Unit
 # Theme
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: overrides/
   features:
     - announce.dismiss
     - content.action.edit
