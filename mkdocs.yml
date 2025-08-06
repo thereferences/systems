@@ -1,0 +1,145 @@
+# Preliminaries
+site_name: Machine Learning Dependent Systems
+site_url: https://thereferences.github.io/systems
+site_author: Artificial Intelligence Unit
+site_description: Questions and notes for potential machine learning dependent business projects.
+
+
+# Repository
+repo_name: github.com/thereferences/systems
+repo_url: https://github.com/thereferences/systems
+
+
+# Copyright
+copyright: Copyright &copy; Artificial Intelligence Unit
+
+
+# Theme
+theme:
+  name: material
+  custom_dir: overrides/
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    primary: orange
+    accent: amber
+  icon:
+    admonition:
+      example: material/gate-alert
+  font:
+    text: Quantico
+    code: Iceland
+
+
+# Watch
+watch:
+  - includes
+
+
+# CSS
+extra_css:
+  - assets/stylesheets/extra.css
+
+
+# JavaScript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.9.0/mermaid.min.js
+
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Python Markdown & Python Markdown Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+
+# Page tree
+nav:
+  - Introduction:
+      - introduction.md
+  - Project Plausibility & Lifecycle:
+      - Plausibility: project-plausibility.md
+      - Lifecycle: project-lifecycle.md
+  - Details:
+      - Critical<br>Preliminaries:
+          - details-preliminaries/index.md
+      - Model:
+          - details-model/index.md
+          - Business Metrics: details-model/metrics-business.md
+          - Error Metrics: details-model/metrics-error.md
+      - Data & Datasheets:
+          - details-data/index.md
+          - details-data/motivation.md
+          - details-data/composition.md
+          - details-data/collection.md
+          - details-data/controls.md
+          - details-data/maintenance.md
+          - Natural Language<br>Processing: details-data/nlp.md
+      - Stakeholders:
+          - details-stakeholders/index.md
+      - Requirements&#8614;<br>Functional:
+          - details-requirements-functional/index.md
+      - Requirements&#8614;<br>Non Functional:
+          - details-requirements-nf/index.md
+          - details-requirements-nf/ca.md
+          - Security: details-requirements-nf/security.md
+          - Usability & Accessibility: details-requirements-nf/ua.md
+          - Performance & Scalability: details-requirements-nf/ps.md
+          - Reliability, Maintainability, Resilience, Availability:
+              - details-requirements-nf/rmra/index.md
+              - details-requirements-nf/rmra/reliability.md
+              - details-requirements-nf/rmra/mr.md
+              - details-requirements-nf/rmra/availability.md
+      - Constraints:
+          - details-constraints/index.md
+      - Risks:
+          - details-risks/index.md

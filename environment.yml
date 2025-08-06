@@ -1,8 +1,8 @@
-name: design
+name: materials
 channels:
   - conda-forge
 dependencies:
-  - python>=3.12.*
+  - python>=3.13.*
   - pip
   - pip:
-    - -r .devcontainer/requirements.txt
+      - -r .devcontainer/requirements.txt

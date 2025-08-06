@@ -1,0 +1,35 @@
+{% extends "main.html" %}
+
+{% block announce %}
+<p>Please be patient, in active progress.</p>
+{% endblock %}
+
+{% block content %}
+<style>
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .landing-text{
+        width: 61%;
+    }
+
+    .landing-image {
+        width: 39%;
+    }
+
+</style>
+<section class="flex-container md-typeset">
+  <div class="landing-text">
+    <h1>Machine Learning Dependent Systems</h1>
+    <p>{{ config.site_description }}</p>
+    <a href="{{ page.next_page.url }}introduction" class="md-button md-button--primary">
+      READ
+    </a>
+  </div>
+  <div class="landing-image">
+
+  </div>
+</section>
+{% endblock %}
