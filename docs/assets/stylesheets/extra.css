@@ -13,6 +13,12 @@
     word-break:break-word
 }
 
+.md-typeset {
+    color-adjust: exact;
+    font-size: .75rem;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
 
 div.mxTooltip {
     background: #ffffff;
@@ -22,7 +28,6 @@ div.mxTooltip {
     padding: 4px;
     color: black;
 }
-
 
 @media screen and (min-width: 76.25em) {
     .md-nav--lifted > .md-nav__list > .md-nav__item > [for] {
