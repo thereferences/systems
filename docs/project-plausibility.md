@@ -47,7 +47,7 @@ Therefore, ``... cross-functional teams capable of translating insight into acti
 
 Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic and unambiguous method.  It depends on
 
-<table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: small;">
+<table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
     <colgroup>
         <col span="1" style="width: 26.5%;">
         <col span="1" style="width: 63.5%;">
@@ -120,10 +120,10 @@ $$score = 10 \times \frac{1}{f(x)}$$
 %%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%  
 flowchart LR    
     id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} 
-    id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget,<br>time</span>}
+    id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget, time</span>}
     id1 -- no --> id3([terminate])
     id2 -- no --> id3
-    id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
+    id2 -- yes --> id5(<span title="The project scope/design details">project<br> details</span>)
     id5 --> id6{<span title="Is the potential project addressable via machine learning, technically feasible, and economically viable?">feasible?</span>}
     id6 -- no --> id3
     id6 -- yes --> id8(next <br> steps)      
