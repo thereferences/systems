@@ -51,7 +51,7 @@ Are any aspects of the data set pre-processed?  If yes:
 
 ## Lineage
 
-Summarise the data set's lineage, including linkage options.[^lineage-qlik] [^lineage-ibm]
+Summarise the data set's lineage, including linkage options.[^lineage-qlik]<sup>, </sup>[^lineage-ibm]
 
 <br>
 <br>
@@ -166,7 +166,7 @@ elements that directly/indirectly reveal:
 
 ## Distressing Data Elements
 
-Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'' [^datasheets-acm] [^datasheets]
+Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?''[^datasheets-acm]<sup>, </sup>[^datasheets]
 
 <br>
 <br>
