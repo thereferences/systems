@@ -137,7 +137,7 @@ nav:
           - Reliability, Maintainability, Resilience, Availability:
               - details-requirements-nf/rmra/index.md
               - details-requirements-nf/rmra/reliability.md
-              - details-requirements-nf/rmra/mr.md
+              - Maintainability & Resilience: details-requirements-nf/rmra/mr.md
               - details-requirements-nf/rmra/availability.md
       - Constraints:
           - details-constraints/index.md
