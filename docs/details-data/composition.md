@@ -166,16 +166,7 @@ elements that directly/indirectly reveal:
 
 ## Distressing Data Elements
 
-Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'' [1, 2]
-
-<br>
-
-<details><summary><b>References</b></summary>
-<ol class="numeric">
-    <li class="numeric"><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
-    <li class="numeric"><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
-</ol>
-</details>
+Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'' [^datasheets-acm] [^datasheets]
 
 <br>
 <br>
@@ -192,6 +183,7 @@ Does ``… the dataset contain data that, if viewed directly, might be offensive
 [^datasheets]: <a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix
 [^lineage-qlik]: <a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a>
 [^lineage-ibm]: <a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a>
+[^datasheets-acm]: <a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92
 
 <br>
 <br>
