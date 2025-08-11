@@ -51,16 +51,7 @@ Are any aspects of the data set pre-processed?  If yes:
 
 ## Lineage
 
-Summarise the data set's lineage, including linkage options. [1, 2]
-
-<br>
-
-<details><summary><b>References</b></summary> 
-<ol class="numeric">
-    <li class="numeric"><a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a></li>
-    <li class="numeric"><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li>
-</ol>
-</details>
+Summarise the data set's lineage, including linkage options.[^lineage-qlik] [^lineage-ibm]
 
 <br>
 <br>
@@ -199,6 +190,8 @@ Does ``… the dataset contain data that, if viewed directly, might be offensive
 <br>
 
 [^datasheets]: <a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix
+[^lineage-qlik]: <a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a>
+[^lineage-ibm]: <a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a>
 
-
-
+<br>
+<br>
