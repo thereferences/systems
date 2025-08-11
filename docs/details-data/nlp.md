@@ -1,5 +1,3 @@
-<br>
-
 # Natural Language Processing
 
 ## Background
