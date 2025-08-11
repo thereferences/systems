@@ -173,7 +173,8 @@ Does ``… the dataset contain data that, if viewed directly, might be offensive
 [^lineage-qlik]: <a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a>
 [^lineage-ibm]: <a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a>
 [^datasheets-acm]: <a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92
-[^profiling]: 5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 2008
-[^what-is-data-profiling]: <a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">What is data profiling?</a></li>
+[^profiling]: **5.5.2** Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 2008
+[^what-is-data-profiling]: <a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">What is data profiling?</a>
+
 <br>
 <br>
