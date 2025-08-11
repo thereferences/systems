@@ -1,4 +1,3 @@
-<br>
 
 # Availability
 
@@ -19,16 +18,13 @@ whereby
     <li class="disk">The <i>mean time to repair</i> is a maintainability metric.</li>
 </ul>
 
-<br>
-<br>
-
-```{image} ../../../assets/availability-metrics.png
-:alt: Availability Metrics
-:width: 80%
-
-```
 
 <br>
+
+
+<img src="../../../assets/images/collection/availability-metrics.png">
+
+
 <br>
 
 <figure>
@@ -39,12 +35,6 @@ whereby
 <br>
 <br>
 
-<details><summary><b>References</b></summary>
-    <ol class="numeric">
-    <li class="numeric"><a href="https://sebokwiki.org/wiki/Availability_(glossary)" target="_blank">Availability</a></li>
-    <li class="numeric"><a href="https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Understanding Availability</a></li></ol>
-</details>
-
 <br>
 <br>
 
@@ -53,6 +43,9 @@ whereby
 
 <br>
 <br>
+
+[^availability]: <a href="https://sebokwiki.org/wiki/Availability_(glossary)" target="_blank">Availability</a>
+[^understanding-availability]: <a href="https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Understanding Availability</a>
 
 <br>
 <br>

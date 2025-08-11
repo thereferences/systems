@@ -34,6 +34,6 @@ Machine learning algorithm risks and the risks of the overarching project.[^abou
 <br>
 <br>
 
-[^about]: <a href="https://asana.com/resources/project-risks" target="_blank">About Risk</a></span><br>
-[^types]: <a href="https://www.smartsheet.com/content/project-risk-types" target="_blank">Risk Types</a></span><br>
+[^about]: <a href="https://asana.com/resources/project-risks" target="_blank">About Risk</a></span>
+[^types]: <a href="https://www.smartsheet.com/content/project-risk-types" target="_blank">Risk Types</a></span>
 [^examples]: <a href="https://technologyadvice.com/blog/project-management/project-risks-examples/" target="_blank">About Risk</a></span>

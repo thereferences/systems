@@ -1,10 +1,10 @@
-<br>
-
 # Reliability
 
 In the systems engineering body of knowledge the [basic definition of reliability](https://sebokwiki.org/wiki/System_Reliability,_Availability,_and_Maintainability#Reliability) is
 
 > “ … the probability of a product performing its intended function under stated conditions without failure for a given time period”.
+
+<br>
 
 In the context of machine learning systems, the reliability specification of each intended function, i.e., each functional requirement, must detail/specify the
 

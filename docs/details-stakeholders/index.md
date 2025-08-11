@@ -2,7 +2,6 @@
 
 Identify and record all the project's stakeholders.
 
-<br>
 
 ## Who?
 

@@ -1,60 +1,57 @@
 # Critical Preliminaries
 
-## COMPONENTS
+## Components
 
-
-### Problem Statement
-
-What is the problem, and why is it important to solve this problem?
-
-
-### Outcome Expectations, Underlying Aims
-
-What are the potential product's outcome expectations, e.g.,
-
-<blockquote>
-    An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a greater percentage of diabetic patients.
-</blockquote>
-
-<br>
-
-The underlying aim might be, e.g.,
-
-<blockquote>
-    To reduce the mis-classification rate of retinal images of diabetic patients to ≤ 1.25% per class per quarter.
-</blockquote>
-
-### Deployment Goal
-
-**What is the aim, expected output, of the product's model?**  Example:
-
-<blockquote>
-    A retinal image's diabetic retinopathy classification probability per class.
-</blockquote>
-
-<br>
-
-**What will the deployed product present to the optician?**  **Or** rather, **how will the model's output be used?**  Considering the example above, the client's opticians might expect: [^deployment]
-
-<ul class="disc">
-    <li class="disc">The classification probability per class.</li>
-    <li class="disc">The definition of each class.</li>
-    <li class="disc">The classification; vis-à-vis the highest classification probability.</li>
-    <li class="disc">The preliminary treatment pathway of the classification, according to the rules of the optician's institution.</li>
-    <li class="disc">The retinal image.</li>
-</ul>
-
+<table style="width: 85%;">
+    <colgroup>
+        <col span="1" style="width: 26.5%;">
+        <col span="1" style="width: 63.5%;">
+    </colgroup>
+    <thead><tr style="text-align: left"><th></th><th>Notes</th></tr></thead>
+    <tr><td>Problem Statement</td><td>What is the problem, and why is it important to solve this problem?<br><br></td></tr>
+    <tr><td>Outcome Expectations, Underlying Aims</td>
+        <td>What are the potential product's outcome expectations, e.g.,
+        <blockquote>
+            An increase in the detection of early-stage, i.e. mild, diabetic retinopathy, hence the prevention of sight loss amongst a greater percentage of diabetic patients.
+        </blockquote>            
+        <br>            
+        The underlying aim might be, e.g.,            
+        <blockquote>
+            To reduce the mis-classification rate of retinal images of diabetic patients to ≤ 1.25% per class per quarter.
+        </blockquote><br><br></td>
+    </tr>
+    <tr><td>Deployment Goal</td>
+        <td><b>What is the aim, expected output, of the product's model?</b>  Example:
+        <blockquote>
+            A retinal image's diabetic retinopathy classification probability per class.
+        </blockquote>        
+        <br>        
+        <b>What will the deployed product present to the optician?</b>  Or rather, <b>how will the model's output be used?</b>  Considering the example above, the client's opticians might expect:        
+        <ul class="disc">
+            <li class="disc">The classification probability per class.</li>
+            <li class="disc">The definition of each class.</li>
+            <li class="disc">The classification; vis-à-vis the highest classification probability.</li>
+            <li class="disc">The preliminary treatment pathway of the classification, according to the rules of the optician's institution.</li>
+            <li class="disc">The retinal image.</li>
+        </ul></td>
+  </tr>
+</table>
+Table Footnote:[^deployment]
 
 <br>
 <br>
 
 
-## EXAMPLE
+## In Practice
+
+An example of a problem statement, outcome expectations & underlying aims, and deployment goal.
 
 
 ### Problem Statement
 
 An organisation manually classifies trauma incidents for all the major trauma centres of five countries.  Per trauma case, an injury coding expert <b>(a)</b> examines the case's free and structured text, and assigns each piece of text to a category, and <b>(b)</b> assigns the case to a trauma category based on the combination text pieces & categories detected; text pieces of the other/miscellaneous category are excluded from this exercise.  Trauma injury coding is an extremely intensive and time-consuming exercise, and injury coding error rates - per annum - can be quite high.  Hence, and as a first step, we are in search of a solution that automatically classifies text pieces vis-à-vis a set of provided categories.
+
+<br>
 
 ### Outcome Expectations, Underlying Aims
 
@@ -62,6 +59,8 @@ An organisation manually classifies trauma incidents for all the major trauma ce
 * <b>Underlying Aim:</b> The automatic classification of trauma case text pieces; objective &#8594;
   <br>&nbsp; &nbsp; - Per case, automatic classification time < 180 seconds.
   <br>&nbsp; &nbsp; - Model performance per class &rarr; false negative rate &#8804; 0.02, false positive rate &#8804; 0.04
+
+<br>
 
 ### Deployment Goal
 

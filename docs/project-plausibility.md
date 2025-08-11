@@ -59,7 +59,6 @@ Douglas A Gray's[^Gray2024a] quantitative prioritisation method is a systematic 
 </table>
 
 <br>
-<br>
 
 Hence, the <b>priority score</b> is
 
