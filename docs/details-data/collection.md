@@ -1,8 +1,5 @@
-<br>
 
 # Data Collection
-
-<br>
 
 What was the data acquisition mechanism?  Per data instance, was data acquisition via
 
