@@ -1,5 +1,3 @@
-<br>
-
 # Maintainability & Resilience
 
 ## Definitions
